@@ -496,7 +496,7 @@ function renderRules() {
 /* ================= PUBLISH ================= */
 function renderPublish() {
   const g = S.gh;
-  const rows = S.order.map(id => `<tr><td><b>${esc(S.brands[id].name)}</b> <span class="ltr" style="color:var(--mute);font-size:11px">${id}</span></td><td>${S.localOnly[id] ? `<span class="pill warn">فقط در این مرورگر</span>` : S.dirty[id] ? `<span class="pill warn">تغییرات منتشرنشده</span>` : `<span class="pill ok">منتشرشده</span>`}</td><td><div class="addrow" style="flex-wrap:wrap"><button class="btn sm primary" data-pub="${id}">انتشار در گیت‌هاب</button><button class="btn sm" data-projexp="${id}">دانلود فایل پروژه</button>${S.dirty[id] && !S.localOnly[id] ? `<button class="btn sm danger" data-revert="${id}">دور ریختن تغییرات</button>` : ""}</div></td></tr>`).join("");
+  const rows = S.order.map(id => `<tr><td><b>${esc(S.brands[id].name)}</b> <span class="ltr" style="color:var(--mute);font-size:11px">${id}</span></td><td>${S.localOnly[id] ? `<span class="pill warn">فقط در این مرورگر</span>` : S.dirty[id] ? `<span class="pill warn">تغییرات منتشرنشده</span>` : `<span class="pill ok">منتشرشده</span>`}</td><td><div class="addrow" style="flex-wrap:wrap"><button class="btn sm primary" data-pub="${id}">انتشار در گیت‌هاب</button><button class="btn sm" data-projexp="${id}">دانلود فایل پروژه</button><button class="btn sm" data-manual="${id}">بارگذاری دستی</button>${S.dirty[id] && !S.localOnly[id] ? `<button class="btn sm danger" data-revert="${id}">دور ریختن تغییرات</button>` : ""}</div></td></tr>`).join("");
   $("#main").innerHTML = `<section class="view"><h2>ذخیره و انتشار</h2>
   <p class="lead">هر تغییری خودکار در همین مرورگر ذخیره می‌شود (IndexedDB). برای ماندگاری واقعی، یا در گیت‌هاب منتشر کنید (بعد از حدود یک دقیقه روی سایت دیده می‌شود و روی هر دستگاهی در دسترس است)، یا فایل پروژه را دانلود و نگه دارید.</p>
   <div class="panel section"><h3>برندها</h3><div class="tscroll"><table class="doc"><tbody>${rows}<tr><td><b>اندازه‌ها</b> (مشترک)</td><td>${S.dirty.__formats ? `<span class="pill warn">تغییرات منتشرنشده</span>` : `<span class="pill ok">منتشرشده</span>`}</td><td><button class="btn sm primary" id="pub-formats">انتشار اندازه‌ها</button></td></tr></tbody></table></div>
@@ -696,6 +696,18 @@ document.addEventListener("click", async e => {
   if (d.pub) { el.disabled = true; await publishBrand(d.pub); renderPublish(); updateSaveState(); return; }
   if (el.id === "pub-formats") { await publishFormats(); renderPublish(); return; }
   if (el.id === "pub-all") { el.disabled = true; for (const id of S.order) if (S.dirty[id]) await publishBrand(id); if (S.dirty.__formats) await publishFormats(); renderPublish(); updateSaveState(); return; }
+  if (d.manual) {
+    const id = d.manual; const b = S.brands[id];
+    download(`brand.json`, JSON.stringify(b, null, 2));
+    modal(`<h3>بارگذاری دستی «${esc(b.name)}» بدون API</h3><ol style="margin:0;padding-inline-start:20px;line-height:2">
+      <li>فایل <b class="ltr">brand.json</b> همین حالا دانلود شد (تصویرها و فونت‌های تازه داخل خودش هستند).</li>
+      <li>در گیت‌هاب به مخزن <span class="ltr">${esc(S.gh.owner)}/${esc(S.gh.repo)}</span> بروید، پوشهٔ <span class="ltr">brands/${esc(id)}/</span> را باز کنید${S.published[id] ? "" : " (اگر نیست: Add file → Upload files و مسیر را در نام فایل بنویسید)"}.</li>
+      <li>Add file → <b>Upload files</b> → فایل را بکشید → Commit changes.</li>
+      ${S.published[id] ? "" : `<li>برند تازه است؛ فایل <span class="ltr">brands/index.json</span> را هم ویرایش کنید و <span class="ltr">"${esc(id)}"</span> را به فهرست اضافه کنید.</li>`}
+      <li>بعد از حدود یک دقیقه سایت به‌روز می‌شود. اگر نسخهٔ این مرورگر با سایت یکی شد، «دور ریختن تغییرات» نسخهٔ محلی را با نسخهٔ سایت هم‌سان می‌کند.</li></ol>
+      <div class="acts"><button class="btn primary" data-close>فهمیدم</button></div>`);
+    return;
+  }
   if (d.projexp) { const b = await inlineAssets(S.brands[d.projexp]); download(`${b.id}-brand-studio-${new Date().toISOString().slice(0, 10)}.json`, JSON.stringify(b, null, 2)); return; }
   if (d.revert) { const id = d.revert; S.brands[id] = JSON.parse(S.published[id]); S.brands[id].templates.forEach(ensureIds); S.dirty[id] = false; await idbDel("draft:" + id); injectFonts(); render(); toast("به نسخهٔ منتشرشده برگشت"); return; }
 });
@@ -740,7 +752,7 @@ document.addEventListener("input", e => {
   if (d.hltext) { b.highlights.items[+d.hltext].text = el.value; markDirty(); return; }
   if (d.rule) { const [i, k] = d.rule.split(":"); b.rules[+i][k] = el.value; markDirty(); return; }
   if (d.chktext) { b.checklist[+d.chktext] = el.value; markDirty(); return; }
-  if (d.gh) { if (el.type !== "checkbox") { S.gh[d.gh] = el.value.trim(); saveGH(); } return; }
+  if (d.gh) { if (el.type !== "checkbox") { S.gh[d.gh] = d.gh === "token" ? el.value.replace(/[^\x21-\x7E]/g, "") : el.value.trim(); saveGH(); } return; }
   if (d.fmt) { const [i, k] = d.fmt.split(":"); const f = S.formats[+i]; const num = el.type === "number"; setPath(f, k, num ? (el.value === "" ? undefined : +el.value) : el.value); saveFormats(); return; }
   if (d.fmtui) { const [i, side] = d.fmtui.split(":"); const f = S.formats[+i]; f.ui = (f.ui || []).filter(u => u.side !== side); if (el.value) f.ui.push({ side, h: +el.value, label: side === "top" ? "رابط اپ (بالا)" : "رابط اپ (پایین)" }); saveFormats(); return; }
   if (d.fmtgrid) { const f = S.formats[+d.fmtgrid]; const m = el.value.match(/(\d+)\s*[x×]\s*(\d+)/); if (m) f.grid = { w: +m[1], h: +m[2], label: "۳:۴" }; else if (!el.value.trim()) delete f.grid; saveFormats(); return; }

@@ -50,26 +50,31 @@ function b64utf8(str) { const bytes = new TextEncoder().encode(str); let bin = "
 async function sha1(str) { const d = await crypto.subtle.digest("SHA-1", new TextEncoder().encode(str)); return Array.from(new Uint8Array(d)).map(x => x.toString(16).padStart(2, "0")).join("").slice(0, 16); }
 const EXT = { "image/png": "png", "image/jpeg": "jpg", "image/webp": "webp", "image/svg+xml": "svg", "image/gif": "gif", "font/woff2": "woff2", "font/woff": "woff", "font/ttf": "ttf", "font/otf": "otf", "application/font-woff2": "woff2", "application/x-font-ttf": "ttf", "application/octet-stream": "bin" };
 
+const clean = t => String(t || "").replace(/[^\x21-\x7E]/g, "");
+async function gfetch(url, opts) {
+  try { return await fetch(url, opts); }
+  catch (e) { throw new Error("مرورگر به api.github.com نرسید (مشکل شبکه، نه توکن). VPN را روشن یا عوض کنید، افزونه‌های مسدودکننده را برای این سایت خاموش کنید، و https://api.github.com را در یک تب جدا باز کنید؛ اگر آن هم باز نشد، از «بارگذاری دستی» استفاده کنید."); }
+}
 export class GitHub {
-  constructor(cfg) { this.c = cfg; }
+  constructor(cfg) { this.c = Object.assign({}, cfg, { token: clean(cfg && cfg.token), owner: String(cfg && cfg.owner || "").trim(), repo: String(cfg && cfg.repo || "").trim() }); }
   get ok() { return !!(this.c && this.c.owner && this.c.repo && this.c.token); }
   api(path) { return `https://api.github.com/repos/${this.c.owner}/${this.c.repo}/${path}`; }
   headers() { return { Authorization: `Bearer ${this.c.token}`, Accept: "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28" }; }
   async test() {
-    const r = await fetch(this.api(""), { headers: this.headers() });
+    const r = await gfetch(this.api(""), { headers: this.headers() });
     if (!r.ok) throw new Error(r.status === 404 ? "مخزن پیدا نشد یا توکن به آن دسترسی ندارد" : r.status === 401 ? "توکن نامعتبر است" : "خطای " + r.status);
     const j = await r.json(); if (!j.permissions || !j.permissions.push) throw new Error("توکن اجازهٔ نوشتن (Contents: Read and write) ندارد");
     return j;
   }
   async getSha(path) {
-    const r = await fetch(this.api(`contents/${path}?ref=${encodeURIComponent(this.c.branch || "main")}`), { headers: this.headers() });
+    const r = await gfetch(this.api(`contents/${path}?ref=${encodeURIComponent(this.c.branch || "main")}`), { headers: this.headers() });
     if (r.status === 404) return null; if (!r.ok) throw new Error("خواندن " + path + ": " + r.status);
     const j = await r.json(); return j.sha;
   }
   async put(path, base64, message) {
     const sha = await this.getSha(path);
     const body = { message, content: base64, branch: this.c.branch || "main" }; if (sha) body.sha = sha;
-    const r = await fetch(this.api(`contents/${path}`), { method: "PUT", headers: Object.assign({ "Content-Type": "application/json" }, this.headers()), body: JSON.stringify(body) });
+    const r = await gfetch(this.api(`contents/${path}`), { method: "PUT", headers: Object.assign({ "Content-Type": "application/json" }, this.headers()), body: JSON.stringify(body) });
     if (!r.ok) { let m = r.status; try { m += " " + (await r.json()).message; } catch (e) { } throw new Error("ذخیرهٔ " + path + ": " + m); }
     return r.json();
   }
