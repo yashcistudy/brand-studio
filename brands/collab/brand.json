@@ -1,0 +1,569 @@
+{
+  "id": "collab",
+  "name": "همکاری گیک‌بازی × مهرایان",
+  "url": "",
+  "status": "همکاری نادر",
+  "voice": "فقط وقتی موضوع واقعاً هر دو برند را به هم وصل می‌کند. میزبان روی قاب مشخص است؛ درخواست سازمانی همیشه به مهرایان می‌رود.",
+  "cta": "برای بررسی کاربرد سازمانی به مهرایان برو",
+  "colors": [
+    {
+      "id": "white",
+      "name": "سفید",
+      "hex": "#FFFFFF"
+    },
+    {
+      "id": "navy",
+      "name": "سرمه‌ای مهرایان",
+      "hex": "#121546"
+    },
+    {
+      "id": "orange",
+      "name": "نارنجی مهرایان",
+      "hex": "#F15B29"
+    },
+    {
+      "id": "mag",
+      "name": "سرخابی گیک‌بازی",
+      "hex": "#BF3795"
+    },
+    {
+      "id": "gray",
+      "name": "خاکستری",
+      "hex": "#8D8E8E"
+    },
+    {
+      "id": "subtle",
+      "name": "زمینهٔ ملایم",
+      "hex": "#F1F1F4"
+    },
+    {
+      "id": "red",
+      "name": "هشدار",
+      "hex": "#B3261E"
+    }
+  ],
+  "gradients": [],
+  "fonts": [],
+  "fontRoles": {
+    "display": "Kalameh",
+    "body": "Kalameh",
+    "latin": "Open Sans"
+  },
+  "type": {
+    "display": {
+      "size": 128,
+      "weight": 800,
+      "lh": 1.3,
+      "font": "display"
+    },
+    "h1": {
+      "size": 96,
+      "weight": 800,
+      "lh": 1.36,
+      "font": "display"
+    },
+    "h2": {
+      "size": 72,
+      "weight": 800,
+      "lh": 1.36,
+      "font": "display"
+    },
+    "lead": {
+      "size": 48,
+      "weight": 400,
+      "lh": 1.7,
+      "font": "body"
+    },
+    "body": {
+      "size": 42,
+      "weight": 400,
+      "lh": 1.8,
+      "font": "body"
+    },
+    "small": {
+      "size": 34,
+      "weight": 500,
+      "lh": 1.6,
+      "font": "body"
+    },
+    "label": {
+      "size": 36,
+      "weight": 700,
+      "lh": 1.3,
+      "font": "body"
+    }
+  },
+  "logos": [],
+  "logoSets": {},
+  "themes": [
+    {
+      "id": "white",
+      "name": "سفید · همکاری",
+      "bg": "white",
+      "text": "navy",
+      "muted": "gray",
+      "accent": "orange",
+      "line": "gray",
+      "card": "subtle",
+      "cardText": "navy",
+      "cta": "orange",
+      "ctaText": "navy",
+      "pill": "subtle",
+      "chip": "subtle",
+      "chipText": "navy"
+    }
+  ],
+  "templates": [
+    {
+      "id": "vc",
+      "name": "استوری همکاری · میزبان مهرایان",
+      "family": "همکاری",
+      "stage": "آگاهی",
+      "format": "story",
+      "theme": "white",
+      "themes": [
+        "white"
+      ],
+      "gap": 34,
+      "host": "mh",
+      "fields": {
+        "h": "[عنوان قسمت ویدیوکست]",
+        "route": "این پست: | اینستاگرام مهرایان\nقسمت کامل: | یوتیوب گیک‌بازی · قسمت [۰۰]\nدرخواست سازمانی: | مهرایان",
+        "cta": "مسئلهٔ سازمانتان را برای مهرایان بفرستید",
+        "mhUrl": "",
+        "ep": "[۰۰]",
+        "guestOk": "در انتظار تأیید",
+        "track": "",
+        "img": ""
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 44
+        },
+        "route": {
+          "label": "مسیر (هر خط: برچسب | مقدار)",
+          "multi": true
+        },
+        "cta": {
+          "label": "دعوت به اقدام"
+        },
+        "mhUrl": {
+          "label": "لینک ردیابی‌پذیر مهرایان",
+          "ltr": true,
+          "required": true,
+          "pattern": "^https://",
+          "patternMsg": "باید با https:// شروع شود"
+        },
+        "ep": {
+          "label": "شناسهٔ قسمت",
+          "required": true
+        },
+        "guestOk": {
+          "label": "تأیید مهمان",
+          "options": [
+            "در انتظار تأیید",
+            "تأییدشده"
+          ]
+        },
+        "track": {
+          "label": "کد یا لینک ردیابی (UTM)",
+          "ltr": true,
+          "required": true
+        },
+        "img": {
+          "label": "تصویر",
+          "type": "image"
+        }
+      },
+      "blocks": [
+        {
+          "id": "rc8",
+          "type": "row",
+          "justify": "flex-start",
+          "gap": 30,
+          "label": "لوگوها",
+          "children": [
+            {
+              "id": "lc6",
+              "type": "logo",
+              "brand": "mehrayan",
+              "set": "combo",
+              "h": 120
+            },
+            {
+              "id": "xc9",
+              "type": "text",
+              "role": "h2",
+              "text": "×",
+              "color": "gray",
+              "weight": 400
+            },
+            {
+              "id": "lc7",
+              "type": "logo",
+              "brand": "geekbazi",
+              "set": "horizontal",
+              "h": 86
+            }
+          ]
+        },
+        {
+          "id": "rca",
+          "type": "row",
+          "gap": 0,
+          "label": "خط دو برند",
+          "children": [
+            {
+              "id": "acb",
+              "type": "spacer",
+              "h": 14,
+              "flex": true,
+              "bg": "orange"
+            },
+            {
+              "id": "bcc",
+              "type": "spacer",
+              "h": 14,
+              "flex": true,
+              "bg": "mag"
+            }
+          ]
+        },
+        {
+          "id": "tagcd",
+          "type": "text",
+          "role": "label",
+          "size": 30,
+          "weight": 800,
+          "text": "همکاری ویژه · میزبان: مهرایان",
+          "border": {
+            "w": 4,
+            "color": "navy"
+          },
+          "pad": [
+            8,
+            22
+          ],
+          "align": "start"
+        },
+        {
+          "id": "imgce",
+          "type": "image",
+          "field": "img",
+          "h": 470,
+          "label": "فریم ویدیوکست",
+          "note": "فریم افقی از قسمت ویدیوکست (۱۶:۹)",
+          "phTitle": "تصویر لازم است"
+        },
+        {
+          "id": "hcf",
+          "type": "text",
+          "role": "h1",
+          "field": "h",
+          "size": 80,
+          "fit": {
+            "ref": 26
+          },
+          "font": "mehrayan:display",
+          "weight": 800,
+          "label": "تیتر"
+        },
+        {
+          "id": "rtcg",
+          "type": "list",
+          "field": "route",
+          "num": "kv",
+          "size": 32,
+          "label": "مسیر"
+        },
+        {
+          "id": "ctach",
+          "type": "card",
+          "bg": "orange",
+          "color": "navy",
+          "pad": [
+            22,
+            40
+          ],
+          "gap": 4,
+          "align": "start",
+          "push": true,
+          "label": "دکمهٔ مهرایان",
+          "children": [
+            {
+              "id": "tci",
+              "type": "text",
+              "role": "label",
+              "size": 42,
+              "weight": 800,
+              "field": "cta",
+              "font": "mehrayan:body"
+            },
+            {
+              "id": "ucj",
+              "type": "text",
+              "role": "small",
+              "size": 28,
+              "field": "mhUrl",
+              "ltr": true,
+              "font": "latin",
+              "emptyText": "[لینک ردیابی‌پذیر فرم مهرایان]",
+              "emptyColor": "navy"
+            }
+          ]
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "co2",
+      "name": "پست مشترک · میزبان گیک‌بازی",
+      "family": "همکاری",
+      "stage": "آگاهی",
+      "format": "post45",
+      "theme": "white",
+      "themes": [
+        "white"
+      ],
+      "gap": 24,
+      "host": "gb",
+      "fields": {
+        "h": "گیمیفیکیشن واقعاً چیست؟",
+        "route": "این پست: | اینستاگرام گیک‌بازی\nقسمت کامل: | یوتیوب گیک‌بازی · قسمت [۰۰]\nدرخواست سازمانی: | مهرایان",
+        "cta": "برای بررسی کاربرد سازمانی به مهرایان برو",
+        "mhUrl": "",
+        "ep": "[۰۰]",
+        "guestOk": "در انتظار تأیید",
+        "track": "",
+        "img": ""
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 44
+        },
+        "route": {
+          "label": "مسیر (هر خط: برچسب | مقدار)",
+          "multi": true
+        },
+        "cta": {
+          "label": "دعوت به اقدام"
+        },
+        "mhUrl": {
+          "label": "لینک ردیابی‌پذیر مهرایان",
+          "ltr": true,
+          "required": true,
+          "pattern": "^https://",
+          "patternMsg": "باید با https:// شروع شود"
+        },
+        "ep": {
+          "label": "شناسهٔ قسمت",
+          "required": true
+        },
+        "guestOk": {
+          "label": "تأیید مهمان",
+          "options": [
+            "در انتظار تأیید",
+            "تأییدشده"
+          ]
+        },
+        "track": {
+          "label": "کد یا لینک ردیابی (UTM)",
+          "ltr": true,
+          "required": true
+        },
+        "img": {
+          "label": "تصویر",
+          "type": "image"
+        }
+      },
+      "blocks": [
+        {
+          "id": "rcm",
+          "type": "row",
+          "justify": "flex-start",
+          "gap": 30,
+          "label": "لوگوها",
+          "children": [
+            {
+              "id": "lck",
+              "type": "logo",
+              "brand": "geekbazi",
+              "set": "horizontal",
+              "h": 110
+            },
+            {
+              "id": "xcn",
+              "type": "text",
+              "role": "h2",
+              "text": "×",
+              "color": "gray",
+              "weight": 400
+            },
+            {
+              "id": "lcl",
+              "type": "logo",
+              "brand": "mehrayan",
+              "set": "combo",
+              "h": 86
+            }
+          ]
+        },
+        {
+          "id": "rco",
+          "type": "row",
+          "gap": 0,
+          "label": "خط دو برند",
+          "children": [
+            {
+              "id": "acp",
+              "type": "spacer",
+              "h": 14,
+              "flex": true,
+              "bg": "mag"
+            },
+            {
+              "id": "bcq",
+              "type": "spacer",
+              "h": 14,
+              "flex": true,
+              "bg": "orange"
+            }
+          ]
+        },
+        {
+          "id": "tagcr",
+          "type": "text",
+          "role": "label",
+          "size": 30,
+          "weight": 800,
+          "text": "همکاری ویژه · میزبان: گیک‌بازی",
+          "border": {
+            "w": 4,
+            "color": "navy"
+          },
+          "pad": [
+            8,
+            22
+          ],
+          "align": "start"
+        },
+        {
+          "id": "imgcs",
+          "type": "image",
+          "field": "img",
+          "h": 260,
+          "label": "فریم ویدیوکست",
+          "note": "فریم افقی از قسمت ویدیوکست (۱۶:۹)",
+          "phTitle": "تصویر لازم است"
+        },
+        {
+          "id": "hct",
+          "type": "text",
+          "role": "h1",
+          "field": "h",
+          "size": 64,
+          "fit": {
+            "ref": 26
+          },
+          "font": "geekbazi:display",
+          "weight": 900,
+          "label": "تیتر"
+        },
+        {
+          "id": "rtcu",
+          "type": "list",
+          "field": "route",
+          "num": "kv",
+          "size": 32,
+          "label": "مسیر"
+        },
+        {
+          "id": "ctacv",
+          "type": "card",
+          "bg": "orange",
+          "color": "navy",
+          "pad": [
+            22,
+            40
+          ],
+          "gap": 4,
+          "align": "start",
+          "push": true,
+          "label": "دکمهٔ مهرایان",
+          "children": [
+            {
+              "id": "tcw",
+              "type": "text",
+              "role": "label",
+              "size": 42,
+              "weight": 800,
+              "field": "cta",
+              "font": "mehrayan:body"
+            },
+            {
+              "id": "ucx",
+              "type": "text",
+              "role": "small",
+              "size": 28,
+              "field": "mhUrl",
+              "ltr": true,
+              "font": "latin",
+              "emptyText": "[لینک ردیابی‌پذیر فرم مهرایان]",
+              "emptyColor": "navy"
+            }
+          ]
+        }
+      ],
+      "floats": []
+    }
+  ],
+  "sets": [
+    {
+      "id": "co-set",
+      "name": "همکاری",
+      "kind": "collab",
+      "ids": [
+        "vc",
+        "co2"
+      ]
+    }
+  ],
+  "grid": {
+    "ids": [
+      "co2"
+    ],
+    "pinned": 0
+  },
+  "highlights": {
+    "template": "",
+    "items": []
+  },
+  "rules": [
+    {
+      "topic": "میزبان",
+      "decision": "لوگوی میزبان اول و بزرگ‌تر؛ فونت تیتر از برند میزبان",
+      "source": "بریف"
+    },
+    {
+      "topic": "مقصد",
+      "decision": "قسمت کامل: یوتیوب گیک‌بازی · درخواست سازمانی: مهرایان با لینک ردیابی‌پذیر",
+      "source": "بریف"
+    },
+    {
+      "topic": "لوگوی رنگی مهرایان",
+      "decision": "فقط روی سفید (برندبوک ۱٫۱۱)",
+      "source": "برندبوک مهرایان"
+    }
+  ],
+  "checklist": [
+    "تأیید هر دو برند برای همکاری",
+    "لینک ردیابی‌پذیر فرم مهرایان",
+    "لینک قسمت در یوتیوب",
+    "تأیید مهمان"
+  ],
+  "checklistState": {}
+}

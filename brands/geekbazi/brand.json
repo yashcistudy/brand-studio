@@ -1,0 +1,4979 @@
+{
+  "id": "geekbazi",
+  "name": "گیک‌بازی",
+  "url": "geekbazi.com",
+  "status": "تم برگرفته از سایت (موقت)",
+  "voice": "کنجکاو، شوخ، مستقیم و آگاه. شوخی برای جلب توجه، توصیه صادقانه و کاربردی. نگو هر بازی برای همه خوب است. مشخصات، قیمت، موجودی و تخفیف ساختگی ممنوع.",
+  "cta": "بازی را در سان‌گیمز ببین",
+  "colors": [
+    {
+      "id": "ink",
+      "name": "زمینهٔ تیره",
+      "hex": "#151132",
+      "note": "سایت"
+    },
+    {
+      "id": "surf",
+      "name": "سطح دوم",
+      "hex": "#2E2947",
+      "note": "سایت"
+    },
+    {
+      "id": "pink",
+      "name": "صورتی دکمه",
+      "hex": "#FAD7EB",
+      "note": "سایت: «مشاهده بیشتر»"
+    },
+    {
+      "id": "hot",
+      "name": "صورتی تند",
+      "hex": "#E32A63",
+      "note": "سایت: شمارهٔ بخش"
+    },
+    {
+      "id": "lilac",
+      "name": "یاسی کارت",
+      "hex": "#C3AFD4",
+      "note": "سایت"
+    },
+    {
+      "id": "sky",
+      "name": "آبی پاستلی",
+      "hex": "#D4E7F5",
+      "note": "سایت"
+    },
+    {
+      "id": "mag",
+      "name": "سرخابی لوگو",
+      "hex": "#BF3795",
+      "note": "لوگو"
+    },
+    {
+      "id": "pur",
+      "name": "بنفش لوگو",
+      "hex": "#603890",
+      "note": "لوگو"
+    },
+    {
+      "id": "ind",
+      "name": "نیلی لوگو",
+      "hex": "#2A3075",
+      "note": "لوگو"
+    },
+    {
+      "id": "white",
+      "name": "سفید",
+      "hex": "#FFFFFF"
+    },
+    {
+      "id": "line",
+      "name": "خط روی تیره",
+      "hex": "#6B6790"
+    },
+    {
+      "id": "red",
+      "name": "هشدار",
+      "hex": "#B3261E"
+    }
+  ],
+  "gradients": [
+    {
+      "id": "logo",
+      "name": "گرادیان لوگو",
+      "css": "linear-gradient(150deg,#BF3795 0%,#603890 48%,#2A3075 100%)"
+    }
+  ],
+  "fonts": [
+    {
+      "family": "Peyda",
+      "weight": 400,
+      "src": "fonts/PeydaNoEn-Regular.woff2"
+    },
+    {
+      "family": "Peyda",
+      "weight": 500,
+      "src": "fonts/PeydaNoEn-Medium.woff2"
+    },
+    {
+      "family": "Peyda",
+      "weight": 700,
+      "src": "fonts/PeydaNoEn-Bold.woff2"
+    },
+    {
+      "family": "Peyda",
+      "weight": 800,
+      "src": "fonts/PeydaNoEn-ExtraBold.woff2"
+    },
+    {
+      "family": "Peyda",
+      "weight": 900,
+      "src": "fonts/PeydaNoEn-Black.woff2"
+    },
+    {
+      "family": "Open Sans",
+      "weight": 400,
+      "src": "../_shared/fonts/open-sans-400.woff2"
+    },
+    {
+      "family": "Open Sans",
+      "weight": 600,
+      "src": "../_shared/fonts/open-sans-600.woff2"
+    },
+    {
+      "family": "Open Sans",
+      "weight": 700,
+      "src": "../_shared/fonts/open-sans-700.woff2"
+    }
+  ],
+  "fontRoles": {
+    "display": "Peyda",
+    "body": "Peyda",
+    "latin": "Open Sans"
+  },
+  "type": {
+    "display": {
+      "size": 128,
+      "weight": 900,
+      "lh": 1.28,
+      "font": "display"
+    },
+    "h1": {
+      "size": 100,
+      "weight": 900,
+      "lh": 1.3,
+      "font": "display"
+    },
+    "h2": {
+      "size": 72,
+      "weight": 900,
+      "lh": 1.3,
+      "font": "display"
+    },
+    "lead": {
+      "size": 46,
+      "weight": 500,
+      "lh": 1.7,
+      "font": "body"
+    },
+    "body": {
+      "size": 42,
+      "weight": 500,
+      "lh": 1.75,
+      "font": "body"
+    },
+    "small": {
+      "size": 30,
+      "weight": 600,
+      "lh": 1.5,
+      "font": "body"
+    },
+    "label": {
+      "size": 36,
+      "weight": 800,
+      "lh": 1.3,
+      "font": "body"
+    }
+  },
+  "logos": [
+    {
+      "id": "h_color",
+      "name": "افقی فارسی · رنگی",
+      "src": "logos/horizontal-fa-color.png"
+    },
+    {
+      "id": "h_white",
+      "name": "افقی فارسی · سفید",
+      "src": "logos/horizontal-fa-white.png"
+    },
+    {
+      "id": "hen_color",
+      "name": "افقی انگلیسی · رنگی",
+      "src": "logos/horizontal-en-color.png"
+    },
+    {
+      "id": "hen_white",
+      "name": "افقی انگلیسی · سفید",
+      "src": "logos/horizontal-en-white.png"
+    },
+    {
+      "id": "v_color",
+      "name": "عمودی فارسی · رنگی",
+      "src": "logos/vertical-fa-color.png"
+    },
+    {
+      "id": "v_white",
+      "name": "عمودی فارسی · سفید",
+      "src": "logos/vertical-fa-white.png"
+    },
+    {
+      "id": "ven_color",
+      "name": "عمودی انگلیسی · رنگی",
+      "src": "logos/vertical-en-color.png"
+    },
+    {
+      "id": "ven_white",
+      "name": "عمودی انگلیسی · سفید",
+      "src": "logos/vertical-en-white.png"
+    },
+    {
+      "id": "s_color",
+      "name": "نماد مکعب · رنگی",
+      "src": "logos/symbol-color.png"
+    },
+    {
+      "id": "s_white",
+      "name": "نماد مکعب · سفید",
+      "src": "logos/symbol-white.png"
+    }
+  ],
+  "logoSets": {
+    "horizontal": {
+      "light": "h_color",
+      "dark": "h_white"
+    },
+    "horizontal_en": {
+      "light": "hen_color",
+      "dark": "hen_white"
+    },
+    "vertical": {
+      "light": "v_color",
+      "dark": "v_white"
+    },
+    "vertical_en": {
+      "light": "ven_color",
+      "dark": "ven_white"
+    },
+    "symbol": {
+      "light": "s_color",
+      "dark": "s_white"
+    }
+  },
+  "themes": [
+    {
+      "id": "dark",
+      "name": "تیرهٔ سایت",
+      "bg": "ink",
+      "text": "white",
+      "muted": "lilac",
+      "accent": "hot",
+      "line": "line",
+      "card": "lilac",
+      "cardText": "ink",
+      "pill": "pink",
+      "pillText": "ink",
+      "cta": "pink",
+      "ctaText": "ink",
+      "chip": "surf",
+      "chipText": "white",
+      "coverBand": "ink",
+      "coverText": "white"
+    },
+    {
+      "id": "pastel",
+      "name": "پاستلی · روشن",
+      "bg": "sky",
+      "text": "ink",
+      "muted": "surf",
+      "accent": "hot",
+      "line": "#8B86B0",
+      "card": "white",
+      "cardText": "ink",
+      "pill": "pink",
+      "pillText": "ink",
+      "cta": "pink",
+      "ctaText": "ink",
+      "chip": "ink",
+      "chipText": "white",
+      "coverBand": "sky",
+      "coverText": "ink"
+    },
+    {
+      "id": "gradient",
+      "name": "گرادیان لوگو",
+      "bg": "grad:logo",
+      "text": "white",
+      "muted": "pink",
+      "accent": "pink",
+      "line": "pink",
+      "card": "lilac",
+      "cardText": "ink",
+      "pill": "pink",
+      "pillText": "ink",
+      "cta": "pink",
+      "ctaText": "ink",
+      "chip": "ink",
+      "chipText": "white",
+      "coverBand": "grad:logo",
+      "coverText": "white"
+    }
+  ],
+  "templates": [
+    {
+      "id": "gr1",
+      "name": "کاور ریلز معرفی بازی",
+      "family": "معرفی بازی",
+      "stage": "آگاهی",
+      "format": "reel",
+      "theme": "dark",
+      "themes": [
+        "dark",
+        "gradient",
+        "pastel"
+      ],
+      "gap": 0,
+      "justify": "start",
+      "fields": {
+        "h": "برای جمعی که حوصلهٔ قانون طولانی ندارد",
+        "b": "پنج نفرید، یک ساعت وقت دارید و هیچ‌کس دفترچه نخوانده؟",
+        "gname": "[نام بازی]",
+        "img": "",
+        "players": "",
+        "time": "",
+        "fam": "",
+        "url": "",
+        "track": "",
+        "cid": "GB-R-001",
+        "checked": ""
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 44
+        },
+        "b": {
+          "label": "متن اصلی",
+          "multi": true,
+          "max": 90
+        },
+        "gname": {
+          "label": "نام بازی",
+          "required": true
+        },
+        "img": {
+          "label": "تصویر",
+          "type": "image"
+        },
+        "players": {
+          "label": "تعداد نفرات",
+          "required": true
+        },
+        "time": {
+          "label": "مدت بازی",
+          "required": true
+        },
+        "fam": {
+          "label": "آشنایی لازم",
+          "required": true
+        },
+        "url": {
+          "label": "لینک صفحهٔ محصول در سان‌گیمز",
+          "ltr": true,
+          "required": true,
+          "pattern": "^https://(www\\.)?sungame\\.ir/\\S+",
+          "patternMsg": "باید به صفحهٔ همان بازی در sungame.ir برود"
+        },
+        "track": {
+          "label": "کد یا لینک ردیابی (UTM)",
+          "ltr": true,
+          "required": true
+        },
+        "cid": {
+          "label": "شناسهٔ محتوا",
+          "ltr": true,
+          "required": true
+        },
+        "checked": {
+          "label": "آخرین بررسی مشخصات",
+          "required": true
+        }
+      },
+      "blocks": [],
+      "floats": [
+        {
+          "id": "img5a",
+          "type": "image",
+          "field": "img",
+          "float": {
+            "x": 0,
+            "y": 0,
+            "w": 1080,
+            "h": 1920,
+            "under": true
+          },
+          "label": "عکس",
+          "note": "عکس واقعی از میز بازی یا جعبهٔ بازی",
+          "phTitle": "تصویر لازم است"
+        },
+        {
+          "id": "l5b",
+          "type": "logo",
+          "set": "symbol",
+          "h": 120,
+          "float": {
+            "x": 96,
+            "y": 300,
+            "ax": "right"
+          }
+        },
+        {
+          "id": "fc5c",
+          "type": "card",
+          "float": {
+            "x": 72,
+            "y": 1010,
+            "w": 936
+          },
+          "gap": 30,
+          "label": "بلوک قلاب",
+          "children": [
+            {
+              "id": "sk59",
+              "type": "text",
+              "role": "label",
+              "bg": "@pill",
+              "color": "@pillText",
+              "radius": 999,
+              "pad": [
+                12,
+                34
+              ],
+              "marker": "dot",
+              "markerColor": "hot",
+              "markerSize": 18,
+              "align": "start",
+              "label": "برچسب قرصی",
+              "field": "gname"
+            },
+            {
+              "id": "band56",
+              "type": "card",
+              "bg": "@coverBand",
+              "color": "@coverText",
+              "radius": 40,
+              "pad": [
+                40,
+                48
+              ],
+              "gap": 14,
+              "label": "نوار قلاب",
+              "children": [
+                {
+                  "id": "h57",
+                  "type": "text",
+                  "role": "h1",
+                  "field": "h",
+                  "size": 112,
+                  "fit": {
+                    "ref": 22,
+                    "min": 0.6
+                  },
+                  "label": "تیتر"
+                },
+                {
+                  "id": "t58",
+                  "type": "text",
+                  "role": "body",
+                  "field": "b",
+                  "label": "متن اصلی",
+                  "size": 38
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pad": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ge1",
+      "name": "توضیح بازی ۱ · جلد",
+      "family": "کاروسل توضیح بازی",
+      "stage": "آگاهی",
+      "format": "post45",
+      "theme": "gradient",
+      "themes": [
+        "gradient",
+        "dark",
+        "pastel"
+      ],
+      "gap": 40,
+      "justify": "start",
+      "fields": {
+        "h": "این بازی برای چه جمعی جواب می‌دهد؟",
+        "b": "قبل از باز کردن جعبه، شش اسلاید وقت بگذار.",
+        "gname": "[نام بازی]",
+        "img": "",
+        "cid": "GB-C-001",
+        "url": "",
+        "track": "",
+        "checked": ""
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 44
+        },
+        "b": {
+          "label": "متن اصلی",
+          "multi": true,
+          "max": 80
+        },
+        "gname": {
+          "label": "نام بازی",
+          "required": true
+        },
+        "img": {
+          "label": "تصویر",
+          "type": "image"
+        },
+        "cid": {
+          "label": "شناسهٔ محتوا",
+          "ltr": true,
+          "required": true
+        },
+        "url": {
+          "label": "لینک صفحهٔ محصول در سان‌گیمز",
+          "ltr": true,
+          "required": false,
+          "pattern": "^https://(www\\.)?sungame\\.ir/\\S+",
+          "patternMsg": "باید به صفحهٔ همان بازی در sungame.ir برود"
+        },
+        "track": {
+          "label": "کد یا لینک ردیابی (UTM)",
+          "ltr": true,
+          "required": true
+        },
+        "checked": {
+          "label": "آخرین بررسی مشخصات",
+          "required": true
+        }
+      },
+      "blocks": [
+        {
+          "id": "img5d",
+          "type": "image",
+          "field": "img",
+          "h": 400,
+          "bleed": true,
+          "bleedTop": true,
+          "label": "تصویر",
+          "note": "تصویر واقعی بازی یا جعبه؛ فقط از فایل تأییدشده یا صفحهٔ محصول",
+          "phTitle": "تصویر لازم است"
+        },
+        {
+          "id": "r5e",
+          "type": "row",
+          "label": "ردیف لوگو",
+          "children": [
+            {
+              "id": "l5f",
+              "type": "logo",
+              "set": "horizontal",
+              "h": 112
+            }
+          ]
+        },
+        {
+          "id": "sk5g",
+          "type": "text",
+          "role": "label",
+          "bg": "@pill",
+          "color": "@pillText",
+          "radius": 999,
+          "pad": [
+            12,
+            34
+          ],
+          "marker": "dot",
+          "markerColor": "hot",
+          "markerSize": 18,
+          "align": "start",
+          "label": "برچسب قرصی",
+          "field": "gname"
+        },
+        {
+          "id": "h5h",
+          "type": "text",
+          "role": "h1",
+          "field": "h",
+          "size": 84,
+          "fit": {
+            "ref": 24,
+            "min": 0.6
+          },
+          "label": "تیتر"
+        },
+        {
+          "id": "cd5j",
+          "type": "card",
+          "bg": "@card",
+          "color": "@cardText",
+          "radius": 36,
+          "pad": [
+            40,
+            44
+          ],
+          "gap": 24,
+          "label": "کارت",
+          "children": [
+            {
+              "id": "t5i",
+              "type": "text",
+              "role": "body",
+              "field": "b",
+              "label": "متن اصلی"
+            }
+          ]
+        },
+        {
+          "id": "f5k",
+          "type": "footer",
+          "text": "geekbazi.com",
+          "pager": "dice",
+          "i": 1,
+          "n": 6,
+          "line": false,
+          "push": true
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "ge2",
+      "name": "توضیح بازی ۲ · برای کی خوب است",
+      "family": "کاروسل توضیح بازی",
+      "stage": "فهم",
+      "format": "post45",
+      "theme": "dark",
+      "themes": [
+        "dark",
+        "pastel"
+      ],
+      "gap": 40,
+      "justify": "start",
+      "fields": {
+        "h": "برای کی خوب است؟",
+        "b": "اگر جمعتان [ویژگی جمع] است، احتمالاً این بازی جواب می‌دهد. اگر دنبال [چیزی که این بازی ندارد] هستید، سراغ گزینهٔ دیگری بروید.",
+        "players": "",
+        "time": "",
+        "fam": "",
+        "mood": "",
+        "checked": ""
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 30
+        },
+        "b": {
+          "label": "متن اصلی",
+          "multi": true,
+          "max": 200
+        },
+        "players": {
+          "label": "تعداد نفرات",
+          "required": true
+        },
+        "time": {
+          "label": "مدت بازی",
+          "required": true
+        },
+        "fam": {
+          "label": "آشنایی لازم",
+          "required": true
+        },
+        "mood": {
+          "label": "حال‌وهوای جمع",
+          "required": true
+        },
+        "checked": {
+          "label": "آخرین بررسی مشخصات",
+          "required": true
+        }
+      },
+      "blocks": [
+        {
+          "id": "r5l",
+          "type": "row",
+          "label": "ردیف لوگو",
+          "children": [
+            {
+              "id": "l5m",
+              "type": "logo",
+              "set": "symbol",
+              "h": 120
+            }
+          ]
+        },
+        {
+          "id": "sec5n",
+          "type": "row",
+          "justify": "flex-start",
+          "gap": 22,
+          "label": "شمارهٔ بخش",
+          "children": [
+            {
+              "id": "n5o",
+              "type": "text",
+              "role": "label",
+              "size": 48,
+              "weight": 900,
+              "text": "۰۱",
+              "color": "hot"
+            },
+            {
+              "id": "bar5p",
+              "type": "spacer",
+              "h": 64,
+              "wpx": 5,
+              "bg": "hot"
+            },
+            {
+              "id": "t5q",
+              "type": "text",
+              "role": "small",
+              "text": "برای کی",
+              "opacity": 0.85
+            }
+          ]
+        },
+        {
+          "id": "h5r",
+          "type": "text",
+          "role": "h1",
+          "field": "h",
+          "size": 88,
+          "fit": {
+            "ref": 24,
+            "min": 0.6
+          },
+          "label": "تیتر"
+        },
+        {
+          "id": "cd5u",
+          "type": "card",
+          "bg": "@card",
+          "color": "@cardText",
+          "radius": 36,
+          "pad": [
+            40,
+            44
+          ],
+          "gap": 24,
+          "label": "کارت",
+          "children": [
+            {
+              "id": "t5s",
+              "type": "text",
+              "role": "body",
+              "field": "b",
+              "label": "متن اصلی"
+            },
+            {
+              "id": "ch5t",
+              "type": "chips",
+              "items": [
+                {
+                  "field": "players",
+                  "label": "تعداد نفرات"
+                },
+                {
+                  "field": "time",
+                  "label": "مدت بازی"
+                },
+                {
+                  "field": "fam",
+                  "label": "آشنایی لازم"
+                },
+                {
+                  "field": "mood",
+                  "label": "حال‌وهوای جمع"
+                }
+              ],
+              "chipBg": "@chip",
+              "chipText": "@chipText",
+              "label": "مشخصات"
+            }
+          ]
+        },
+        {
+          "id": "f5v",
+          "type": "footer",
+          "text": "geekbazi.com",
+          "pager": "dice",
+          "i": 2,
+          "n": 6,
+          "line": false,
+          "push": true
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "ge3",
+      "name": "توضیح بازی ۳ · در نوبتت چه می‌کنی",
+      "family": "کاروسل توضیح بازی",
+      "stage": "فهم",
+      "format": "post45",
+      "theme": "dark",
+      "themes": [
+        "dark",
+        "pastel"
+      ],
+      "gap": 40,
+      "justify": "start",
+      "fields": {
+        "h": "در نوبتت دقیقاً چه می‌کنی؟",
+        "turn": "[کار اول در نوبت، مطابق دفترچه]\n[کار دوم]\n[چطور نوبت تمام می‌شود]"
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 34
+        },
+        "turn": {
+          "label": "مراحل نوبت (هر خط یکی)",
+          "multi": true
+        }
+      },
+      "blocks": [
+        {
+          "id": "r5w",
+          "type": "row",
+          "label": "ردیف لوگو",
+          "children": [
+            {
+              "id": "l5x",
+              "type": "logo",
+              "set": "symbol",
+              "h": 120
+            }
+          ]
+        },
+        {
+          "id": "sec5y",
+          "type": "row",
+          "justify": "flex-start",
+          "gap": 22,
+          "label": "شمارهٔ بخش",
+          "children": [
+            {
+              "id": "n5z",
+              "type": "text",
+              "role": "label",
+              "size": 48,
+              "weight": 900,
+              "text": "۰۲",
+              "color": "hot"
+            },
+            {
+              "id": "bar60",
+              "type": "spacer",
+              "h": 64,
+              "wpx": 5,
+              "bg": "hot"
+            },
+            {
+              "id": "t61",
+              "type": "text",
+              "role": "small",
+              "text": "در نوبت تو",
+              "opacity": 0.85
+            }
+          ]
+        },
+        {
+          "id": "h62",
+          "type": "text",
+          "role": "h1",
+          "field": "h",
+          "size": 88,
+          "fit": {
+            "ref": 24,
+            "min": 0.6
+          },
+          "label": "تیتر"
+        },
+        {
+          "id": "cd64",
+          "type": "card",
+          "bg": "@card",
+          "color": "@cardText",
+          "radius": 36,
+          "pad": [
+            40,
+            44
+          ],
+          "gap": 24,
+          "label": "کارت",
+          "children": [
+            {
+              "id": "li63",
+              "type": "list",
+              "field": "turn",
+              "num": "line",
+              "size": 40,
+              "markerColor": "hot",
+              "label": "مراحل"
+            }
+          ]
+        },
+        {
+          "id": "f65",
+          "type": "footer",
+          "text": "geekbazi.com",
+          "pager": "dice",
+          "i": 3,
+          "n": 6,
+          "line": false,
+          "push": true
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "ge4",
+      "name": "توضیح بازی ۴ · چه چیزی جذابش می‌کند",
+      "family": "کاروسل توضیح بازی",
+      "stage": "فهم",
+      "format": "post45",
+      "theme": "pastel",
+      "themes": [
+        "pastel",
+        "dark",
+        "gradient"
+      ],
+      "gap": 40,
+      "justify": "start",
+      "fields": {
+        "h": "لحظه‌ای که همه با هم داد می‌زنند",
+        "b": "[از یک دور واقعی بنویسید: کدام لحظهٔ بازی جمع را به هیجان آورد؟]",
+        "img": ""
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 40
+        },
+        "b": {
+          "label": "متن اصلی",
+          "multi": true,
+          "max": 140
+        },
+        "img": {
+          "label": "تصویر",
+          "type": "image"
+        }
+      },
+      "blocks": [
+        {
+          "id": "img66",
+          "type": "image",
+          "field": "img",
+          "h": 380,
+          "bleed": true,
+          "bleedTop": true,
+          "label": "تصویر",
+          "note": "عکس واقعی از همان لحظه سر میز",
+          "phTitle": "تصویر لازم است"
+        },
+        {
+          "id": "r67",
+          "type": "row",
+          "label": "ردیف لوگو",
+          "children": [
+            {
+              "id": "l68",
+              "type": "logo",
+              "set": "symbol",
+              "h": 120
+            }
+          ]
+        },
+        {
+          "id": "sec69",
+          "type": "row",
+          "justify": "flex-start",
+          "gap": 22,
+          "label": "شمارهٔ بخش",
+          "children": [
+            {
+              "id": "n6a",
+              "type": "text",
+              "role": "label",
+              "size": 48,
+              "weight": 900,
+              "text": "۰۳",
+              "color": "hot"
+            },
+            {
+              "id": "bar6b",
+              "type": "spacer",
+              "h": 64,
+              "wpx": 5,
+              "bg": "hot"
+            },
+            {
+              "id": "t6c",
+              "type": "text",
+              "role": "small",
+              "text": "لحظهٔ جذاب",
+              "opacity": 0.85
+            }
+          ]
+        },
+        {
+          "id": "h6d",
+          "type": "text",
+          "role": "h1",
+          "field": "h",
+          "size": 84,
+          "fit": {
+            "ref": 24,
+            "min": 0.6
+          },
+          "label": "تیتر"
+        },
+        {
+          "id": "cd6f",
+          "type": "card",
+          "bg": "@card",
+          "color": "@cardText",
+          "radius": 36,
+          "pad": [
+            40,
+            44
+          ],
+          "gap": 24,
+          "label": "کارت",
+          "children": [
+            {
+              "id": "t6e",
+              "type": "text",
+              "role": "body",
+              "field": "b",
+              "label": "متن اصلی"
+            }
+          ]
+        },
+        {
+          "id": "f6g",
+          "type": "footer",
+          "text": "geekbazi.com",
+          "pager": "dice",
+          "i": 4,
+          "n": 6,
+          "line": false,
+          "push": true
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "ge5",
+      "name": "توضیح بازی ۵ · قبل از خرید",
+      "family": "کاروسل توضیح بازی",
+      "stage": "اعتماد",
+      "format": "post45",
+      "theme": "dark",
+      "themes": [
+        "dark",
+        "pastel"
+      ],
+      "gap": 40,
+      "justify": "start",
+      "fields": {
+        "h": "قبل از خرید بازی، این سه سؤال را بپرس",
+        "qs": "چند نفرید و معمولاً چقدر وقت دارید؟\nجمعتان چقدر با بازی‌های رومیزی آشناست؟\nدنبال رقابتید یا همکاری و خنده؟",
+        "players": "",
+        "time": "",
+        "fam": "",
+        "checked": ""
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 42
+        },
+        "qs": {
+          "label": "سؤال‌ها (هر خط یکی)",
+          "multi": true
+        },
+        "players": {
+          "label": "تعداد نفرات",
+          "required": true
+        },
+        "time": {
+          "label": "مدت بازی",
+          "required": true
+        },
+        "fam": {
+          "label": "آشنایی لازم",
+          "required": true
+        },
+        "checked": {
+          "label": "آخرین بررسی مشخصات",
+          "required": true
+        }
+      },
+      "blocks": [
+        {
+          "id": "r6h",
+          "type": "row",
+          "label": "ردیف لوگو",
+          "children": [
+            {
+              "id": "l6i",
+              "type": "logo",
+              "set": "symbol",
+              "h": 120
+            }
+          ]
+        },
+        {
+          "id": "sec6j",
+          "type": "row",
+          "justify": "flex-start",
+          "gap": 22,
+          "label": "شمارهٔ بخش",
+          "children": [
+            {
+              "id": "n6k",
+              "type": "text",
+              "role": "label",
+              "size": 48,
+              "weight": 900,
+              "text": "۰۴",
+              "color": "hot"
+            },
+            {
+              "id": "bar6l",
+              "type": "spacer",
+              "h": 64,
+              "wpx": 5,
+              "bg": "hot"
+            },
+            {
+              "id": "t6m",
+              "type": "text",
+              "role": "small",
+              "text": "قبل از خرید",
+              "opacity": 0.85
+            }
+          ]
+        },
+        {
+          "id": "h6n",
+          "type": "text",
+          "role": "h1",
+          "field": "h",
+          "size": 80,
+          "fit": {
+            "ref": 30,
+            "min": 0.6
+          },
+          "label": "تیتر"
+        },
+        {
+          "id": "li6o",
+          "type": "list",
+          "field": "qs",
+          "num": "line",
+          "size": 38,
+          "markerColor": "hot",
+          "label": "سؤال‌ها"
+        },
+        {
+          "id": "ch6p",
+          "type": "chips",
+          "items": [
+            {
+              "field": "players",
+              "label": "تعداد نفرات"
+            },
+            {
+              "field": "time",
+              "label": "مدت بازی"
+            },
+            {
+              "field": "fam",
+              "label": "آشنایی لازم"
+            }
+          ],
+          "chipBg": "@chip",
+          "chipText": "@chipText",
+          "label": "مشخصات"
+        },
+        {
+          "id": "t6q",
+          "type": "text",
+          "role": "small",
+          "text": "آخرین بررسی مشخصات: {checked}",
+          "label": "آخرین بررسی"
+        },
+        {
+          "id": "f6r",
+          "type": "footer",
+          "text": "geekbazi.com",
+          "pager": "dice",
+          "i": 5,
+          "n": 6,
+          "line": false,
+          "push": true
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "ge6",
+      "name": "توضیح بازی ۶ · لینک محصول",
+      "family": "کاروسل توضیح بازی",
+      "stage": "درخواست",
+      "format": "post45",
+      "theme": "gradient",
+      "themes": [
+        "gradient",
+        "dark",
+        "pastel"
+      ],
+      "gap": 40,
+      "justify": "start",
+      "fields": {
+        "h": "حالا خودت ببین",
+        "b": "قیمت و موجودی را همان‌جا ببین؛ ما این‌جا فقط تجربهٔ بازی را تعریف کردیم.",
+        "cta": "بازی را در سان‌گیمز ببین",
+        "gname": "[نام بازی]",
+        "url": "",
+        "track": "",
+        "cid": "GB-C-001",
+        "checked": ""
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 30
+        },
+        "b": {
+          "label": "متن اصلی",
+          "multi": true,
+          "max": 110
+        },
+        "cta": {
+          "label": "دعوت به اقدام"
+        },
+        "gname": {
+          "label": "نام بازی",
+          "required": true
+        },
+        "url": {
+          "label": "لینک صفحهٔ محصول در سان‌گیمز",
+          "ltr": true,
+          "required": true,
+          "pattern": "^https://(www\\.)?sungame\\.ir/\\S+",
+          "patternMsg": "باید به صفحهٔ همان بازی در sungame.ir برود"
+        },
+        "track": {
+          "label": "کد یا لینک ردیابی (UTM)",
+          "ltr": true,
+          "required": true
+        },
+        "cid": {
+          "label": "شناسهٔ محتوا",
+          "ltr": true,
+          "required": true
+        },
+        "checked": {
+          "label": "آخرین بررسی مشخصات",
+          "required": true
+        }
+      },
+      "blocks": [
+        {
+          "id": "r6s",
+          "type": "row",
+          "label": "ردیف لوگو",
+          "children": [
+            {
+              "id": "l6t",
+              "type": "logo",
+              "set": "horizontal",
+              "h": 112
+            }
+          ]
+        },
+        {
+          "id": "sk6u",
+          "type": "text",
+          "role": "label",
+          "bg": "@pill",
+          "color": "@pillText",
+          "radius": 999,
+          "pad": [
+            12,
+            34
+          ],
+          "marker": "dot",
+          "markerColor": "hot",
+          "markerSize": 18,
+          "align": "start",
+          "label": "برچسب قرصی",
+          "field": "gname"
+        },
+        {
+          "id": "h6v",
+          "type": "text",
+          "role": "h1",
+          "field": "h",
+          "size": 96,
+          "fit": {
+            "ref": 20,
+            "min": 0.6
+          },
+          "label": "تیتر"
+        },
+        {
+          "id": "cd6x",
+          "type": "card",
+          "bg": "@card",
+          "color": "@cardText",
+          "radius": 36,
+          "pad": [
+            40,
+            44
+          ],
+          "gap": 24,
+          "label": "کارت",
+          "children": [
+            {
+              "id": "t6w",
+              "type": "text",
+              "role": "body",
+              "field": "b",
+              "label": "متن اصلی"
+            }
+          ]
+        },
+        {
+          "id": "cta6y",
+          "type": "card",
+          "bg": "@cta",
+          "color": "@ctaText",
+          "radius": 44,
+          "pad": [
+            24,
+            48
+          ],
+          "gap": 4,
+          "align": "start",
+          "label": "دکمهٔ محصول",
+          "children": [
+            {
+              "id": "t6z",
+              "type": "text",
+              "role": "label",
+              "field": "cta",
+              "size": 46,
+              "weight": 900,
+              "label": "متن دکمه"
+            },
+            {
+              "id": "u70",
+              "type": "text",
+              "role": "small",
+              "field": "url",
+              "ltr": true,
+              "font": "latin",
+              "emptyText": "[لینک صفحهٔ محصول در سان‌گیمز]",
+              "emptyColor": "red",
+              "label": "نشانی"
+            }
+          ]
+        },
+        {
+          "id": "f71",
+          "type": "footer",
+          "text": "geekbazi.com",
+          "pager": "dice",
+          "i": 6,
+          "n": 6,
+          "line": false,
+          "push": true
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "gc1",
+      "name": "کدام بازی؟ ۱ · جلد",
+      "family": "کاروسل «کدام بازی را بخرم؟»",
+      "stage": "آگاهی",
+      "format": "post45",
+      "theme": "gradient",
+      "themes": [
+        "gradient",
+        "dark",
+        "pastel"
+      ],
+      "gap": 40,
+      "justify": "start",
+      "fields": {
+        "h": "چند نفرید و چقدر وقت دارید؟",
+        "b": "سه بازی را کنار هم گذاشتیم تا انتخاب شبیه قرعه‌کشی نباشد.",
+        "cid": "GB-C-002"
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 34
+        },
+        "b": {
+          "label": "متن اصلی",
+          "multi": true,
+          "max": 90
+        },
+        "cid": {
+          "label": "شناسهٔ محتوا",
+          "ltr": true,
+          "required": true
+        }
+      },
+      "blocks": [
+        {
+          "id": "r72",
+          "type": "row",
+          "label": "ردیف لوگو",
+          "children": [
+            {
+              "id": "l73",
+              "type": "logo",
+              "set": "horizontal",
+              "h": 112
+            }
+          ]
+        },
+        {
+          "id": "sk74",
+          "type": "text",
+          "role": "label",
+          "bg": "@pill",
+          "color": "@pillText",
+          "radius": 999,
+          "pad": [
+            12,
+            34
+          ],
+          "marker": "dot",
+          "markerColor": "hot",
+          "markerSize": 18,
+          "align": "start",
+          "label": "برچسب قرصی",
+          "text": "کدام بازی را بخرم؟"
+        },
+        {
+          "id": "h75",
+          "type": "text",
+          "role": "h1",
+          "field": "h",
+          "size": 112,
+          "fit": {
+            "ref": 22,
+            "min": 0.6
+          },
+          "label": "تیتر"
+        },
+        {
+          "id": "cd77",
+          "type": "card",
+          "bg": "@card",
+          "color": "@cardText",
+          "radius": 36,
+          "pad": [
+            40,
+            44
+          ],
+          "gap": 24,
+          "label": "کارت",
+          "children": [
+            {
+              "id": "t76",
+              "type": "text",
+              "role": "body",
+              "field": "b",
+              "label": "متن اصلی"
+            }
+          ]
+        },
+        {
+          "id": "f78",
+          "type": "footer",
+          "text": "geekbazi.com",
+          "pager": "dice",
+          "i": 1,
+          "n": 4,
+          "line": false,
+          "push": true
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "gc2",
+      "name": "کدام بازی؟ ۲ · مقایسه",
+      "family": "کاروسل «کدام بازی را بخرم؟»",
+      "stage": "فهم",
+      "format": "post45",
+      "theme": "dark",
+      "themes": [
+        "dark",
+        "pastel"
+      ],
+      "gap": 40,
+      "justify": "start",
+      "fields": {
+        "h": "کنار هم",
+        "rows": "[بازی ۱] | [نفرات] | [زمان] | [آشنایی] | [حال‌وهوا]\n[بازی ۲] | [نفرات] | [زمان] | [آشنایی] | [حال‌وهوا]\n[بازی ۳] | [نفرات] | [زمان] | [آشنایی] | [حال‌وهوا]",
+        "checked": ""
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "تیتر",
+          "multi": true
+        },
+        "rows": {
+          "label": "جدول: نام | نفرات | زمان | آشنایی | حال‌وهوا",
+          "multi": true
+        },
+        "checked": {
+          "label": "آخرین بررسی مشخصات",
+          "required": true
+        }
+      },
+      "blocks": [
+        {
+          "id": "r79",
+          "type": "row",
+          "label": "ردیف لوگو",
+          "children": [
+            {
+              "id": "l7a",
+              "type": "logo",
+              "set": "symbol",
+              "h": 120
+            }
+          ]
+        },
+        {
+          "id": "h7b",
+          "type": "text",
+          "role": "h1",
+          "field": "h",
+          "size": 84,
+          "fit": {
+            "ref": 20,
+            "min": 0.6
+          },
+          "label": "تیتر"
+        },
+        {
+          "id": "tb7c",
+          "type": "table",
+          "field": "rows",
+          "headers": [
+            "بازی",
+            "نفرات",
+            "زمان",
+            "آشنایی",
+            "حال‌وهوا"
+          ],
+          "size": 30,
+          "cellBg": "@card",
+          "cellText": "@cardText",
+          "phBg": "pink",
+          "label": "جدول مقایسه"
+        },
+        {
+          "id": "t7d",
+          "type": "text",
+          "role": "small",
+          "text": "آخرین بررسی: {checked} · مشخصات از صفحهٔ هر محصول",
+          "label": "آخرین بررسی"
+        },
+        {
+          "id": "f7e",
+          "type": "footer",
+          "text": "geekbazi.com",
+          "pager": "dice",
+          "i": 2,
+          "n": 4,
+          "line": false,
+          "push": true
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "gc3",
+      "name": "کدام بازی؟ ۳ · انتخاب نهایی",
+      "family": "کاروسل «کدام بازی را بخرم؟»",
+      "stage": "اعتماد",
+      "format": "post45",
+      "theme": "dark",
+      "themes": [
+        "dark",
+        "pastel"
+      ],
+      "gap": 40,
+      "justify": "start",
+      "fields": {
+        "h": "پس کدام؟",
+        "logic": "دو نفرید و نیم ساعت وقت دارید؟ ← [بازی ۱]\nجمع شلوغ و تازه‌کارید؟ ← [بازی ۲]\nاهل فکر و رقابت جدی هستید؟ ← [بازی ۳]"
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "تیتر",
+          "multi": true
+        },
+        "logic": {
+          "label": "منطق انتخاب (هر خط یکی)",
+          "multi": true
+        }
+      },
+      "blocks": [
+        {
+          "id": "r7f",
+          "type": "row",
+          "label": "ردیف لوگو",
+          "children": [
+            {
+              "id": "l7g",
+              "type": "logo",
+              "set": "symbol",
+              "h": 120
+            }
+          ]
+        },
+        {
+          "id": "h7h",
+          "type": "text",
+          "role": "h1",
+          "field": "h",
+          "size": 112,
+          "fit": {
+            "ref": 20,
+            "min": 0.6
+          },
+          "label": "تیتر"
+        },
+        {
+          "id": "cd7j",
+          "type": "card",
+          "bg": "@card",
+          "color": "@cardText",
+          "radius": 36,
+          "pad": [
+            40,
+            44
+          ],
+          "gap": 24,
+          "label": "کارت",
+          "children": [
+            {
+              "id": "li7i",
+              "type": "list",
+              "field": "logic",
+              "num": "line",
+              "size": 38,
+              "markerColor": "hot",
+              "label": "منطق"
+            }
+          ]
+        },
+        {
+          "id": "f7k",
+          "type": "footer",
+          "text": "geekbazi.com",
+          "pager": "dice",
+          "i": 3,
+          "n": 4,
+          "line": false,
+          "push": true
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "gc4",
+      "name": "کدام بازی؟ ۴ · لینک‌ها",
+      "family": "کاروسل «کدام بازی را بخرم؟»",
+      "stage": "درخواست",
+      "format": "post45",
+      "theme": "gradient",
+      "themes": [
+        "gradient",
+        "pastel"
+      ],
+      "gap": 40,
+      "justify": "start",
+      "fields": {
+        "h": "مشخصات را خودت هم چک کن",
+        "b": "هر سه بازی در سان‌گیمز صفحهٔ جدا دارند؛ لینک‌ها در کپشن است.",
+        "cta": "مشخصات بازی را بررسی کن",
+        "url": "",
+        "track": "",
+        "cid": "GB-C-002"
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 34
+        },
+        "b": {
+          "label": "متن اصلی",
+          "multi": true,
+          "max": 110
+        },
+        "cta": {
+          "label": "دعوت به اقدام"
+        },
+        "url": {
+          "label": "لینک صفحهٔ محصول در سان‌گیمز",
+          "ltr": true,
+          "required": true,
+          "pattern": "^https://(www\\.)?sungame\\.ir/\\S+",
+          "patternMsg": "باید به صفحهٔ همان بازی در sungame.ir برود"
+        },
+        "track": {
+          "label": "کد یا لینک ردیابی (UTM)",
+          "ltr": true,
+          "required": true
+        },
+        "cid": {
+          "label": "شناسهٔ محتوا",
+          "ltr": true,
+          "required": true
+        }
+      },
+      "blocks": [
+        {
+          "id": "r7l",
+          "type": "row",
+          "label": "ردیف لوگو",
+          "children": [
+            {
+              "id": "l7m",
+              "type": "logo",
+              "set": "horizontal",
+              "h": 112
+            }
+          ]
+        },
+        {
+          "id": "h7n",
+          "type": "text",
+          "role": "h1",
+          "field": "h",
+          "size": 88,
+          "fit": {
+            "ref": 24,
+            "min": 0.6
+          },
+          "label": "تیتر"
+        },
+        {
+          "id": "cd7p",
+          "type": "card",
+          "bg": "@card",
+          "color": "@cardText",
+          "radius": 36,
+          "pad": [
+            40,
+            44
+          ],
+          "gap": 24,
+          "label": "کارت",
+          "children": [
+            {
+              "id": "t7o",
+              "type": "text",
+              "role": "body",
+              "field": "b",
+              "label": "متن اصلی"
+            }
+          ]
+        },
+        {
+          "id": "cta7q",
+          "type": "card",
+          "bg": "@cta",
+          "color": "@ctaText",
+          "radius": 44,
+          "pad": [
+            24,
+            48
+          ],
+          "gap": 4,
+          "align": "start",
+          "label": "دکمهٔ محصول",
+          "children": [
+            {
+              "id": "t7r",
+              "type": "text",
+              "role": "label",
+              "field": "cta",
+              "size": 46,
+              "weight": 900,
+              "label": "متن دکمه"
+            },
+            {
+              "id": "u7s",
+              "type": "text",
+              "role": "small",
+              "field": "url",
+              "ltr": true,
+              "font": "latin",
+              "emptyText": "[لینک صفحهٔ محصول در سان‌گیمز]",
+              "emptyColor": "red",
+              "label": "نشانی"
+            }
+          ]
+        },
+        {
+          "id": "f7t",
+          "type": "footer",
+          "text": "geekbazi.com",
+          "pager": "dice",
+          "i": 4,
+          "n": 4,
+          "line": false,
+          "push": true
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "gs1",
+      "name": "استوری ۱ · نظرسنجی",
+      "family": "توالی استوری",
+      "stage": "آگاهی",
+      "format": "story",
+      "theme": "gradient",
+      "themes": [
+        "gradient",
+        "dark",
+        "pastel"
+      ],
+      "gap": 40,
+      "justify": "start",
+      "fields": {
+        "h": "امشب چند نفرید؟",
+        "b": "جواب بده تا بازی مناسب همان جمع را پیشنهاد کنیم.",
+        "opts": "۲ نفر\n۳ تا ۵ نفر\n۶ نفر یا بیشتر"
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 24
+        },
+        "b": {
+          "label": "متن اصلی",
+          "multi": true,
+          "max": 80
+        },
+        "opts": {
+          "label": "گزینه‌های نظرسنجی (یادداشت)",
+          "multi": true
+        }
+      },
+      "blocks": [
+        {
+          "id": "r7u",
+          "type": "row",
+          "label": "ردیف لوگو",
+          "children": [
+            {
+              "id": "l7v",
+              "type": "logo",
+              "set": "symbol",
+              "h": 120
+            }
+          ]
+        },
+        {
+          "id": "sk7w",
+          "type": "text",
+          "role": "label",
+          "bg": "@pill",
+          "color": "@pillText",
+          "radius": 999,
+          "pad": [
+            12,
+            34
+          ],
+          "marker": "dot",
+          "markerColor": "hot",
+          "markerSize": 18,
+          "align": "start",
+          "label": "برچسب قرصی",
+          "text": "پرسش امروز"
+        },
+        {
+          "id": "h7x",
+          "type": "text",
+          "role": "h1",
+          "field": "h",
+          "size": 130,
+          "fit": {
+            "ref": 14,
+            "min": 0.6
+          },
+          "label": "تیتر"
+        },
+        {
+          "id": "cd7z",
+          "type": "card",
+          "bg": "@card",
+          "color": "@cardText",
+          "radius": 36,
+          "pad": [
+            40,
+            44
+          ],
+          "gap": 24,
+          "label": "کارت",
+          "children": [
+            {
+              "id": "t7y",
+              "type": "text",
+              "role": "body",
+              "field": "b",
+              "label": "متن اصلی"
+            }
+          ]
+        },
+        {
+          "id": "z80",
+          "type": "zone",
+          "h": 520,
+          "label": "محل استیکر نظرسنجی",
+          "field": "opts",
+          "note": true,
+          "round": true
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "gs2",
+      "name": "استوری ۲ · منطق پیشنهاد",
+      "family": "توالی استوری",
+      "stage": "فهم",
+      "format": "story",
+      "theme": "dark",
+      "themes": [
+        "dark",
+        "pastel"
+      ],
+      "gap": 40,
+      "justify": "start",
+      "fields": {
+        "h": "انتخاب از تعداد نفرات شروع می‌شود",
+        "logic": "دو نفر: بازی دونفرهٔ کوتاه\nسه تا پنج نفر: قانون سبک، دورهای سریع\nشش نفر به بالا: حدسی، کلمه‌ای، گروهی"
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 44
+        },
+        "logic": {
+          "label": "منطق انتخاب (هر خط یکی)",
+          "multi": true
+        }
+      },
+      "blocks": [
+        {
+          "id": "r81",
+          "type": "row",
+          "label": "ردیف لوگو",
+          "children": [
+            {
+              "id": "l82",
+              "type": "logo",
+              "set": "symbol",
+              "h": 120
+            }
+          ]
+        },
+        {
+          "id": "h83",
+          "type": "text",
+          "role": "h1",
+          "field": "h",
+          "size": 96,
+          "fit": {
+            "ref": 24,
+            "min": 0.6
+          },
+          "label": "تیتر"
+        },
+        {
+          "id": "cd85",
+          "type": "card",
+          "bg": "@card",
+          "color": "@cardText",
+          "radius": 36,
+          "pad": [
+            40,
+            44
+          ],
+          "gap": 24,
+          "label": "کارت",
+          "children": [
+            {
+              "id": "li84",
+              "type": "list",
+              "field": "logic",
+              "num": "line",
+              "size": 40,
+              "markerColor": "hot",
+              "label": "منطق"
+            }
+          ]
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "gs3",
+      "name": "استوری ۳ · نمایش بازی",
+      "family": "توالی استوری",
+      "stage": "فهم",
+      "format": "story",
+      "theme": "dark",
+      "themes": [
+        "dark",
+        "gradient"
+      ],
+      "gap": 40,
+      "justify": "start",
+      "fields": {
+        "h": "یک دور بازی را ببین؛ بعد تصمیم بگیر",
+        "b": "[۱۵ ثانیه از یک دور واقعی: چه اتفاقی افتاد؟]",
+        "gname": "[نام بازی]",
+        "img": ""
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 40
+        },
+        "b": {
+          "label": "متن اصلی",
+          "multi": true,
+          "max": 80
+        },
+        "gname": {
+          "label": "نام بازی",
+          "required": false
+        },
+        "img": {
+          "label": "تصویر",
+          "type": "image"
+        }
+      },
+      "blocks": [
+        {
+          "id": "img86",
+          "type": "image",
+          "field": "img",
+          "h": 880,
+          "bleed": true,
+          "bleedTop": true,
+          "label": "تصویر",
+          "note": "فریم واقعی از بازی سر میز",
+          "phTitle": "تصویر لازم است"
+        },
+        {
+          "id": "sk87",
+          "type": "text",
+          "role": "label",
+          "bg": "@pill",
+          "color": "@pillText",
+          "radius": 999,
+          "pad": [
+            12,
+            34
+          ],
+          "marker": "dot",
+          "markerColor": "hot",
+          "markerSize": 18,
+          "align": "start",
+          "label": "برچسب قرصی",
+          "field": "gname"
+        },
+        {
+          "id": "h88",
+          "type": "text",
+          "role": "h1",
+          "field": "h",
+          "size": 88,
+          "fit": {
+            "ref": 24,
+            "min": 0.6
+          },
+          "label": "تیتر"
+        },
+        {
+          "id": "cd8a",
+          "type": "card",
+          "bg": "@card",
+          "color": "@cardText",
+          "radius": 36,
+          "pad": [
+            40,
+            44
+          ],
+          "gap": 24,
+          "label": "کارت",
+          "children": [
+            {
+              "id": "t89",
+              "type": "text",
+              "role": "body",
+              "field": "b",
+              "label": "متن اصلی"
+            }
+          ]
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "gs4",
+      "name": "استوری ۴ · تردید رایج",
+      "family": "توالی استوری",
+      "stage": "اعتماد",
+      "format": "story",
+      "theme": "pastel",
+      "themes": [
+        "pastel",
+        "dark"
+      ],
+      "gap": 40,
+      "justify": "start",
+      "fields": {
+        "h": "«قانونش سخت نیست؟»",
+        "b": "[پاسخ صادقانه بر اساس دفترچه و تجربهٔ بازی]. اگر جمعتان تازه‌کار است، بهتر است یک نفر قبل از شروع قانون را کامل بخواند و دور اول را آزمایشی بازی کنید."
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 30
+        },
+        "b": {
+          "label": "متن اصلی",
+          "multi": true,
+          "max": 230
+        }
+      },
+      "blocks": [
+        {
+          "id": "r8b",
+          "type": "row",
+          "label": "ردیف لوگو",
+          "children": [
+            {
+              "id": "l8c",
+              "type": "logo",
+              "set": "symbol",
+              "h": 120
+            }
+          ]
+        },
+        {
+          "id": "sk8d",
+          "type": "text",
+          "role": "label",
+          "bg": "@pill",
+          "color": "@pillText",
+          "radius": 999,
+          "pad": [
+            12,
+            34
+          ],
+          "marker": "dot",
+          "markerColor": "hot",
+          "markerSize": 18,
+          "align": "start",
+          "label": "برچسب قرصی",
+          "text": "پرسیدید"
+        },
+        {
+          "id": "h8e",
+          "type": "text",
+          "role": "h1",
+          "field": "h",
+          "size": 110,
+          "fit": {
+            "ref": 16,
+            "min": 0.6
+          },
+          "label": "تیتر"
+        },
+        {
+          "id": "cd8g",
+          "type": "card",
+          "bg": "@card",
+          "color": "@cardText",
+          "radius": 36,
+          "pad": [
+            40,
+            44
+          ],
+          "gap": 24,
+          "label": "کارت",
+          "children": [
+            {
+              "id": "t8f",
+              "type": "text",
+              "role": "body",
+              "field": "b",
+              "label": "متن اصلی"
+            }
+          ]
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "gs5",
+      "name": "استوری ۵ · لینک محصول",
+      "family": "توالی استوری",
+      "stage": "درخواست",
+      "format": "story",
+      "theme": "gradient",
+      "themes": [
+        "gradient",
+        "dark"
+      ],
+      "gap": 40,
+      "justify": "start",
+      "fields": {
+        "h": "بازی را در سان‌گیمز ببین",
+        "b": "قیمت، موجودی و مشخصات دقیق همان‌جاست.",
+        "cta": "بازی را در سان‌گیمز ببین",
+        "gname": "[نام بازی]",
+        "url": "",
+        "track": "",
+        "cid": "GB-S-001",
+        "checked": ""
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 34
+        },
+        "b": {
+          "label": "متن اصلی",
+          "multi": true,
+          "max": 70
+        },
+        "cta": {
+          "label": "دعوت به اقدام"
+        },
+        "gname": {
+          "label": "نام بازی",
+          "required": true
+        },
+        "url": {
+          "label": "لینک صفحهٔ محصول در سان‌گیمز",
+          "ltr": true,
+          "required": true,
+          "pattern": "^https://(www\\.)?sungame\\.ir/\\S+",
+          "patternMsg": "باید به صفحهٔ همان بازی در sungame.ir برود"
+        },
+        "track": {
+          "label": "کد یا لینک ردیابی (UTM)",
+          "ltr": true,
+          "required": true
+        },
+        "cid": {
+          "label": "شناسهٔ محتوا",
+          "ltr": true,
+          "required": true
+        },
+        "checked": {
+          "label": "آخرین بررسی مشخصات",
+          "required": true
+        }
+      },
+      "blocks": [
+        {
+          "id": "r8h",
+          "type": "row",
+          "label": "ردیف لوگو",
+          "children": [
+            {
+              "id": "l8i",
+              "type": "logo",
+              "set": "horizontal",
+              "h": 112
+            }
+          ]
+        },
+        {
+          "id": "sk8j",
+          "type": "text",
+          "role": "label",
+          "bg": "@pill",
+          "color": "@pillText",
+          "radius": 999,
+          "pad": [
+            12,
+            34
+          ],
+          "marker": "dot",
+          "markerColor": "hot",
+          "markerSize": 18,
+          "align": "start",
+          "label": "برچسب قرصی",
+          "field": "gname"
+        },
+        {
+          "id": "h8k",
+          "type": "text",
+          "role": "h1",
+          "field": "h",
+          "size": 100,
+          "fit": {
+            "ref": 20,
+            "min": 0.6
+          },
+          "label": "تیتر"
+        },
+        {
+          "id": "cd8m",
+          "type": "card",
+          "bg": "@card",
+          "color": "@cardText",
+          "radius": 36,
+          "pad": [
+            40,
+            44
+          ],
+          "gap": 24,
+          "label": "کارت",
+          "children": [
+            {
+              "id": "t8l",
+              "type": "text",
+              "role": "body",
+              "field": "b",
+              "label": "متن اصلی"
+            }
+          ]
+        },
+        {
+          "id": "cta8n",
+          "type": "card",
+          "bg": "@cta",
+          "color": "@ctaText",
+          "radius": 44,
+          "pad": [
+            24,
+            48
+          ],
+          "gap": 4,
+          "align": "start",
+          "label": "دکمهٔ محصول",
+          "children": [
+            {
+              "id": "t8o",
+              "type": "text",
+              "role": "label",
+              "field": "cta",
+              "size": 46,
+              "weight": 900,
+              "label": "متن دکمه"
+            },
+            {
+              "id": "u8p",
+              "type": "text",
+              "role": "small",
+              "field": "url",
+              "ltr": true,
+              "font": "latin",
+              "emptyText": "[لینک صفحهٔ محصول در سان‌گیمز]",
+              "emptyColor": "red",
+              "label": "نشانی"
+            }
+          ]
+        },
+        {
+          "id": "z8q",
+          "type": "zone",
+          "h": 230,
+          "label": "محل استیکر لینک",
+          "field": "url",
+          "note": true,
+          "round": true
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "gq1",
+      "name": "ریلز قانون سریع · کاور",
+      "family": "قانون سریع و بازی واقعی",
+      "stage": "آگاهی",
+      "format": "reel",
+      "theme": "gradient",
+      "themes": [
+        "gradient",
+        "dark",
+        "pastel"
+      ],
+      "gap": 0,
+      "justify": "start",
+      "fields": {
+        "h": "یک قانون که همه دور اول اشتباه بازی می‌کنند",
+        "gname": "[نام بازی]",
+        "img": "",
+        "cid": "GB-R-002"
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 50
+        },
+        "gname": {
+          "label": "نام بازی",
+          "required": true
+        },
+        "img": {
+          "label": "تصویر",
+          "type": "image"
+        },
+        "cid": {
+          "label": "شناسهٔ محتوا",
+          "ltr": true,
+          "required": true
+        }
+      },
+      "blocks": [],
+      "floats": [
+        {
+          "id": "img8u",
+          "type": "image",
+          "field": "img",
+          "float": {
+            "x": 0,
+            "y": 0,
+            "w": 1080,
+            "h": 1920,
+            "under": true
+          },
+          "label": "عکس",
+          "note": "لحظهٔ واقعی سر میز؛ دست‌ها، کارت‌ها، مهره‌ها",
+          "phTitle": "تصویر لازم است"
+        },
+        {
+          "id": "l8v",
+          "type": "logo",
+          "set": "symbol",
+          "h": 120,
+          "float": {
+            "x": 96,
+            "y": 300,
+            "ax": "right"
+          }
+        },
+        {
+          "id": "fc8w",
+          "type": "card",
+          "float": {
+            "x": 72,
+            "y": 1010,
+            "w": 936
+          },
+          "gap": 30,
+          "label": "بلوک قلاب",
+          "children": [
+            {
+              "id": "sk8t",
+              "type": "text",
+              "role": "label",
+              "bg": "@pill",
+              "color": "@pillText",
+              "radius": 999,
+              "pad": [
+                12,
+                34
+              ],
+              "marker": "dot",
+              "markerColor": "hot",
+              "markerSize": 18,
+              "align": "start",
+              "label": "برچسب قرصی",
+              "text": "قانون سریع · {gname}"
+            },
+            {
+              "id": "band8r",
+              "type": "card",
+              "bg": "@coverBand",
+              "color": "@coverText",
+              "radius": 40,
+              "pad": [
+                40,
+                48
+              ],
+              "gap": 14,
+              "label": "نوار قلاب",
+              "children": [
+                {
+                  "id": "h8s",
+                  "type": "text",
+                  "role": "h1",
+                  "field": "h",
+                  "size": 112,
+                  "fit": {
+                    "ref": 22,
+                    "min": 0.6
+                  },
+                  "label": "تیتر"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pad": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "gq2",
+      "name": "ریلز قانون سریع · کارت قانون",
+      "family": "قانون سریع و بازی واقعی",
+      "stage": "فهم",
+      "format": "story",
+      "theme": "dark",
+      "themes": [
+        "dark",
+        "pastel"
+      ],
+      "gap": 40,
+      "justify": "start",
+      "fields": {
+        "h": "[یک قانون کاربردی، در یک جمله]",
+        "b": "[چرا مهم است، در یک جمله]",
+        "img": ""
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 60
+        },
+        "b": {
+          "label": "متن اصلی",
+          "multi": true,
+          "max": 90
+        },
+        "img": {
+          "label": "تصویر",
+          "type": "image"
+        }
+      },
+      "blocks": [
+        {
+          "id": "img8x",
+          "type": "image",
+          "field": "img",
+          "h": 860,
+          "bleed": true,
+          "bleedTop": true,
+          "label": "تصویر",
+          "note": "فریم ویدیو: همان حرکتی که قانون درباره‌اش است",
+          "phTitle": "تصویر لازم است"
+        },
+        {
+          "id": "sk8y",
+          "type": "text",
+          "role": "label",
+          "bg": "@pill",
+          "color": "@pillText",
+          "radius": 999,
+          "pad": [
+            12,
+            34
+          ],
+          "marker": "dot",
+          "markerColor": "hot",
+          "markerSize": 18,
+          "align": "start",
+          "label": "برچسب قرصی",
+          "text": "قانون ۱"
+        },
+        {
+          "id": "h8z",
+          "type": "text",
+          "role": "h1",
+          "field": "h",
+          "size": 84,
+          "fit": {
+            "ref": 30,
+            "min": 0.6
+          },
+          "label": "تیتر"
+        },
+        {
+          "id": "cd91",
+          "type": "card",
+          "bg": "@card",
+          "color": "@cardText",
+          "radius": 36,
+          "pad": [
+            40,
+            44
+          ],
+          "gap": 24,
+          "label": "کارت",
+          "children": [
+            {
+              "id": "t90",
+              "type": "text",
+              "role": "body",
+              "field": "b",
+              "label": "متن اصلی"
+            }
+          ]
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "gq3",
+      "name": "ریلز قانون سریع · جمع‌بندی صادقانه",
+      "family": "قانون سریع و بازی واقعی",
+      "stage": "اعتماد",
+      "format": "story",
+      "theme": "pastel",
+      "themes": [
+        "pastel",
+        "dark"
+      ],
+      "gap": 40,
+      "justify": "start",
+      "fields": {
+        "h": "راستش را بخواهی…",
+        "yes": "[جمعی که از این بازی لذت می‌برد]\n[موقعیتی که بازی می‌درخشد]",
+        "no": "[جمعی که احتمالاً حوصله‌اش سر می‌رود]\n[محدودیت واقعی بازی]",
+        "url": "",
+        "track": ""
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "تیتر",
+          "multi": true
+        },
+        "yes": {
+          "label": "خوشت می‌آید اگر… (هر خط یکی)",
+          "multi": true
+        },
+        "no": {
+          "label": "شاید نه، اگر… (هر خط یکی)",
+          "multi": true
+        },
+        "url": {
+          "label": "لینک صفحهٔ محصول در سان‌گیمز",
+          "ltr": true,
+          "required": true,
+          "pattern": "^https://(www\\.)?sungame\\.ir/\\S+",
+          "patternMsg": "باید به صفحهٔ همان بازی در sungame.ir برود"
+        },
+        "track": {
+          "label": "کد یا لینک ردیابی (UTM)",
+          "ltr": true,
+          "required": true
+        }
+      },
+      "blocks": [
+        {
+          "id": "r92",
+          "type": "row",
+          "label": "ردیف لوگو",
+          "children": [
+            {
+              "id": "l93",
+              "type": "logo",
+              "set": "symbol",
+              "h": 120
+            }
+          ]
+        },
+        {
+          "id": "h94",
+          "type": "text",
+          "role": "h1",
+          "field": "h",
+          "size": 112,
+          "fit": {
+            "ref": 16,
+            "min": 0.6
+          },
+          "label": "تیتر"
+        },
+        {
+          "id": "cd95",
+          "type": "card",
+          "bg": "white",
+          "color": "ink",
+          "radius": 36,
+          "pad": [
+            36,
+            40
+          ],
+          "gap": 16,
+          "children": [
+            {
+              "id": "t96",
+              "type": "text",
+              "role": "label",
+              "size": 42,
+              "weight": 900,
+              "text": "خوشت می‌آید اگر…"
+            },
+            {
+              "id": "li97",
+              "type": "list",
+              "field": "yes",
+              "num": "bullet",
+              "round": true,
+              "size": 36,
+              "markerColor": "hot"
+            }
+          ]
+        },
+        {
+          "id": "cd98",
+          "type": "card",
+          "bg": "pink",
+          "color": "ink",
+          "radius": 36,
+          "pad": [
+            36,
+            40
+          ],
+          "gap": 16,
+          "children": [
+            {
+              "id": "t99",
+              "type": "text",
+              "role": "label",
+              "size": 42,
+              "weight": 900,
+              "text": "شاید نه، اگر…"
+            },
+            {
+              "id": "li9a",
+              "type": "list",
+              "field": "no",
+              "num": "bullet",
+              "round": true,
+              "size": 36,
+              "markerColor": "hot"
+            }
+          ]
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "ev1",
+      "name": "رویداد ۱ · سنجش علاقه",
+      "family": "کیت رویداد · پایلوت پیشنهادی",
+      "stage": "آگاهی",
+      "format": "story",
+      "theme": "gradient",
+      "themes": [
+        "gradient",
+        "dark"
+      ],
+      "gap": 40,
+      "justify": "start",
+      "fields": {
+        "h": "مهدکودک بزرگسالان؛ یک روز برای بازی و تجربه",
+        "b": "داریم فکرش را می‌کنیم: یک روز بازی، ساختن و خندیدن، بدون حس کلاس و امتحان. اگر برگزار شود، می‌آیی؟",
+        "pilot": "پیشنهادی",
+        "opts": "حتماً می‌آیم\nبستگی به زمانش دارد\nنه، ولی ایده‌اش جالب است"
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 50
+        },
+        "b": {
+          "label": "متن اصلی",
+          "multi": true,
+          "max": 170
+        },
+        "pilot": {
+          "label": "وضعیت پایلوت",
+          "options": [
+            "پیشنهادی",
+            "تأییدشده"
+          ]
+        },
+        "opts": {
+          "label": "گزینه‌های نظرسنجی (یادداشت)",
+          "multi": true
+        }
+      },
+      "blocks": [
+        {
+          "id": "r9b",
+          "type": "row",
+          "label": "ردیف لوگو",
+          "children": [
+            {
+              "id": "l9c",
+              "type": "logo",
+              "set": "symbol",
+              "h": 120
+            },
+            {
+              "id": "pb9d",
+              "type": "text",
+              "role": "small",
+              "weight": 800,
+              "text": "پایلوت پیشنهادی\nهنوز اعلام نشده",
+              "bg": "white",
+              "color": "red",
+              "border": {
+                "w": 5,
+                "color": "red",
+                "style": "dashed"
+              },
+              "radius": 22,
+              "pad": [
+                10,
+                24
+              ],
+              "textAlign": "center",
+              "showIf": {
+                "field": "pilot",
+                "not": "تأییدشده"
+              },
+              "label": "برچسب پایلوت"
+            }
+          ]
+        },
+        {
+          "id": "sk9e",
+          "type": "text",
+          "role": "label",
+          "bg": "@pill",
+          "color": "@pillText",
+          "radius": 999,
+          "pad": [
+            12,
+            34
+          ],
+          "marker": "dot",
+          "markerColor": "hot",
+          "markerSize": 18,
+          "align": "start",
+          "label": "برچسب قرصی",
+          "text": "ایدهٔ تازه"
+        },
+        {
+          "id": "h9f",
+          "type": "text",
+          "role": "h1",
+          "field": "h",
+          "size": 92,
+          "fit": {
+            "ref": 30,
+            "min": 0.6
+          },
+          "label": "تیتر"
+        },
+        {
+          "id": "cd9h",
+          "type": "card",
+          "bg": "@card",
+          "color": "@cardText",
+          "radius": 36,
+          "pad": [
+            40,
+            44
+          ],
+          "gap": 24,
+          "label": "کارت",
+          "children": [
+            {
+              "id": "t9g",
+              "type": "text",
+              "role": "body",
+              "field": "b",
+              "label": "متن اصلی"
+            }
+          ]
+        },
+        {
+          "id": "z9i",
+          "type": "zone",
+          "h": 330,
+          "label": "محل استیکر نظرسنجی",
+          "field": "opts",
+          "note": true,
+          "round": true
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "ev2",
+      "name": "رویداد ۲ · دعوت‌نامه",
+      "family": "کیت رویداد · پایلوت پیشنهادی",
+      "stage": "درخواست",
+      "format": "post45",
+      "theme": "gradient",
+      "themes": [
+        "gradient",
+        "pastel"
+      ],
+      "gap": 40,
+      "justify": "start",
+      "fields": {
+        "h": "مهدکودک بزرگسالان",
+        "b": "یک روز برای بازی و تجربه؛ کسی نمره نمی‌دهد.",
+        "pilot": "پیشنهادی",
+        "date": "",
+        "venue": "",
+        "cap": "",
+        "price": "",
+        "cta": "برای این رویداد ثبت علاقه کن",
+        "regUrl": "",
+        "track": "",
+        "cid": "GB-E-001"
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 30
+        },
+        "b": {
+          "label": "متن اصلی",
+          "multi": true,
+          "max": 80
+        },
+        "pilot": {
+          "label": "وضعیت پایلوت",
+          "options": [
+            "پیشنهادی",
+            "تأییدشده"
+          ]
+        },
+        "date": {
+          "label": "تاریخ",
+          "required": true
+        },
+        "venue": {
+          "label": "مکان",
+          "required": true
+        },
+        "cap": {
+          "label": "ظرفیت",
+          "required": true
+        },
+        "price": {
+          "label": "هزینه",
+          "required": true
+        },
+        "cta": {
+          "label": "دعوت به اقدام"
+        },
+        "regUrl": {
+          "label": "مقصد ثبت‌نام",
+          "ltr": true,
+          "required": true,
+          "pattern": "^https://",
+          "patternMsg": "باید با https:// شروع شود"
+        },
+        "track": {
+          "label": "کد یا لینک ردیابی (UTM)",
+          "ltr": true,
+          "required": true
+        },
+        "cid": {
+          "label": "شناسهٔ محتوا",
+          "ltr": true,
+          "required": true
+        }
+      },
+      "blocks": [
+        {
+          "id": "r9j",
+          "type": "row",
+          "label": "ردیف لوگو",
+          "children": [
+            {
+              "id": "l9k",
+              "type": "logo",
+              "set": "horizontal",
+              "h": 112
+            },
+            {
+              "id": "pb9l",
+              "type": "text",
+              "role": "small",
+              "weight": 800,
+              "text": "پایلوت پیشنهادی\nهنوز اعلام نشده",
+              "bg": "white",
+              "color": "red",
+              "border": {
+                "w": 5,
+                "color": "red",
+                "style": "dashed"
+              },
+              "radius": 22,
+              "pad": [
+                10,
+                24
+              ],
+              "textAlign": "center",
+              "showIf": {
+                "field": "pilot",
+                "not": "تأییدشده"
+              },
+              "label": "برچسب پایلوت"
+            }
+          ]
+        },
+        {
+          "id": "h9m",
+          "type": "text",
+          "role": "h1",
+          "field": "h",
+          "size": 100,
+          "fit": {
+            "ref": 20,
+            "min": 0.6
+          },
+          "label": "تیتر"
+        },
+        {
+          "id": "cd9o",
+          "type": "card",
+          "bg": "@card",
+          "color": "@cardText",
+          "radius": 36,
+          "pad": [
+            40,
+            44
+          ],
+          "gap": 24,
+          "label": "کارت",
+          "children": [
+            {
+              "id": "t9n",
+              "type": "text",
+              "role": "body",
+              "field": "b",
+              "label": "متن اصلی"
+            }
+          ]
+        },
+        {
+          "id": "ch9p",
+          "type": "chips",
+          "items": [
+            {
+              "field": "date",
+              "label": "تاریخ"
+            },
+            {
+              "field": "venue",
+              "label": "مکان"
+            },
+            {
+              "field": "cap",
+              "label": "ظرفیت"
+            },
+            {
+              "field": "price",
+              "label": "هزینه"
+            }
+          ],
+          "chipBg": "@chip",
+          "chipText": "@chipText",
+          "label": "مشخصات"
+        },
+        {
+          "id": "cta9q",
+          "type": "card",
+          "bg": "@cta",
+          "color": "@ctaText",
+          "radius": 44,
+          "pad": [
+            24,
+            48
+          ],
+          "gap": 4,
+          "align": "start",
+          "label": "دکمهٔ محصول",
+          "children": [
+            {
+              "id": "t9r",
+              "type": "text",
+              "role": "label",
+              "field": "cta",
+              "size": 46,
+              "weight": 900,
+              "label": "متن دکمه"
+            },
+            {
+              "id": "u9s",
+              "type": "text",
+              "role": "small",
+              "field": "regUrl",
+              "ltr": true,
+              "font": "latin",
+              "emptyText": "[لینک ثبت‌نام]",
+              "emptyColor": "red",
+              "label": "نشانی"
+            }
+          ]
+        },
+        {
+          "id": "f9t",
+          "type": "footer",
+          "text": "geekbazi.com",
+          "pager": "none",
+          "i": 1,
+          "n": 0,
+          "line": false,
+          "push": true
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "ev3",
+      "name": "رویداد ۳ · یادآوری ثبت‌نام",
+      "family": "کیت رویداد · پایلوت پیشنهادی",
+      "stage": "درخواست",
+      "format": "story",
+      "theme": "pastel",
+      "themes": [
+        "pastel",
+        "dark"
+      ],
+      "gap": 40,
+      "justify": "start",
+      "fields": {
+        "h": "ثبت‌نام تا [تاریخ پایان] باز است",
+        "b": "ظرفیت محدود است: [ظرفیت] نفر.",
+        "pilot": "پیشنهادی",
+        "cta": "برای این رویداد ثبت علاقه کن",
+        "regUrl": "",
+        "track": ""
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 40
+        },
+        "b": {
+          "label": "متن اصلی",
+          "multi": true,
+          "max": 70
+        },
+        "pilot": {
+          "label": "وضعیت پایلوت",
+          "options": [
+            "پیشنهادی",
+            "تأییدشده"
+          ]
+        },
+        "cta": {
+          "label": "دعوت به اقدام"
+        },
+        "regUrl": {
+          "label": "مقصد ثبت‌نام",
+          "ltr": true,
+          "required": true,
+          "pattern": "^https://",
+          "patternMsg": "باید با https:// شروع شود"
+        },
+        "track": {
+          "label": "کد یا لینک ردیابی (UTM)",
+          "ltr": true,
+          "required": true
+        }
+      },
+      "blocks": [
+        {
+          "id": "r9u",
+          "type": "row",
+          "label": "ردیف لوگو",
+          "children": [
+            {
+              "id": "l9v",
+              "type": "logo",
+              "set": "symbol",
+              "h": 120
+            },
+            {
+              "id": "pb9w",
+              "type": "text",
+              "role": "small",
+              "weight": 800,
+              "text": "پایلوت پیشنهادی\nهنوز اعلام نشده",
+              "bg": "white",
+              "color": "red",
+              "border": {
+                "w": 5,
+                "color": "red",
+                "style": "dashed"
+              },
+              "radius": 22,
+              "pad": [
+                10,
+                24
+              ],
+              "textAlign": "center",
+              "showIf": {
+                "field": "pilot",
+                "not": "تأییدشده"
+              },
+              "label": "برچسب پایلوت"
+            }
+          ]
+        },
+        {
+          "id": "sk9x",
+          "type": "text",
+          "role": "label",
+          "bg": "@pill",
+          "color": "@pillText",
+          "radius": 999,
+          "pad": [
+            12,
+            34
+          ],
+          "marker": "dot",
+          "markerColor": "hot",
+          "markerSize": 18,
+          "align": "start",
+          "label": "برچسب قرصی",
+          "text": "یادت نرود"
+        },
+        {
+          "id": "h9y",
+          "type": "text",
+          "role": "h1",
+          "field": "h",
+          "size": 100,
+          "fit": {
+            "ref": 24,
+            "min": 0.6
+          },
+          "label": "تیتر"
+        },
+        {
+          "id": "cda0",
+          "type": "card",
+          "bg": "@card",
+          "color": "@cardText",
+          "radius": 36,
+          "pad": [
+            40,
+            44
+          ],
+          "gap": 24,
+          "label": "کارت",
+          "children": [
+            {
+              "id": "t9z",
+              "type": "text",
+              "role": "body",
+              "field": "b",
+              "label": "متن اصلی"
+            }
+          ]
+        },
+        {
+          "id": "ctaa1",
+          "type": "card",
+          "bg": "@cta",
+          "color": "@ctaText",
+          "radius": 44,
+          "pad": [
+            24,
+            48
+          ],
+          "gap": 4,
+          "align": "start",
+          "label": "دکمهٔ محصول",
+          "children": [
+            {
+              "id": "ta2",
+              "type": "text",
+              "role": "label",
+              "field": "cta",
+              "size": 46,
+              "weight": 900,
+              "label": "متن دکمه"
+            },
+            {
+              "id": "ua3",
+              "type": "text",
+              "role": "small",
+              "field": "regUrl",
+              "ltr": true,
+              "font": "latin",
+              "emptyText": "[لینک ثبت‌نام]",
+              "emptyColor": "red",
+              "label": "نشانی"
+            }
+          ]
+        },
+        {
+          "id": "za4",
+          "type": "zone",
+          "h": 220,
+          "label": "محل استیکر لینک ثبت‌نام",
+          "field": null,
+          "note": true,
+          "round": true
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "ev4",
+      "name": "رویداد ۴ · پوشش روز رویداد",
+      "family": "کیت رویداد · پایلوت پیشنهادی",
+      "stage": "اعتماد",
+      "format": "story",
+      "theme": "dark",
+      "themes": [
+        "dark",
+        "gradient"
+      ],
+      "gap": 40,
+      "justify": "start",
+      "fields": {
+        "h": "همین حالا در [مکان]",
+        "b": "[بازی یا فعالیتی که الان در جریان است]",
+        "pilot": "پیشنهادی",
+        "img": ""
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 34
+        },
+        "b": {
+          "label": "متن اصلی",
+          "multi": true,
+          "max": 70
+        },
+        "pilot": {
+          "label": "وضعیت پایلوت",
+          "options": [
+            "پیشنهادی",
+            "تأییدشده"
+          ]
+        },
+        "img": {
+          "label": "تصویر",
+          "type": "image"
+        }
+      },
+      "blocks": [
+        {
+          "id": "imga5",
+          "type": "image",
+          "field": "img",
+          "h": 900,
+          "bleed": true,
+          "bleedTop": true,
+          "label": "تصویر",
+          "note": "عکس واقعی از رویداد با رضایت شرکت‌کنندگان",
+          "phTitle": "تصویر لازم است"
+        },
+        {
+          "id": "ra6",
+          "type": "row",
+          "children": [
+            {
+              "id": "ska7",
+              "type": "text",
+              "role": "label",
+              "bg": "@pill",
+              "color": "@pillText",
+              "radius": 999,
+              "pad": [
+                12,
+                34
+              ],
+              "marker": "dot",
+              "markerColor": "hot",
+              "markerSize": 18,
+              "align": "start",
+              "label": "برچسب قرصی",
+              "text": "زنده از رویداد"
+            },
+            {
+              "id": "pba8",
+              "type": "text",
+              "role": "small",
+              "weight": 800,
+              "text": "پایلوت پیشنهادی\nهنوز اعلام نشده",
+              "bg": "white",
+              "color": "red",
+              "border": {
+                "w": 5,
+                "color": "red",
+                "style": "dashed"
+              },
+              "radius": 22,
+              "pad": [
+                10,
+                24
+              ],
+              "textAlign": "center",
+              "showIf": {
+                "field": "pilot",
+                "not": "تأییدشده"
+              },
+              "label": "برچسب پایلوت"
+            }
+          ]
+        },
+        {
+          "id": "ha9",
+          "type": "text",
+          "role": "h1",
+          "field": "h",
+          "size": 92,
+          "fit": {
+            "ref": 24,
+            "min": 0.6
+          },
+          "label": "تیتر"
+        },
+        {
+          "id": "cdab",
+          "type": "card",
+          "bg": "@card",
+          "color": "@cardText",
+          "radius": 36,
+          "pad": [
+            40,
+            44
+          ],
+          "gap": 24,
+          "label": "کارت",
+          "children": [
+            {
+              "id": "taa",
+              "type": "text",
+              "role": "body",
+              "field": "b",
+              "label": "متن اصلی"
+            }
+          ]
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "ev5",
+      "name": "رویداد ۵ · پیگیری و بازی‌های روز",
+      "family": "کیت رویداد · پایلوت پیشنهادی",
+      "stage": "درخواست",
+      "format": "post45",
+      "theme": "pastel",
+      "themes": [
+        "pastel",
+        "gradient"
+      ],
+      "gap": 40,
+      "justify": "start",
+      "fields": {
+        "h": "بازی‌هایی که آن روز سر میز بود",
+        "games": "[بازی ۱] — لینک در کپشن\n[بازی ۲] — لینک در کپشن\n[بازی ۳] — لینک در کپشن",
+        "pilot": "پیشنهادی",
+        "cta": "بازی را در سان‌گیمز ببین",
+        "url": "",
+        "track": "",
+        "cid": "GB-E-001"
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 40
+        },
+        "games": {
+          "label": "بازی‌های روز (هر خط یکی)",
+          "multi": true
+        },
+        "pilot": {
+          "label": "وضعیت پایلوت",
+          "options": [
+            "پیشنهادی",
+            "تأییدشده"
+          ]
+        },
+        "cta": {
+          "label": "دعوت به اقدام"
+        },
+        "url": {
+          "label": "لینک صفحهٔ محصول در سان‌گیمز",
+          "ltr": true,
+          "required": true,
+          "pattern": "^https://(www\\.)?sungame\\.ir/\\S+",
+          "patternMsg": "باید به صفحهٔ همان بازی در sungame.ir برود"
+        },
+        "track": {
+          "label": "کد یا لینک ردیابی (UTM)",
+          "ltr": true,
+          "required": true
+        },
+        "cid": {
+          "label": "شناسهٔ محتوا",
+          "ltr": true,
+          "required": true
+        }
+      },
+      "blocks": [
+        {
+          "id": "rac",
+          "type": "row",
+          "label": "ردیف لوگو",
+          "children": [
+            {
+              "id": "lad",
+              "type": "logo",
+              "set": "symbol",
+              "h": 120
+            },
+            {
+              "id": "pbae",
+              "type": "text",
+              "role": "small",
+              "weight": 800,
+              "text": "پایلوت پیشنهادی\nهنوز اعلام نشده",
+              "bg": "white",
+              "color": "red",
+              "border": {
+                "w": 5,
+                "color": "red",
+                "style": "dashed"
+              },
+              "radius": 22,
+              "pad": [
+                10,
+                24
+              ],
+              "textAlign": "center",
+              "showIf": {
+                "field": "pilot",
+                "not": "تأییدشده"
+              },
+              "label": "برچسب پایلوت"
+            }
+          ]
+        },
+        {
+          "id": "haf",
+          "type": "text",
+          "role": "h1",
+          "field": "h",
+          "size": 80,
+          "fit": {
+            "ref": 30,
+            "min": 0.6
+          },
+          "label": "تیتر"
+        },
+        {
+          "id": "cdah",
+          "type": "card",
+          "bg": "@card",
+          "color": "@cardText",
+          "radius": 36,
+          "pad": [
+            40,
+            44
+          ],
+          "gap": 24,
+          "label": "کارت",
+          "children": [
+            {
+              "id": "liag",
+              "type": "list",
+              "field": "games",
+              "num": "line",
+              "size": 38,
+              "markerColor": "hot",
+              "label": "بازی‌ها"
+            }
+          ]
+        },
+        {
+          "id": "ctaai",
+          "type": "card",
+          "bg": "@cta",
+          "color": "@ctaText",
+          "radius": 44,
+          "pad": [
+            24,
+            48
+          ],
+          "gap": 4,
+          "align": "start",
+          "label": "دکمهٔ محصول",
+          "children": [
+            {
+              "id": "taj",
+              "type": "text",
+              "role": "label",
+              "field": "cta",
+              "size": 46,
+              "weight": 900,
+              "label": "متن دکمه"
+            },
+            {
+              "id": "uak",
+              "type": "text",
+              "role": "small",
+              "field": "url",
+              "ltr": true,
+              "font": "latin",
+              "emptyText": "[لینک صفحهٔ محصول در سان‌گیمز]",
+              "emptyColor": "red",
+              "label": "نشانی"
+            }
+          ]
+        },
+        {
+          "id": "fal",
+          "type": "footer",
+          "text": "geekbazi.com",
+          "pager": "none",
+          "i": 1,
+          "n": 0,
+          "line": false,
+          "push": true
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "gk1",
+      "name": "کاور بازی با سازنده",
+      "family": "همکاری با سازنده",
+      "stage": "اعتماد",
+      "format": "reel",
+      "theme": "gradient",
+      "themes": [
+        "gradient",
+        "dark",
+        "pastel"
+      ],
+      "gap": 0,
+      "justify": "start",
+      "fields": {
+        "h": "[نام همکار] این بازی را برای اولین بار باز کرد",
+        "collab": "[نام همکار]",
+        "handle": "@[شناسه]",
+        "avatar": "",
+        "gname": "[نام بازی]",
+        "img": "",
+        "url": "",
+        "track": "",
+        "cid": "GB-K-001",
+        "checked": ""
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 50
+        },
+        "collab": {
+          "label": "نام همکار",
+          "required": true
+        },
+        "handle": {
+          "label": "شناسهٔ همکار",
+          "ltr": true,
+          "required": true
+        },
+        "avatar": {
+          "label": "عکس همکار",
+          "type": "image"
+        },
+        "gname": {
+          "label": "نام بازی",
+          "required": true
+        },
+        "img": {
+          "label": "تصویر",
+          "type": "image"
+        },
+        "url": {
+          "label": "لینک صفحهٔ محصول در سان‌گیمز",
+          "ltr": true,
+          "required": true,
+          "pattern": "^https://(www\\.)?sungame\\.ir/\\S+",
+          "patternMsg": "باید به صفحهٔ همان بازی در sungame.ir برود"
+        },
+        "track": {
+          "label": "کد یا لینک ردیابی (UTM)",
+          "ltr": true,
+          "required": true
+        },
+        "cid": {
+          "label": "شناسهٔ محتوا",
+          "ltr": true,
+          "required": true
+        },
+        "checked": {
+          "label": "آخرین بررسی مشخصات",
+          "required": true
+        }
+      },
+      "blocks": [],
+      "floats": [
+        {
+          "id": "imgau",
+          "type": "image",
+          "field": "img",
+          "float": {
+            "x": 0,
+            "y": 0,
+            "w": 1080,
+            "h": 1920,
+            "under": true
+          },
+          "label": "عکس",
+          "note": "فریم واقعی از بازی سازنده با همین بازی",
+          "phTitle": "تصویر لازم است"
+        },
+        {
+          "id": "lav",
+          "type": "logo",
+          "set": "symbol",
+          "h": 120,
+          "float": {
+            "x": 96,
+            "y": 300,
+            "ax": "right"
+          }
+        },
+        {
+          "id": "fcaw",
+          "type": "card",
+          "float": {
+            "x": 72,
+            "y": 880,
+            "w": 936
+          },
+          "gap": 30,
+          "label": "بلوک قلاب",
+          "children": [
+            {
+              "id": "skat",
+              "type": "text",
+              "role": "label",
+              "bg": "@pill",
+              "color": "@pillText",
+              "radius": 999,
+              "pad": [
+                12,
+                34
+              ],
+              "marker": "dot",
+              "markerColor": "hot",
+              "markerSize": 18,
+              "align": "start",
+              "label": "برچسب قرصی",
+              "text": "همکاری · {gname}"
+            },
+            {
+              "id": "whoam",
+              "type": "row",
+              "bg": "white",
+              "color": "ink",
+              "radius": 999,
+              "pad": [
+                12,
+                36,
+                12,
+                14
+              ],
+              "gap": 24,
+              "justify": "flex-start",
+              "align": "start",
+              "label": "معرفی همکار",
+              "children": [
+                {
+                  "id": "avan",
+                  "type": "image",
+                  "field": "avatar",
+                  "h": 96,
+                  "wpx": 96,
+                  "radius": 999,
+                  "phShort": "عکس",
+                  "label": "عکس همکار"
+                },
+                {
+                  "id": "cdao",
+                  "type": "card",
+                  "gap": 0,
+                  "children": [
+                    {
+                      "id": "nap",
+                      "type": "text",
+                      "role": "label",
+                      "size": 40,
+                      "weight": 900,
+                      "field": "collab"
+                    },
+                    {
+                      "id": "hdaq",
+                      "type": "text",
+                      "role": "small",
+                      "field": "handle",
+                      "ltr": true,
+                      "font": "latin"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "bandar",
+              "type": "card",
+              "bg": "@coverBand",
+              "color": "@coverText",
+              "radius": 40,
+              "pad": [
+                40,
+                48
+              ],
+              "gap": 14,
+              "label": "نوار قلاب",
+              "children": [
+                {
+                  "id": "has",
+                  "type": "text",
+                  "role": "h1",
+                  "field": "h",
+                  "size": 112,
+                  "fit": {
+                    "ref": 22,
+                    "min": 0.6
+                  },
+                  "label": "تیتر"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pad": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "vt1",
+      "name": "ویدیوکست · تامنیل یوتیوب",
+      "family": "کیت ویدیوکست",
+      "stage": "آگاهی",
+      "format": "video",
+      "theme": "gradient",
+      "themes": [
+        "gradient",
+        "dark"
+      ],
+      "gap": 36,
+      "justify": "center",
+      "fields": {
+        "h": "گیمیفیکیشن واقعاً چیست؟",
+        "guest": "[نام مهمان]",
+        "ep": "[۰۰]",
+        "guestOk": "در انتظار تأیید",
+        "img": ""
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 26
+        },
+        "guest": {
+          "label": "نام مهمان"
+        },
+        "ep": {
+          "label": "شناسهٔ قسمت",
+          "required": true
+        },
+        "guestOk": {
+          "label": "تأیید مهمان",
+          "options": [
+            "در انتظار تأیید",
+            "تأییدشده"
+          ]
+        },
+        "img": {
+          "label": "تصویر",
+          "type": "image"
+        }
+      },
+      "blocks": [
+        {
+          "id": "lax",
+          "type": "logo",
+          "set": "horizontal",
+          "h": 112
+        },
+        {
+          "id": "skay",
+          "type": "text",
+          "role": "label",
+          "bg": "@pill",
+          "color": "@pillText",
+          "radius": 999,
+          "pad": [
+            12,
+            34
+          ],
+          "marker": "dot",
+          "markerColor": "hot",
+          "markerSize": 18,
+          "align": "start",
+          "label": "برچسب قرصی",
+          "text": "ویدیوکست · قسمت {ep}"
+        },
+        {
+          "id": "haz",
+          "type": "text",
+          "role": "h1",
+          "field": "h",
+          "size": 118,
+          "fit": {
+            "ref": 18,
+            "min": 0.6
+          },
+          "label": "تیتر"
+        },
+        {
+          "id": "tb0",
+          "type": "text",
+          "role": "label",
+          "size": 48,
+          "text": "با {guest}",
+          "label": "مهمان"
+        }
+      ],
+      "floats": [
+        {
+          "id": "imgb1",
+          "type": "image",
+          "field": "img",
+          "float": {
+            "x": 0,
+            "y": 0,
+            "w": 880,
+            "h": 1080,
+            "under": true
+          },
+          "label": "پرترهٔ مهمان",
+          "note": "پرترهٔ مهمان (پس از تأیید)، نور طبیعی",
+          "phTitle": "تصویر لازم است"
+        }
+      ],
+      "pad": [
+        90,
+        110,
+        120,
+        960
+      ]
+    },
+    {
+      "id": "vt2",
+      "name": "ویدیوکست · کارت قسمت",
+      "family": "کیت ویدیوکست",
+      "stage": "فهم",
+      "format": "post45",
+      "theme": "dark",
+      "themes": [
+        "dark",
+        "gradient"
+      ],
+      "gap": 40,
+      "justify": "start",
+      "fields": {
+        "h": "گیمیفیکیشن واقعاً چیست؟",
+        "b": "قسمت [۰۰] ویدیوکست، با [نام مهمان]؛ از امتیاز و جایزه تا طراحی برای یک رفتار واقعی.",
+        "ep": "[۰۰]",
+        "guestOk": "در انتظار تأیید",
+        "cta": "قسمت کامل در یوتیوب گیک‌بازی",
+        "url": "",
+        "mhUrl": "",
+        "track": ""
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 30
+        },
+        "b": {
+          "label": "متن اصلی",
+          "multi": true,
+          "max": 150
+        },
+        "ep": {
+          "label": "شناسهٔ قسمت",
+          "required": true
+        },
+        "guestOk": {
+          "label": "تأیید مهمان",
+          "options": [
+            "در انتظار تأیید",
+            "تأییدشده"
+          ]
+        },
+        "cta": {
+          "label": "دعوت به اقدام"
+        },
+        "url": {
+          "label": "لینک قسمت در یوتیوب",
+          "ltr": true,
+          "required": true,
+          "pattern": "^https://(www\\.)?(youtube\\.com|youtu\\.be)/",
+          "patternMsg": "باید لینک یوتیوب باشد"
+        },
+        "mhUrl": {
+          "label": "لینک ردیابی‌پذیر مهرایان",
+          "ltr": true,
+          "required": true,
+          "pattern": "^https://",
+          "patternMsg": "باید با https:// شروع شود"
+        },
+        "track": {
+          "label": "کد یا لینک ردیابی (UTM)",
+          "ltr": true,
+          "required": true
+        }
+      },
+      "blocks": [
+        {
+          "id": "rb2",
+          "type": "row",
+          "label": "ردیف لوگو",
+          "children": [
+            {
+              "id": "lb3",
+              "type": "logo",
+              "set": "horizontal",
+              "h": 112
+            }
+          ]
+        },
+        {
+          "id": "skb4",
+          "type": "text",
+          "role": "label",
+          "bg": "@pill",
+          "color": "@pillText",
+          "radius": 999,
+          "pad": [
+            12,
+            34
+          ],
+          "marker": "dot",
+          "markerColor": "hot",
+          "markerSize": 18,
+          "align": "start",
+          "label": "برچسب قرصی",
+          "text": "ویدیوکست · قسمت {ep}"
+        },
+        {
+          "id": "hb5",
+          "type": "text",
+          "role": "h1",
+          "field": "h",
+          "size": 88,
+          "fit": {
+            "ref": 24,
+            "min": 0.6
+          },
+          "label": "تیتر"
+        },
+        {
+          "id": "cdb7",
+          "type": "card",
+          "bg": "@card",
+          "color": "@cardText",
+          "radius": 36,
+          "pad": [
+            40,
+            44
+          ],
+          "gap": 24,
+          "label": "کارت",
+          "children": [
+            {
+              "id": "tb6",
+              "type": "text",
+              "role": "body",
+              "field": "b",
+              "label": "متن اصلی"
+            }
+          ]
+        },
+        {
+          "id": "ctab8",
+          "type": "card",
+          "bg": "@cta",
+          "color": "@ctaText",
+          "radius": 44,
+          "pad": [
+            24,
+            48
+          ],
+          "gap": 4,
+          "align": "start",
+          "label": "دکمهٔ محصول",
+          "children": [
+            {
+              "id": "tb9",
+              "type": "text",
+              "role": "label",
+              "field": "cta",
+              "size": 46,
+              "weight": 900,
+              "label": "متن دکمه"
+            },
+            {
+              "id": "uba",
+              "type": "text",
+              "role": "small",
+              "field": "url",
+              "ltr": true,
+              "font": "latin",
+              "emptyText": "[لینک قسمت در یوتیوب]",
+              "emptyColor": "red",
+              "label": "نشانی"
+            }
+          ]
+        },
+        {
+          "id": "fbb",
+          "type": "footer",
+          "text": "geekbazi.com",
+          "pager": "none",
+          "i": 1,
+          "n": 0,
+          "line": false,
+          "push": true,
+          "aside": "سازمانی؟ مهرایان"
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "vt3",
+      "name": "ویدیوکست · کاور کلیپ عمودی",
+      "family": "کیت ویدیوکست",
+      "stage": "آگاهی",
+      "format": "reel",
+      "theme": "gradient",
+      "themes": [
+        "gradient",
+        "dark"
+      ],
+      "gap": 0,
+      "justify": "start",
+      "fields": {
+        "h": "امتیاز دادن، گیمیفیکیشن نیست",
+        "ep": "[۰۰]",
+        "guestOk": "در انتظار تأیید",
+        "img": ""
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 40
+        },
+        "ep": {
+          "label": "شناسهٔ قسمت",
+          "required": true
+        },
+        "guestOk": {
+          "label": "تأیید مهمان",
+          "options": [
+            "در انتظار تأیید",
+            "تأییدشده"
+          ]
+        },
+        "img": {
+          "label": "تصویر",
+          "type": "image"
+        }
+      },
+      "blocks": [],
+      "floats": [
+        {
+          "id": "imgbf",
+          "type": "image",
+          "field": "img",
+          "float": {
+            "x": 0,
+            "y": 0,
+            "w": 1080,
+            "h": 1920,
+            "under": true
+          },
+          "label": "عکس",
+          "note": "فریم عمودی از گفت‌وگو؛ دوربین هم‌تراز",
+          "phTitle": "تصویر لازم است"
+        },
+        {
+          "id": "lbg",
+          "type": "logo",
+          "set": "symbol",
+          "h": 120,
+          "float": {
+            "x": 96,
+            "y": 300,
+            "ax": "right"
+          }
+        },
+        {
+          "id": "fcbh",
+          "type": "card",
+          "float": {
+            "x": 72,
+            "y": 1010,
+            "w": 936
+          },
+          "gap": 30,
+          "label": "بلوک قلاب",
+          "children": [
+            {
+              "id": "skbe",
+              "type": "text",
+              "role": "label",
+              "bg": "@pill",
+              "color": "@pillText",
+              "radius": 999,
+              "pad": [
+                12,
+                34
+              ],
+              "marker": "dot",
+              "markerColor": "hot",
+              "markerSize": 18,
+              "align": "start",
+              "label": "برچسب قرصی",
+              "text": "ویدیوکست · قسمت {ep}"
+            },
+            {
+              "id": "bandbc",
+              "type": "card",
+              "bg": "@coverBand",
+              "color": "@coverText",
+              "radius": 40,
+              "pad": [
+                40,
+                48
+              ],
+              "gap": 14,
+              "label": "نوار قلاب",
+              "children": [
+                {
+                  "id": "hbd",
+                  "type": "text",
+                  "role": "h1",
+                  "field": "h",
+                  "size": 112,
+                  "fit": {
+                    "ref": 22,
+                    "min": 0.6
+                  },
+                  "label": "تیتر"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pad": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "vt4",
+      "name": "ویدیوکست · زیرنویس مهمان",
+      "family": "کیت ویدیوکست",
+      "stage": "اعتماد",
+      "format": "video",
+      "theme": "dark",
+      "themes": [
+        "dark"
+      ],
+      "gap": 0,
+      "justify": "start",
+      "fields": {
+        "h": "[نام مهمان]",
+        "b": "[سمت و سازمان — پس از تأیید مهمان]",
+        "guestOk": "در انتظار تأیید",
+        "img": ""
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "نام مهمان",
+          "multi": true,
+          "max": 28
+        },
+        "b": {
+          "label": "سمت و سازمان",
+          "multi": true,
+          "max": 48
+        },
+        "guestOk": {
+          "label": "تأیید مهمان",
+          "options": [
+            "در انتظار تأیید",
+            "تأییدشده"
+          ]
+        },
+        "img": {
+          "label": "تصویر",
+          "type": "image"
+        }
+      },
+      "blocks": [],
+      "floats": [
+        {
+          "id": "imgbi",
+          "type": "image",
+          "field": "img",
+          "float": {
+            "x": 0,
+            "y": 0,
+            "w": 1920,
+            "h": 1080,
+            "under": true
+          },
+          "label": "فریم ویدیو",
+          "note": "فریم ویدیو ۱۰۸۰p؛ دوربین هم‌تراز",
+          "phTitle": "فریم ویدیو"
+        },
+        {
+          "id": "ltbj",
+          "type": "row",
+          "float": {
+            "x": 120,
+            "y": 190,
+            "ax": "right",
+            "ay": "bottom"
+          },
+          "gap": 0,
+          "alignItems": "stretch",
+          "label": "زیرنویس",
+          "children": [
+            {
+              "id": "cdbk",
+              "type": "card",
+              "bg": "white",
+              "color": "ink",
+              "radius": 30,
+              "pad": [
+                24,
+                40
+              ],
+              "gap": 4,
+              "children": [
+                {
+                  "id": "nbl",
+                  "type": "text",
+                  "role": "h2",
+                  "field": "h",
+                  "size": 58,
+                  "fit": {
+                    "ref": 18
+                  }
+                },
+                {
+                  "id": "rbm",
+                  "type": "text",
+                  "role": "body",
+                  "field": "b",
+                  "size": 36
+                }
+              ]
+            },
+            {
+              "id": "barbn",
+              "type": "spacer",
+              "wpx": 26,
+              "h": 10,
+              "bg": "hot",
+              "align": "stretch"
+            }
+          ]
+        },
+        {
+          "id": "lbo",
+          "type": "logo",
+          "set": "symbol",
+          "h": 120,
+          "float": {
+            "x": 110,
+            "y": 70
+          }
+        }
+      ]
+    },
+    {
+      "id": "vt5",
+      "name": "ویدیوکست · کارت نقل‌قول",
+      "family": "کیت ویدیوکست",
+      "stage": "اعتماد",
+      "format": "post45",
+      "theme": "pastel",
+      "themes": [
+        "pastel",
+        "dark"
+      ],
+      "gap": 40,
+      "justify": "start",
+      "fields": {
+        "h": "«[جملهٔ دقیق مهمان از متن پیاده‌شدهٔ قسمت]»",
+        "src": "[نام مهمان]، قسمت [۰۰]",
+        "guestOk": "در انتظار تأیید"
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 120
+        },
+        "src": {
+          "label": "خط منبع"
+        },
+        "guestOk": {
+          "label": "تأیید مهمان",
+          "options": [
+            "در انتظار تأیید",
+            "تأییدشده"
+          ]
+        }
+      },
+      "blocks": [
+        {
+          "id": "rbp",
+          "type": "row",
+          "label": "ردیف لوگو",
+          "children": [
+            {
+              "id": "lbq",
+              "type": "logo",
+              "set": "symbol",
+              "h": 120
+            }
+          ]
+        },
+        {
+          "id": "skbr",
+          "type": "text",
+          "role": "label",
+          "bg": "@pill",
+          "color": "@pillText",
+          "radius": 999,
+          "pad": [
+            12,
+            34
+          ],
+          "marker": "dot",
+          "markerColor": "hot",
+          "markerSize": 18,
+          "align": "start",
+          "label": "برچسب قرصی",
+          "text": "از ویدیوکست"
+        },
+        {
+          "id": "hbs",
+          "type": "text",
+          "role": "h1",
+          "field": "h",
+          "size": 72,
+          "fit": {
+            "ref": 60,
+            "min": 0.6
+          },
+          "label": "تیتر"
+        },
+        {
+          "id": "sbt",
+          "type": "text",
+          "role": "label",
+          "field": "src",
+          "prefix": "— ",
+          "label": "گوینده"
+        },
+        {
+          "id": "fbu",
+          "type": "footer",
+          "text": "geekbazi.com",
+          "pager": "none",
+          "i": 1,
+          "n": 0,
+          "line": false,
+          "push": true
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "vt6",
+      "name": "ویدیوکست · کارت پایانی",
+      "family": "کیت ویدیوکست",
+      "stage": "درخواست",
+      "format": "video",
+      "theme": "gradient",
+      "themes": [
+        "gradient",
+        "dark"
+      ],
+      "gap": 34,
+      "justify": "center",
+      "fields": {
+        "h": "قسمت بعد را از دست نده",
+        "b": "سازمانتان به گیمیفیکیشن فکر می‌کند؟",
+        "cta": "برای بررسی کاربرد سازمانی به مهرایان برو",
+        "mhUrl": "",
+        "track": ""
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 30
+        },
+        "b": {
+          "label": "متن اصلی",
+          "multi": true,
+          "max": 50
+        },
+        "cta": {
+          "label": "دعوت به اقدام"
+        },
+        "mhUrl": {
+          "label": "لینک ردیابی‌پذیر مهرایان",
+          "ltr": true,
+          "required": true,
+          "pattern": "^https://",
+          "patternMsg": "باید با https:// شروع شود"
+        },
+        "track": {
+          "label": "کد یا لینک ردیابی (UTM)",
+          "ltr": true,
+          "required": true
+        }
+      },
+      "blocks": [
+        {
+          "id": "lbv",
+          "type": "logo",
+          "set": "horizontal",
+          "h": 112
+        },
+        {
+          "id": "hbw",
+          "type": "text",
+          "role": "h1",
+          "field": "h",
+          "size": 92,
+          "fit": {
+            "ref": 20,
+            "min": 0.6
+          },
+          "label": "تیتر"
+        },
+        {
+          "id": "mhbx",
+          "type": "card",
+          "bg": "white",
+          "color": "#121546",
+          "radius": 30,
+          "pad": [
+            26,
+            32
+          ],
+          "gap": 14,
+          "label": "جعبهٔ مهرایان",
+          "children": [
+            {
+              "id": "lby",
+              "type": "logo",
+              "brand": "mehrayan",
+              "set": "combo",
+              "h": 90
+            },
+            {
+              "id": "tbz",
+              "type": "text",
+              "role": "label",
+              "size": 40,
+              "weight": 800,
+              "field": "b",
+              "font": "mehrayan:body"
+            },
+            {
+              "id": "cc0",
+              "type": "text",
+              "role": "label",
+              "size": 36,
+              "weight": 800,
+              "field": "cta",
+              "font": "mehrayan:body",
+              "bg": "#F15B29",
+              "color": "#121546",
+              "pad": [
+                14,
+                28
+              ],
+              "align": "start"
+            },
+            {
+              "id": "uc1",
+              "type": "text",
+              "role": "small",
+              "size": 28,
+              "field": "mhUrl",
+              "ltr": true,
+              "font": "latin",
+              "emptyText": "[لینک ردیابی‌پذیر فرم مهرایان]",
+              "emptyColor": "#B3261E"
+            }
+          ]
+        }
+      ],
+      "floats": [
+        {
+          "id": "zc2",
+          "type": "zone",
+          "float": {
+            "x": 120,
+            "y": 170,
+            "w": 680
+          },
+          "h": 382,
+          "label": "عنصر ویدیوی بعدی یوتیوب"
+        },
+        {
+          "id": "zc3",
+          "type": "zone",
+          "float": {
+            "x": 120,
+            "y": 600,
+            "w": 300
+          },
+          "h": 300,
+          "round": true,
+          "label": "اشتراک"
+        }
+      ],
+      "pad": [
+        110,
+        130,
+        190,
+        900
+      ]
+    },
+    {
+      "id": "ghl",
+      "name": "کاور هایلایت",
+      "family": "هایلایت",
+      "stage": "فهم",
+      "format": "highlight",
+      "theme": "gradient",
+      "themes": [
+        "gradient",
+        "pastel",
+        "dark"
+      ],
+      "gap": 44,
+      "justify": "center",
+      "fields": {
+        "word": "بازی‌ها"
+      },
+      "fieldMeta": {
+        "word": {
+          "label": "واژه",
+          "max": 9
+        }
+      },
+      "blocks": [
+        {
+          "id": "dc4",
+          "type": "die",
+          "n": 5,
+          "size": 150,
+          "color": "@text",
+          "pip": "@accent",
+          "align": "center"
+        },
+        {
+          "id": "wc5",
+          "type": "text",
+          "role": "display",
+          "field": "word",
+          "size": 170,
+          "fit": {
+            "ref": 5
+          },
+          "align": "center",
+          "label": "واژه"
+        }
+      ],
+      "floats": []
+    }
+  ],
+  "sets": [
+    {
+      "id": "gset-story",
+      "name": "استوری «امشب چند نفرید؟»",
+      "kind": "story",
+      "ids": [
+        "gs1",
+        "gs2",
+        "gs3",
+        "gs4",
+        "gs5"
+      ],
+      "note": "نظرسنجی ← منطق ← نمایش ← تردید ← لینک محصول"
+    },
+    {
+      "id": "gset-expl",
+      "name": "کاروسل توضیح بازی",
+      "kind": "carousel",
+      "ids": [
+        "ge1",
+        "ge2",
+        "ge3",
+        "ge4",
+        "ge5",
+        "ge6"
+      ]
+    },
+    {
+      "id": "gset-choose",
+      "name": "کاروسل «کدام بازی را بخرم؟»",
+      "kind": "carousel",
+      "ids": [
+        "gc1",
+        "gc2",
+        "gc3",
+        "gc4"
+      ]
+    },
+    {
+      "id": "gset-quick",
+      "name": "ریلز قانون سریع",
+      "kind": "story",
+      "ids": [
+        "gq1",
+        "gq2",
+        "gq3"
+      ]
+    },
+    {
+      "id": "gset-event",
+      "name": "کیت رویداد · پایلوت پیشنهادی",
+      "kind": "event",
+      "ids": [
+        "ev1",
+        "ev2",
+        "ev3",
+        "ev4",
+        "ev5"
+      ],
+      "note": "تا وضعیت پایلوت «تأییدشده» نشود، برچسب «هنوز اعلام نشده» می‌ماند."
+    },
+    {
+      "id": "gset-cast",
+      "name": "کیت ویدیوکست · میزبان یوتیوب گیک‌بازی",
+      "kind": "video",
+      "ids": [
+        "vt1",
+        "vt2",
+        "vt3",
+        "vt4",
+        "vt5",
+        "vt6"
+      ]
+    },
+    {
+      "id": "gset-cov",
+      "name": "کاورهای ریلز",
+      "kind": "covers",
+      "ids": [
+        "gr1",
+        "gq1",
+        "gk1",
+        "vt3"
+      ]
+    }
+  ],
+  "grid": {
+    "ids": [
+      "gr1",
+      "ge1",
+      "gc1",
+      "gq1",
+      "gk1",
+      "vt3",
+      "ev2",
+      "vt2",
+      "vt5"
+    ],
+    "pinned": 3
+  },
+  "highlights": {
+    "template": "ghl",
+    "items": [
+      {
+        "text": "بازی‌ها",
+        "theme": "gradient"
+      },
+      {
+        "text": "انتخاب",
+        "theme": "pastel"
+      },
+      {
+        "text": "رویداد",
+        "theme": "dark"
+      },
+      {
+        "text": "ویدیوکست",
+        "theme": "gradient"
+      },
+      {
+        "text": "سان‌گیمز",
+        "theme": "pastel"
+      }
+    ]
+  },
+  "rules": [
+    {
+      "topic": "نقش صفحه",
+      "decision": "معرفی، فهم و انتخاب بازی و هدایت به همان بازی در sungame.ir",
+      "source": "بریف"
+    },
+    {
+      "topic": "لحن",
+      "decision": "کنجکاو، شوخ، مستقیم و آگاه؛ شوخی برای جلب توجه، توصیه صادقانه",
+      "source": "بریف"
+    },
+    {
+      "topic": "ادعاها",
+      "decision": "بدون مشخصات، قیمت، موجودی، تخفیف یا تأیید مهمانِ ساختگی؛ «آخرین بررسی» روی قالب‌های محصول",
+      "source": "بریف"
+    },
+    {
+      "topic": "رنگ",
+      "decision": "زمینهٔ ‎#151132 و ‎#2E2947، کارت‌های پاستلی، دکمهٔ صورتی ‎#FAD7EB، شمارهٔ ‎#E32A63؛ گرادیان لوگو فقط برای جلد",
+      "source": "صفحهٔ اصلی geekbazi.com + لوگو"
+    },
+    {
+      "topic": "زبان گرافیکی",
+      "decision": "شمارهٔ بخش «۰۱ |»، کارت‌های گرد بی‌سایه، دکمهٔ قرصی، شماره با تاس",
+      "source": "صفحهٔ اصلی geekbazi.com"
+    },
+    {
+      "topic": "لوگو",
+      "decision": "فایل‌های تحویلی؛ نسخهٔ سفید روی تیره و گرادیان، رنگی روی روشن (خودکار)",
+      "source": "فایل‌های تحویلی"
+    },
+    {
+      "topic": "فونت",
+      "decision": "پیدا (PeydaNoEn) + Open Sans",
+      "source": "تصمیم تیم"
+    },
+    {
+      "topic": "رویداد",
+      "decision": "مهدکودک بزرگسالان تا تأیید مکان، تاریخ، هزینه، ظرفیت و مجوز «پایلوت پیشنهادی» است",
+      "source": "بریف"
+    },
+    {
+      "topic": "ویدیوکست",
+      "decision": "میزبان یوتیوب گیک‌بازی؛ CTA سازمانی قابل ردیابی به مهرایان",
+      "source": "بریف"
+    },
+    {
+      "topic": "ابهام: هم‌پوشانی با مهرایان",
+      "decision": "سایت گیک‌بازی بخش گیمیفیکیشن سازمانی، «اولین کافه بازی سازمانی» و لوگوی مشتریان دارد؛ مرز خدمات باید روشن شود",
+      "source": "نیازمند تصمیم"
+    }
+  ],
+  "checklist": [
+    "راهنمای هویت رسمی یا تأیید تم برگرفته از سایت",
+    "SVG لوگوها و فایل کاراکترهای تاس",
+    "مجوز وب فونت پیدا",
+    "عکس‌های واقعی بازی و جعبه",
+    "لینک دقیق هر محصول در sungame.ir + قالب UTM",
+    "تأیید مشخصات هر بازی و تاریخ «آخرین بررسی»",
+    "مکان، تاریخ، هزینه، ظرفیت و مجوز رویداد",
+    "تأیید کتبی مهمان و همکار",
+    "مرز خدمات گیمیفیکیشن سایت گیک‌بازی و مهرایان"
+  ],
+  "checklistState": {}
+}

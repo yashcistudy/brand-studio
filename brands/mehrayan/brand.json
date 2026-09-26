@@ -1,0 +1,3955 @@
+{
+  "id": "mehrayan",
+  "name": "مهرایان",
+  "url": "mehrayan.com",
+  "status": "برندبوک ۲٫۰",
+  "voice": "رسمی، روشن، انسانی و مفید. مفاهیم پیچیده را قابل‌فهم کن، بدون لحن بچگانه یا اداری و بدون اصطلاح توضیح‌نداده. وعدهٔ نتیجهٔ تضمینی، نتیجهٔ ساختگی مشتری و نام یا لوگوی تأییدنشده ممنوع.",
+  "cta": "مسئلهٔ سازمانتان را برای بررسی اولیه ثبت کنید",
+  "clearSpace": 0.33,
+  "colors": [
+    {
+      "id": "orange",
+      "name": "نارنجی مهرایان · Orange/500",
+      "hex": "#F15B29",
+      "note": "برندبوک ۳٫۱"
+    },
+    {
+      "id": "navy",
+      "name": "سرمه‌ای · navy/900",
+      "hex": "#121546",
+      "note": "سیستم طراحی فیگما"
+    },
+    {
+      "id": "white",
+      "name": "سفید",
+      "hex": "#FFFFFF",
+      "note": "۳٫۱"
+    },
+    {
+      "id": "subtle",
+      "name": "زمینهٔ ملایم · navy/50",
+      "hex": "#F1F1F4",
+      "note": "سیستم طراحی"
+    },
+    {
+      "id": "gray",
+      "name": "خاکستری اصلی · neutral/500",
+      "hex": "#8D8E8E",
+      "note": "۳٫۱"
+    },
+    {
+      "id": "silver",
+      "name": "جای تصویر · neutral/300",
+      "hex": "#CACBD1",
+      "note": "سیستم طراحی"
+    },
+    {
+      "id": "muted",
+      "name": "متن ثانویه · neutral/600",
+      "hex": "#5F605F",
+      "note": "text/secondary"
+    },
+    {
+      "id": "red",
+      "name": "هشدار",
+      "hex": "#B3261E",
+      "note": "فقط برای جانگهدار"
+    }
+  ],
+  "gradients": [],
+  "fonts": [
+    {
+      "family": "Kalameh",
+      "weight": 400,
+      "src": "fonts/KalamehNoEn-Regular.woff2"
+    },
+    {
+      "family": "Kalameh",
+      "weight": 500,
+      "src": "fonts/KalamehNoEn-Medium.woff2"
+    },
+    {
+      "family": "Kalameh",
+      "weight": 700,
+      "src": "fonts/KalamehNoEn-Bold.woff2"
+    },
+    {
+      "family": "Kalameh",
+      "weight": 800,
+      "src": "fonts/KalamehNoEn-ExtraBold.woff2"
+    },
+    {
+      "family": "Open Sans",
+      "weight": 400,
+      "src": "../_shared/fonts/open-sans-400.woff2"
+    },
+    {
+      "family": "Open Sans",
+      "weight": 600,
+      "src": "../_shared/fonts/open-sans-600.woff2"
+    },
+    {
+      "family": "Open Sans",
+      "weight": 700,
+      "src": "../_shared/fonts/open-sans-700.woff2"
+    }
+  ],
+  "fontRoles": {
+    "display": "Kalameh",
+    "body": "Kalameh",
+    "latin": "Open Sans"
+  },
+  "type": {
+    "display": {
+      "size": 128,
+      "weight": 800,
+      "lh": 1.3,
+      "font": "display"
+    },
+    "h1": {
+      "size": 96,
+      "weight": 800,
+      "lh": 1.36,
+      "font": "display"
+    },
+    "h2": {
+      "size": 72,
+      "weight": 800,
+      "lh": 1.36,
+      "font": "display"
+    },
+    "lead": {
+      "size": 48,
+      "weight": 400,
+      "lh": 1.7,
+      "font": "body"
+    },
+    "body": {
+      "size": 42,
+      "weight": 400,
+      "lh": 1.8,
+      "font": "body"
+    },
+    "small": {
+      "size": 34,
+      "weight": 500,
+      "lh": 1.6,
+      "font": "body"
+    },
+    "label": {
+      "size": 36,
+      "weight": 700,
+      "lh": 1.3,
+      "font": "body"
+    }
+  },
+  "logos": [
+    {
+      "id": "combo_color",
+      "name": "ترکیبی فارسی افقی · رنگی",
+      "src": "logos/combo-fa-color.png",
+      "note": "فقط روی سفید (۱٫۱۱)"
+    },
+    {
+      "id": "combo_white",
+      "name": "ترکیبی فارسی افقی · سفید",
+      "src": "logos/combo-fa-white.png",
+      "note": "روی نارنجی و سرمه‌ای"
+    },
+    {
+      "id": "sym_color",
+      "name": "نشانهٔ مستقل · رنگی",
+      "src": "logos/symbol-color.png",
+      "note": "کمینهٔ دیجیتال ۳۰px (۱٫۹)"
+    },
+    {
+      "id": "semi_white",
+      "name": "نقطه‌ویرگول · سفید",
+      "src": "logos/semicolon-white.png",
+      "note": "جانشین نشانهٔ سفید تا رسیدن فایلش (۲٫۱)"
+    },
+    {
+      "id": "vert_color",
+      "name": "ترکیبی فارسی عمودی · JPG",
+      "src": "logos/vertical-fa-color.jpg",
+      "note": "زمینهٔ سفید دارد"
+    },
+    {
+      "id": "en_color",
+      "name": "ترکیبی انگلیسی · JPG",
+      "src": "logos/combo-en-color.jpg",
+      "note": "زمینهٔ سفید دارد"
+    }
+  ],
+  "logoSets": {
+    "combo": {
+      "light": "combo_color",
+      "dark": "combo_white"
+    },
+    "symbol": {
+      "light": "sym_color",
+      "dark": "semi_white"
+    }
+  },
+  "themes": [
+    {
+      "id": "light",
+      "name": "الف · برگهٔ روشن",
+      "bg": "white",
+      "text": "navy",
+      "muted": "muted",
+      "accent": "orange",
+      "line": "gray",
+      "band": "white",
+      "bandText": "navy",
+      "kickerText": "navy",
+      "kickerMarker": "orange",
+      "card": "subtle",
+      "cardText": "navy",
+      "cta": "orange",
+      "ctaText": "navy",
+      "pill": "subtle",
+      "chip": "subtle",
+      "chipText": "navy",
+      "bar": "orange"
+    },
+    {
+      "id": "band",
+      "name": "ب · میدان نارنجی",
+      "bg": "white",
+      "text": "navy",
+      "muted": "muted",
+      "accent": "orange",
+      "line": "gray",
+      "band": "orange",
+      "bandText": "white",
+      "kickerText": "navy",
+      "kickerMarker": "orange",
+      "card": "subtle",
+      "cardText": "navy",
+      "cta": "orange",
+      "ctaText": "navy",
+      "pill": "subtle",
+      "chip": "subtle",
+      "chipText": "navy",
+      "bar": "white"
+    },
+    {
+      "id": "orange",
+      "name": "نارنجی کامل",
+      "bg": "orange",
+      "text": "white",
+      "muted": "white",
+      "accent": "white",
+      "line": "white",
+      "band": "orange",
+      "bandText": "white",
+      "kickerText": "navy",
+      "kickerMarker": "orange",
+      "card": "white",
+      "cardText": "navy",
+      "cta": "white",
+      "ctaText": "navy",
+      "pill": "white",
+      "chip": "white",
+      "chipText": "navy",
+      "bar": "white"
+    },
+    {
+      "id": "navy",
+      "name": "سرمه‌ای",
+      "bg": "navy",
+      "text": "white",
+      "muted": "silver",
+      "accent": "orange",
+      "line": "gray",
+      "band": "navy",
+      "bandText": "white",
+      "kickerText": "navy",
+      "kickerMarker": "orange",
+      "card": "white",
+      "cardText": "navy",
+      "cta": "white",
+      "ctaText": "navy",
+      "pill": "white",
+      "chip": "white",
+      "chipText": "navy",
+      "bar": "orange"
+    },
+    {
+      "id": "neutral",
+      "name": "خنثی",
+      "bg": "subtle",
+      "text": "navy",
+      "muted": "muted",
+      "accent": "orange",
+      "line": "gray",
+      "band": "subtle",
+      "bandText": "navy",
+      "kickerText": "navy",
+      "kickerMarker": "orange",
+      "card": "white",
+      "cardText": "navy",
+      "cta": "orange",
+      "ctaText": "navy",
+      "pill": "white",
+      "chip": "white",
+      "chipText": "navy",
+      "bar": "orange"
+    }
+  ],
+  "templates": [
+    {
+      "id": "s1",
+      "name": "استوری ۱ · توضیحی",
+      "family": "توالی استوری",
+      "stage": "فهم",
+      "format": "story",
+      "theme": "light",
+      "themes": [
+        "light",
+        "band"
+      ],
+      "gap": 0,
+      "fields": {
+        "kicker": "آیا گیمیفیکیشن برای سازمان شما مناسب است؟ · ۱ از ۵",
+        "h": "گیمیفیکیشن چیست و چه چیزی نیست؟",
+        "b": "طراحی تجربه‌ای که یک رفتار مشخص را در سازمان آسان‌تر، معنادارتر و قابل‌دیدن کند.",
+        "yes": "از رفتار هدف شروع می‌شود\nپیشرفت و بازخورد را نشان می‌دهد\nبا سنجش همراه است",
+        "no": "افزودن امتیاز و جایزه به هر کاری\nمسابقهٔ کوتاه بی‌هدف\nجایگزین آموزش و مدیریت"
+      },
+      "fieldMeta": {
+        "kicker": {
+          "label": "برچسب بالای تیتر"
+        },
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 48
+        },
+        "b": {
+          "label": "متن اصلی",
+          "multi": true,
+          "max": 130
+        },
+        "yes": {
+          "label": "فهرست «هست» (هر خط یکی)",
+          "multi": true
+        },
+        "no": {
+          "label": "فهرست «نیست» (هر خط یکی)",
+          "multi": true
+        }
+      },
+      "blocks": [
+        {
+          "id": "top8",
+          "type": "card",
+          "label": "میدان تیتر",
+          "bg": "@band",
+          "color": "@bandText",
+          "bleed": true,
+          "bleedTop": true,
+          "pad": [
+            300,
+            80,
+            64,
+            80
+          ],
+          "gap": 44,
+          "children": [
+            {
+              "id": "r9",
+              "type": "row",
+              "children": [
+                {
+                  "id": "la",
+                  "type": "logo",
+                  "set": "symbol",
+                  "h": 104
+                }
+              ]
+            },
+            {
+              "id": "kb",
+              "type": "text",
+              "role": "label",
+              "field": "kicker",
+              "marker": "square",
+              "markerColor": "@kickerMarker",
+              "color": "@bandText",
+              "align": "start",
+              "label": "برچسب",
+              "byTheme": {
+                "band": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "orange": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "navy": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                }
+              }
+            },
+            {
+              "id": "hc",
+              "type": "text",
+              "role": "h1",
+              "field": "h",
+              "size": 96,
+              "fit": {
+                "ref": 30,
+                "min": 0.6
+              },
+              "label": "تیتر"
+            }
+          ]
+        },
+        {
+          "id": "bodyd",
+          "type": "card",
+          "label": "بدنه",
+          "grow": true,
+          "bleed": true,
+          "bleedBottom": true,
+          "pad": [
+            56,
+            80,
+            290,
+            80
+          ],
+          "gap": 44,
+          "children": [
+            {
+              "id": "te",
+              "type": "text",
+              "role": "body",
+              "field": "b",
+              "label": "متن اصلی"
+            },
+            {
+              "id": "row1",
+              "type": "row",
+              "gap": 28,
+              "alignItems": "stretch",
+              "children": [
+                {
+                  "id": "col2",
+                  "type": "card",
+                  "grow": true,
+                  "border": {
+                    "w": 5,
+                    "color": "orange"
+                  },
+                  "pad": [
+                    30,
+                    32
+                  ],
+                  "gap": 18,
+                  "children": [
+                    {
+                      "id": "t3",
+                      "type": "text",
+                      "role": "label",
+                      "size": 40,
+                      "weight": 800,
+                      "text": "هست"
+                    },
+                    {
+                      "id": "li4",
+                      "type": "list",
+                      "field": "yes",
+                      "num": "bullet",
+                      "size": 34,
+                      "markerColor": "orange"
+                    }
+                  ]
+                },
+                {
+                  "id": "col5",
+                  "type": "card",
+                  "grow": true,
+                  "border": {
+                    "w": 5,
+                    "color": "gray"
+                  },
+                  "pad": [
+                    30,
+                    32
+                  ],
+                  "gap": 18,
+                  "children": [
+                    {
+                      "id": "t6",
+                      "type": "text",
+                      "role": "label",
+                      "size": 40,
+                      "weight": 800,
+                      "text": "نیست"
+                    },
+                    {
+                      "id": "li7",
+                      "type": "list",
+                      "field": "no",
+                      "num": "bullet",
+                      "size": 34,
+                      "markerColor": "gray"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ff",
+              "type": "footer",
+              "text": "mehrayan.com",
+              "pager": "none",
+              "i": 1,
+              "n": 0,
+              "push": true
+            }
+          ]
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "s2",
+      "name": "استوری ۲ · پرسش و نظرسنجی",
+      "family": "توالی استوری",
+      "stage": "آگاهی",
+      "format": "story",
+      "theme": "light",
+      "themes": [
+        "light",
+        "band"
+      ],
+      "gap": 0,
+      "fields": {
+        "kicker": "مخاطب و رفتار · ۲ از ۵",
+        "h": "در سازمان شما کدام رفتار باید تغییر کند؟",
+        "b": "یکی را انتخاب کنید. پاسخ‌ها به ما کمک می‌کند محتوای بعدی را دقیق‌تر بسازیم.",
+        "opts": "تکمیل دوره‌های آموزشی\nمشارکت در ایده‌پردازی\nرعایت فرایندهای ایمنی\nبه‌کارگیری سامانهٔ جدید"
+      },
+      "fieldMeta": {
+        "kicker": {
+          "label": "برچسب بالای تیتر"
+        },
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 52
+        },
+        "b": {
+          "label": "متن اصلی",
+          "multi": true,
+          "max": 110
+        },
+        "opts": {
+          "label": "گزینه‌های نظرسنجی (یادداشت)",
+          "multi": true
+        }
+      },
+      "blocks": [
+        {
+          "id": "toph",
+          "type": "card",
+          "label": "میدان تیتر",
+          "bg": "@band",
+          "color": "@bandText",
+          "bleed": true,
+          "bleedTop": true,
+          "pad": [
+            300,
+            80,
+            64,
+            80
+          ],
+          "gap": 44,
+          "children": [
+            {
+              "id": "ri",
+              "type": "row",
+              "children": [
+                {
+                  "id": "lj",
+                  "type": "logo",
+                  "set": "symbol",
+                  "h": 104
+                }
+              ]
+            },
+            {
+              "id": "kk",
+              "type": "text",
+              "role": "label",
+              "field": "kicker",
+              "marker": "square",
+              "markerColor": "@kickerMarker",
+              "color": "@bandText",
+              "align": "start",
+              "label": "برچسب",
+              "byTheme": {
+                "band": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "orange": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "navy": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                }
+              }
+            },
+            {
+              "id": "hl",
+              "type": "text",
+              "role": "h1",
+              "field": "h",
+              "size": 96,
+              "fit": {
+                "ref": 30,
+                "min": 0.6
+              },
+              "label": "تیتر"
+            }
+          ]
+        },
+        {
+          "id": "bodym",
+          "type": "card",
+          "label": "بدنه",
+          "grow": true,
+          "bleed": true,
+          "bleedBottom": true,
+          "pad": [
+            56,
+            80,
+            290,
+            80
+          ],
+          "gap": 44,
+          "children": [
+            {
+              "id": "tn",
+              "type": "text",
+              "role": "body",
+              "field": "b",
+              "label": "متن اصلی"
+            },
+            {
+              "id": "zg",
+              "type": "zone",
+              "h": 560,
+              "label": "محل استیکر نظرسنجی اینستاگرام",
+              "field": "opts",
+              "note": true
+            },
+            {
+              "id": "fo",
+              "type": "footer",
+              "text": "mehrayan.com",
+              "pager": "none",
+              "i": 1,
+              "n": 0,
+              "push": true
+            }
+          ]
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "s3",
+      "name": "استوری ۳ · پرسش رایج",
+      "family": "توالی استوری",
+      "stage": "فهم",
+      "format": "story",
+      "theme": "light",
+      "themes": [
+        "light",
+        "band"
+      ],
+      "gap": 0,
+      "fields": {
+        "kicker": "پرسش رایج · ۳ از ۵",
+        "h": "آیا گیمیفیکیشن فقط برای کارکنان جوان است؟",
+        "b": "نه. طراحی خوب از شناخت مخاطب شروع می‌شود: نقش افراد، زمانی که در اختیار دارند، انگیزهٔ واقعی‌شان و محدودیت‌های کار. آنچه برای تیم فروش جواب می‌دهد، لزوماً برای تیم فنی مناسب نیست.",
+        "no": "مخاطب دقیقاً چه کسانی‌اند؟\nکدام رفتار باید تغییر کند؟\nچه محدودیتی در زمان، بودجه و ابزار دارید؟"
+      },
+      "fieldMeta": {
+        "kicker": {
+          "label": "برچسب بالای تیتر"
+        },
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 52
+        },
+        "b": {
+          "label": "متن اصلی",
+          "multi": true,
+          "max": 230
+        },
+        "no": {
+          "label": "فهرست «نیست» (هر خط یکی)",
+          "multi": true
+        }
+      },
+      "blocks": [
+        {
+          "id": "tops",
+          "type": "card",
+          "label": "میدان تیتر",
+          "bg": "@band",
+          "color": "@bandText",
+          "bleed": true,
+          "bleedTop": true,
+          "pad": [
+            300,
+            80,
+            64,
+            80
+          ],
+          "gap": 44,
+          "children": [
+            {
+              "id": "rt",
+              "type": "row",
+              "children": [
+                {
+                  "id": "lu",
+                  "type": "logo",
+                  "set": "symbol",
+                  "h": 104
+                }
+              ]
+            },
+            {
+              "id": "kv",
+              "type": "text",
+              "role": "label",
+              "field": "kicker",
+              "marker": "square",
+              "markerColor": "@kickerMarker",
+              "color": "@bandText",
+              "align": "start",
+              "label": "برچسب",
+              "byTheme": {
+                "band": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "orange": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "navy": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                }
+              }
+            },
+            {
+              "id": "hw",
+              "type": "text",
+              "role": "h1",
+              "field": "h",
+              "size": 96,
+              "fit": {
+                "ref": 30,
+                "min": 0.6
+              },
+              "label": "تیتر"
+            }
+          ]
+        },
+        {
+          "id": "bodyx",
+          "type": "card",
+          "label": "بدنه",
+          "grow": true,
+          "bleed": true,
+          "bleedBottom": true,
+          "pad": [
+            56,
+            80,
+            290,
+            80
+          ],
+          "gap": 44,
+          "children": [
+            {
+              "id": "ty",
+              "type": "text",
+              "role": "lead",
+              "field": "b",
+              "label": "متن اصلی"
+            },
+            {
+              "id": "colp",
+              "type": "card",
+              "border": {
+                "w": 5,
+                "color": "gray"
+              },
+              "pad": [
+                30,
+                32
+              ],
+              "gap": 18,
+              "children": [
+                {
+                  "id": "tq",
+                  "type": "text",
+                  "role": "label",
+                  "size": 40,
+                  "weight": 800,
+                  "text": "پیش از شروع، سه چیز را روشن کنید"
+                },
+                {
+                  "id": "lir",
+                  "type": "list",
+                  "field": "no",
+                  "num": "bullet",
+                  "size": 36,
+                  "markerColor": "gray"
+                }
+              ]
+            },
+            {
+              "id": "fz",
+              "type": "footer",
+              "text": "mehrayan.com",
+              "pager": "none",
+              "i": 1,
+              "n": 0,
+              "push": true
+            }
+          ]
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "s4",
+      "name": "استوری ۴ · گام فرایند",
+      "family": "توالی استوری",
+      "stage": "اعتماد",
+      "format": "story",
+      "theme": "light",
+      "themes": [
+        "light",
+        "band"
+      ],
+      "gap": 0,
+      "fields": {
+        "kicker": "از مسئله تا پایلوت · ۴ از ۵",
+        "h": "گام ۳: اجرای محدود",
+        "b": "راهکار را پیش از اجرای گسترده، با گروهی کوچک و در بازه‌ای مشخص آزمایش می‌کنیم تا روشن شود چه چیزی کار می‌کند.",
+        "steps": "کشف | شناخت مخاطب، رفتار هدف و محدودیت‌ها\nطراحی | ساخت تجربه‌ای که رفتار هدف را آسان‌تر کند\nاجرای محدود | آزمایش با گروهی کوچک در بازه‌ای مشخص\nسنجش | مقایسهٔ شاخص‌ها با خط پایه\nتصمیم بعدی | گسترش، اصلاح یا توقف"
+      },
+      "fieldMeta": {
+        "kicker": {
+          "label": "برچسب بالای تیتر"
+        },
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 34
+        },
+        "b": {
+          "label": "متن اصلی",
+          "multi": true,
+          "max": 150
+        },
+        "steps": {
+          "label": "گام‌ها (هر خط: عنوان | توضیح)",
+          "multi": true
+        }
+      },
+      "blocks": [
+        {
+          "id": "top11",
+          "type": "card",
+          "label": "میدان تیتر",
+          "bg": "@band",
+          "color": "@bandText",
+          "bleed": true,
+          "bleedTop": true,
+          "pad": [
+            300,
+            80,
+            64,
+            80
+          ],
+          "gap": 44,
+          "children": [
+            {
+              "id": "r12",
+              "type": "row",
+              "children": [
+                {
+                  "id": "l13",
+                  "type": "logo",
+                  "set": "symbol",
+                  "h": 104
+                }
+              ]
+            },
+            {
+              "id": "k14",
+              "type": "text",
+              "role": "label",
+              "field": "kicker",
+              "marker": "square",
+              "markerColor": "@kickerMarker",
+              "color": "@bandText",
+              "align": "start",
+              "label": "برچسب",
+              "byTheme": {
+                "band": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "orange": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "navy": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                }
+              }
+            },
+            {
+              "id": "h15",
+              "type": "text",
+              "role": "h1",
+              "field": "h",
+              "size": 104,
+              "fit": {
+                "ref": 24,
+                "min": 0.6
+              },
+              "label": "تیتر"
+            }
+          ]
+        },
+        {
+          "id": "body16",
+          "type": "card",
+          "label": "بدنه",
+          "grow": true,
+          "bleed": true,
+          "bleedBottom": true,
+          "pad": [
+            56,
+            80,
+            290,
+            80
+          ],
+          "gap": 44,
+          "children": [
+            {
+              "id": "t17",
+              "type": "text",
+              "role": "body",
+              "field": "b",
+              "label": "متن اصلی"
+            },
+            {
+              "id": "st10",
+              "type": "list",
+              "field": "steps",
+              "num": "box",
+              "active": 3,
+              "showDesc": false,
+              "size": 38,
+              "itemGap": 18,
+              "label": "گام‌ها"
+            },
+            {
+              "id": "f18",
+              "type": "footer",
+              "text": "mehrayan.com",
+              "pager": "none",
+              "i": 1,
+              "n": 0,
+              "push": true
+            }
+          ]
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "s5",
+      "name": "استوری ۵ · دعوت به درخواست",
+      "family": "توالی استوری",
+      "stage": "درخواست",
+      "format": "story",
+      "theme": "band",
+      "themes": [
+        "band",
+        "light"
+      ],
+      "gap": 0,
+      "fields": {
+        "kicker": "گام بعد · ۵ از ۵",
+        "h": "مسئلهٔ سازمانتان را برای بررسی اولیه ثبت کنید",
+        "b": "مخاطب، رفتار مطلوب و محدودیت‌هایتان را در فرم بنویسید. تیم مهرایان درخواست را بررسی می‌کند و برای گفت‌وگوی اولیه هماهنگ می‌کند.",
+        "cta": "ثبت درخواست بررسی اولیه",
+        "url": "[نشانی فرم — پس از تأیید جایگزین شود]"
+      },
+      "fieldMeta": {
+        "kicker": {
+          "label": "برچسب بالای تیتر"
+        },
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 52
+        },
+        "b": {
+          "label": "متن اصلی",
+          "multi": true,
+          "max": 170
+        },
+        "cta": {
+          "label": "دعوت به اقدام"
+        },
+        "url": {
+          "label": "لینک مقصد",
+          "ltr": true,
+          "required": true,
+          "pattern": "^https://",
+          "patternMsg": "باید با https:// شروع شود"
+        }
+      },
+      "blocks": [
+        {
+          "id": "top1a",
+          "type": "card",
+          "label": "میدان تیتر",
+          "bg": "@band",
+          "color": "@bandText",
+          "bleed": true,
+          "bleedTop": true,
+          "pad": [
+            300,
+            80,
+            64,
+            80
+          ],
+          "gap": 44,
+          "children": [
+            {
+              "id": "r1b",
+              "type": "row",
+              "children": [
+                {
+                  "id": "l1c",
+                  "type": "logo",
+                  "set": "combo",
+                  "h": 120
+                }
+              ]
+            },
+            {
+              "id": "k1d",
+              "type": "text",
+              "role": "label",
+              "field": "kicker",
+              "marker": "square",
+              "markerColor": "@kickerMarker",
+              "color": "@bandText",
+              "align": "start",
+              "label": "برچسب",
+              "byTheme": {
+                "band": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "orange": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "navy": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                }
+              }
+            },
+            {
+              "id": "h1e",
+              "type": "text",
+              "role": "h1",
+              "field": "h",
+              "size": 96,
+              "fit": {
+                "ref": 30,
+                "min": 0.6
+              },
+              "label": "تیتر"
+            }
+          ]
+        },
+        {
+          "id": "body1f",
+          "type": "card",
+          "label": "بدنه",
+          "grow": true,
+          "bleed": true,
+          "bleedBottom": true,
+          "pad": [
+            56,
+            80,
+            290,
+            80
+          ],
+          "gap": 44,
+          "children": [
+            {
+              "id": "t1g",
+              "type": "text",
+              "role": "body",
+              "field": "b",
+              "label": "متن اصلی"
+            },
+            {
+              "id": "z19",
+              "type": "zone",
+              "h": 260,
+              "label": "محل استیکر لینک",
+              "field": "url",
+              "note": true
+            },
+            {
+              "id": "c1h",
+              "type": "text",
+              "role": "label",
+              "field": "cta",
+              "size": 44,
+              "weight": 800,
+              "bg": "@cta",
+              "color": "@ctaText",
+              "pad": [
+                26,
+                44
+              ],
+              "align": "start",
+              "label": "دکمهٔ دعوت"
+            },
+            {
+              "id": "f1i",
+              "type": "footer",
+              "text": "mehrayan.com",
+              "pager": "none",
+              "i": 1,
+              "n": 0,
+              "push": true
+            }
+          ]
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "c1",
+      "name": "کاروسل ۱ · جلد",
+      "family": "کاروسل شش‌اسلایدی",
+      "stage": "آگاهی",
+      "format": "post45",
+      "theme": "band",
+      "themes": [
+        "band",
+        "light"
+      ],
+      "gap": 0,
+      "fields": {
+        "kicker": "گیمیفیکیشن سازمانی",
+        "h": "امتیاز و جایزه، تغییر رفتار را تضمین نمی‌کند",
+        "b": "در شش اسلاید: گیمیفیکیشن سازمانی از کجا شروع می‌شود و چطور سنجیده می‌شود."
+      },
+      "fieldMeta": {
+        "kicker": {
+          "label": "برچسب بالای تیتر"
+        },
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 52
+        },
+        "b": {
+          "label": "متن اصلی",
+          "multi": true,
+          "max": 110
+        }
+      },
+      "blocks": [
+        {
+          "id": "top1j",
+          "type": "card",
+          "label": "میدان تیتر",
+          "bg": "@band",
+          "color": "@bandText",
+          "bleed": true,
+          "bleedTop": true,
+          "pad": [
+            96,
+            96,
+            64,
+            96
+          ],
+          "gap": 44,
+          "children": [
+            {
+              "id": "r1k",
+              "type": "row",
+              "children": [
+                {
+                  "id": "l1l",
+                  "type": "logo",
+                  "set": "combo",
+                  "h": 120
+                }
+              ]
+            },
+            {
+              "id": "k1m",
+              "type": "text",
+              "role": "label",
+              "field": "kicker",
+              "marker": "square",
+              "markerColor": "@kickerMarker",
+              "color": "@bandText",
+              "align": "start",
+              "label": "برچسب",
+              "byTheme": {
+                "band": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "orange": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "navy": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                }
+              }
+            },
+            {
+              "id": "h1n",
+              "type": "text",
+              "role": "h1",
+              "field": "h",
+              "size": 96,
+              "fit": {
+                "ref": 30,
+                "min": 0.6
+              },
+              "label": "تیتر"
+            }
+          ]
+        },
+        {
+          "id": "body1o",
+          "type": "card",
+          "label": "بدنه",
+          "grow": true,
+          "bleed": true,
+          "bleedBottom": true,
+          "pad": [
+            56,
+            96,
+            90,
+            96
+          ],
+          "gap": 44,
+          "children": [
+            {
+              "id": "t1p",
+              "type": "text",
+              "role": "body",
+              "field": "b",
+              "label": "متن اصلی"
+            },
+            {
+              "id": "f1q",
+              "type": "footer",
+              "text": "mehrayan.com",
+              "pager": "dots",
+              "i": 1,
+              "n": 6,
+              "push": true
+            }
+          ]
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "c2",
+      "name": "کاروسل ۲ · مسئلهٔ سازمان",
+      "family": "کاروسل شش‌اسلایدی",
+      "stage": "فهم",
+      "format": "post45",
+      "theme": "light",
+      "themes": [
+        "light",
+        "band"
+      ],
+      "gap": 0,
+      "fields": {
+        "kicker": "مسئله",
+        "h": "دوره برگزار می‌شود، اما رفتار تغییر نمی‌کند",
+        "b": "سازمان‌ها برای آموزش، معرفی سامانهٔ جدید یا مشارکت کارکنان هزینه می‌کنند؛ اما بعد از چند هفته، کار به روال قبل برمی‌گردد."
+      },
+      "fieldMeta": {
+        "kicker": {
+          "label": "برچسب بالای تیتر"
+        },
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 50
+        },
+        "b": {
+          "label": "متن اصلی",
+          "multi": true,
+          "max": 170
+        }
+      },
+      "blocks": [
+        {
+          "id": "top1r",
+          "type": "card",
+          "label": "میدان تیتر",
+          "bg": "@band",
+          "color": "@bandText",
+          "bleed": true,
+          "bleedTop": true,
+          "pad": [
+            96,
+            96,
+            64,
+            96
+          ],
+          "gap": 44,
+          "children": [
+            {
+              "id": "r1s",
+              "type": "row",
+              "children": [
+                {
+                  "id": "l1t",
+                  "type": "logo",
+                  "set": "symbol",
+                  "h": 104
+                }
+              ]
+            },
+            {
+              "id": "k1u",
+              "type": "text",
+              "role": "label",
+              "field": "kicker",
+              "marker": "square",
+              "markerColor": "@kickerMarker",
+              "color": "@bandText",
+              "align": "start",
+              "label": "برچسب",
+              "byTheme": {
+                "band": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "orange": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "navy": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                }
+              }
+            },
+            {
+              "id": "h1v",
+              "type": "text",
+              "role": "h1",
+              "field": "h",
+              "size": 80,
+              "fit": {
+                "ref": 30,
+                "min": 0.6
+              },
+              "label": "تیتر"
+            }
+          ]
+        },
+        {
+          "id": "body1w",
+          "type": "card",
+          "label": "بدنه",
+          "grow": true,
+          "bleed": true,
+          "bleedBottom": true,
+          "pad": [
+            56,
+            96,
+            90,
+            96
+          ],
+          "gap": 44,
+          "children": [
+            {
+              "id": "t1x",
+              "type": "text",
+              "role": "lead",
+              "field": "b",
+              "label": "متن اصلی"
+            },
+            {
+              "id": "f1y",
+              "type": "footer",
+              "text": "mehrayan.com",
+              "pager": "dots",
+              "i": 2,
+              "n": 6,
+              "push": true
+            }
+          ]
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "c3",
+      "name": "کاروسل ۳ · بینش",
+      "family": "کاروسل شش‌اسلایدی",
+      "stage": "فهم",
+      "format": "post45",
+      "theme": "light",
+      "themes": [
+        "light",
+        "band"
+      ],
+      "gap": 0,
+      "fields": {
+        "kicker": "بینش",
+        "h": "مشکل معمولاً کمبود انگیزه نیست؛ نبودِ مسیر روشن و بازخورد است",
+        "b": "وقتی افراد ندانند قدم بعدی چیست و پیشرفتشان را نبینند، حتی جایزهٔ خوب هم اثر کوتاهی دارد.",
+        "src": "[ارجاع پژوهشی در صورت استناد — در انتظار تأیید]"
+      },
+      "fieldMeta": {
+        "kicker": {
+          "label": "برچسب بالای تیتر"
+        },
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 70
+        },
+        "b": {
+          "label": "متن اصلی",
+          "multi": true,
+          "max": 140
+        },
+        "src": {
+          "label": "خط منبع"
+        }
+      },
+      "blocks": [
+        {
+          "id": "top1z",
+          "type": "card",
+          "label": "میدان تیتر",
+          "bg": "@band",
+          "color": "@bandText",
+          "bleed": true,
+          "bleedTop": true,
+          "pad": [
+            96,
+            96,
+            64,
+            96
+          ],
+          "gap": 44,
+          "children": [
+            {
+              "id": "r20",
+              "type": "row",
+              "children": [
+                {
+                  "id": "l21",
+                  "type": "logo",
+                  "set": "symbol",
+                  "h": 104
+                }
+              ]
+            },
+            {
+              "id": "k22",
+              "type": "text",
+              "role": "label",
+              "field": "kicker",
+              "marker": "square",
+              "markerColor": "@kickerMarker",
+              "color": "@bandText",
+              "align": "start",
+              "label": "برچسب",
+              "byTheme": {
+                "band": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "orange": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "navy": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                }
+              }
+            },
+            {
+              "id": "h23",
+              "type": "text",
+              "role": "h1",
+              "field": "h",
+              "size": 76,
+              "fit": {
+                "ref": 40,
+                "min": 0.6
+              },
+              "label": "تیتر"
+            }
+          ]
+        },
+        {
+          "id": "body24",
+          "type": "card",
+          "label": "بدنه",
+          "grow": true,
+          "bleed": true,
+          "bleedBottom": true,
+          "pad": [
+            56,
+            96,
+            90,
+            96
+          ],
+          "gap": 44,
+          "children": [
+            {
+              "id": "t25",
+              "type": "text",
+              "role": "body",
+              "field": "b",
+              "label": "متن اصلی"
+            },
+            {
+              "id": "s26",
+              "type": "text",
+              "role": "small",
+              "field": "src",
+              "prefix": "منبع: ",
+              "label": "منبع"
+            },
+            {
+              "id": "f27",
+              "type": "footer",
+              "text": "mehrayan.com",
+              "pager": "dots",
+              "i": 3,
+              "n": 6,
+              "push": true
+            }
+          ]
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "c4",
+      "name": "کاروسل ۴ · روش مهرایان",
+      "family": "کاروسل شش‌اسلایدی",
+      "stage": "اعتماد",
+      "format": "post45",
+      "theme": "light",
+      "themes": [
+        "light",
+        "band"
+      ],
+      "gap": 0,
+      "fields": {
+        "kicker": "روش مهرایان",
+        "h": "از مسئله تا پایلوت در پنج گام",
+        "steps": "کشف | شناخت مخاطب، رفتار هدف و محدودیت‌ها\nطراحی | ساخت تجربه‌ای که رفتار هدف را آسان‌تر کند\nاجرای محدود | آزمایش با گروهی کوچک در بازه‌ای مشخص\nسنجش | مقایسهٔ شاخص‌ها با خط پایه\nتصمیم بعدی | گسترش، اصلاح یا توقف"
+      },
+      "fieldMeta": {
+        "kicker": {
+          "label": "برچسب بالای تیتر"
+        },
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 36
+        },
+        "steps": {
+          "label": "گام‌ها (هر خط: عنوان | توضیح)",
+          "multi": true
+        }
+      },
+      "blocks": [
+        {
+          "id": "top29",
+          "type": "card",
+          "label": "میدان تیتر",
+          "bg": "@band",
+          "color": "@bandText",
+          "bleed": true,
+          "bleedTop": true,
+          "pad": [
+            96,
+            96,
+            64,
+            96
+          ],
+          "gap": 44,
+          "children": [
+            {
+              "id": "r2a",
+              "type": "row",
+              "children": [
+                {
+                  "id": "l2b",
+                  "type": "logo",
+                  "set": "symbol",
+                  "h": 104
+                }
+              ]
+            },
+            {
+              "id": "k2c",
+              "type": "text",
+              "role": "label",
+              "field": "kicker",
+              "marker": "square",
+              "markerColor": "@kickerMarker",
+              "color": "@bandText",
+              "align": "start",
+              "label": "برچسب",
+              "byTheme": {
+                "band": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "orange": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "navy": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                }
+              }
+            },
+            {
+              "id": "h2d",
+              "type": "text",
+              "role": "h1",
+              "field": "h",
+              "size": 72,
+              "fit": {
+                "ref": 30,
+                "min": 0.6
+              },
+              "label": "تیتر"
+            }
+          ]
+        },
+        {
+          "id": "body2e",
+          "type": "card",
+          "label": "بدنه",
+          "grow": true,
+          "bleed": true,
+          "bleedBottom": true,
+          "pad": [
+            56,
+            96,
+            90,
+            96
+          ],
+          "gap": 44,
+          "children": [
+            {
+              "id": "st28",
+              "type": "list",
+              "field": "steps",
+              "num": "box",
+              "active": 0,
+              "showDesc": true,
+              "size": 36,
+              "itemGap": 18,
+              "label": "گام‌ها"
+            },
+            {
+              "id": "f2f",
+              "type": "footer",
+              "text": "mehrayan.com",
+              "pager": "dots",
+              "i": 4,
+              "n": 6,
+              "push": true
+            }
+          ]
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "c5",
+      "name": "کاروسل ۵ · چارچوب سنجش",
+      "family": "کاروسل شش‌اسلایدی",
+      "stage": "اعتماد",
+      "format": "post45",
+      "theme": "light",
+      "themes": [
+        "light"
+      ],
+      "gap": 0,
+      "fields": {
+        "kicker": "چارچوب سنجش",
+        "h": "چه چیزی را می‌سنجیم؟",
+        "badge": "نمونهٔ فرضی — دادهٔ واقعی نیست",
+        "rows": "تکمیل دورهٔ آموزشی | نرخ تکمیل ماژول‌ها | [—] | [—]\nاستفاده از سامانهٔ جدید | کاربران فعال هفتگی | [—] | [—]\nکیفیت یادگیری | نمرهٔ آزمون پایانی | [—] | [—]",
+        "src": "جایگزین با مطالعهٔ موردی تأییدشده"
+      },
+      "fieldMeta": {
+        "kicker": {
+          "label": "برچسب بالای تیتر"
+        },
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 30
+        },
+        "badge": {
+          "label": "برچسب نمونه"
+        },
+        "rows": {
+          "label": "جدول (هر خط: ستون‌ها با |)",
+          "multi": true
+        },
+        "src": {
+          "label": "خط منبع"
+        }
+      },
+      "blocks": [
+        {
+          "id": "top2i",
+          "type": "card",
+          "label": "میدان تیتر",
+          "bg": "@band",
+          "color": "@bandText",
+          "bleed": true,
+          "bleedTop": true,
+          "pad": [
+            96,
+            96,
+            64,
+            96
+          ],
+          "gap": 44,
+          "children": [
+            {
+              "id": "r2j",
+              "type": "row",
+              "children": [
+                {
+                  "id": "l2k",
+                  "type": "logo",
+                  "set": "symbol",
+                  "h": 104
+                }
+              ]
+            },
+            {
+              "id": "k2l",
+              "type": "text",
+              "role": "label",
+              "field": "kicker",
+              "marker": "square",
+              "markerColor": "@kickerMarker",
+              "color": "@bandText",
+              "align": "start",
+              "label": "برچسب",
+              "byTheme": {
+                "band": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "orange": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "navy": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                }
+              }
+            },
+            {
+              "id": "h2m",
+              "type": "text",
+              "role": "h1",
+              "field": "h",
+              "size": 72,
+              "fit": {
+                "ref": 30,
+                "min": 0.6
+              },
+              "label": "تیتر"
+            }
+          ]
+        },
+        {
+          "id": "body2n",
+          "type": "card",
+          "label": "بدنه",
+          "grow": true,
+          "bleed": true,
+          "bleedBottom": true,
+          "pad": [
+            56,
+            96,
+            90,
+            96
+          ],
+          "gap": 44,
+          "children": [
+            {
+              "id": "bd2g",
+              "type": "text",
+              "role": "label",
+              "size": 34,
+              "weight": 800,
+              "field": "badge",
+              "bg": "subtle",
+              "color": "navy",
+              "border": {
+                "w": 5,
+                "color": "navy"
+              },
+              "pad": [
+                10,
+                24
+              ],
+              "align": "start",
+              "label": "برچسب نمونه"
+            },
+            {
+              "id": "tb2h",
+              "type": "table",
+              "field": "rows",
+              "headers": [
+                "رفتار هدف",
+                "شاخص",
+                "خط پایه",
+                "پس از پایلوت"
+              ],
+              "size": 30,
+              "cellBg": "white",
+              "cellText": "navy",
+              "phBg": "subtle",
+              "label": "جدول"
+            },
+            {
+              "id": "s2o",
+              "type": "text",
+              "role": "small",
+              "field": "src",
+              "prefix": "منبع: ",
+              "label": "منبع"
+            },
+            {
+              "id": "f2p",
+              "type": "footer",
+              "text": "mehrayan.com",
+              "pager": "dots",
+              "i": 5,
+              "n": 6,
+              "push": true
+            }
+          ]
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "c6",
+      "name": "کاروسل ۶ · دعوت",
+      "family": "کاروسل شش‌اسلایدی",
+      "stage": "درخواست",
+      "format": "post45",
+      "theme": "band",
+      "themes": [
+        "band",
+        "light"
+      ],
+      "gap": 0,
+      "fields": {
+        "kicker": "گام بعد",
+        "h": "برای گفت‌وگوی اولیه درخواست بفرستید",
+        "b": "اگر در سازمانتان رفتاری هست که می‌خواهید تغییر کند، از تعریف دقیق همان رفتار شروع می‌کنیم.",
+        "cta": "ثبت درخواست · لینک در بیو",
+        "url": "[نشانی فرم — پس از تأیید جایگزین شود]"
+      },
+      "fieldMeta": {
+        "kicker": {
+          "label": "برچسب بالای تیتر"
+        },
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 44
+        },
+        "b": {
+          "label": "متن اصلی",
+          "multi": true,
+          "max": 130
+        },
+        "cta": {
+          "label": "دعوت به اقدام"
+        },
+        "url": {
+          "label": "لینک مقصد",
+          "ltr": true,
+          "required": true,
+          "pattern": "^https://",
+          "patternMsg": "باید با https:// شروع شود"
+        }
+      },
+      "blocks": [
+        {
+          "id": "top2r",
+          "type": "card",
+          "label": "میدان تیتر",
+          "bg": "@band",
+          "color": "@bandText",
+          "bleed": true,
+          "bleedTop": true,
+          "pad": [
+            96,
+            96,
+            64,
+            96
+          ],
+          "gap": 44,
+          "children": [
+            {
+              "id": "r2s",
+              "type": "row",
+              "children": [
+                {
+                  "id": "l2t",
+                  "type": "logo",
+                  "set": "combo",
+                  "h": 120
+                }
+              ]
+            },
+            {
+              "id": "k2u",
+              "type": "text",
+              "role": "label",
+              "field": "kicker",
+              "marker": "square",
+              "markerColor": "@kickerMarker",
+              "color": "@bandText",
+              "align": "start",
+              "label": "برچسب",
+              "byTheme": {
+                "band": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "orange": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "navy": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                }
+              }
+            },
+            {
+              "id": "h2v",
+              "type": "text",
+              "role": "h1",
+              "field": "h",
+              "size": 88,
+              "fit": {
+                "ref": 30,
+                "min": 0.6
+              },
+              "label": "تیتر"
+            }
+          ]
+        },
+        {
+          "id": "body2w",
+          "type": "card",
+          "label": "بدنه",
+          "grow": true,
+          "bleed": true,
+          "bleedBottom": true,
+          "pad": [
+            56,
+            96,
+            90,
+            96
+          ],
+          "gap": 44,
+          "children": [
+            {
+              "id": "t2x",
+              "type": "text",
+              "role": "body",
+              "field": "b",
+              "label": "متن اصلی"
+            },
+            {
+              "id": "u2q",
+              "type": "text",
+              "role": "small",
+              "field": "url",
+              "ltr": true,
+              "border": {
+                "w": 3,
+                "color": "@text",
+                "style": "dashed"
+              },
+              "pad": [
+                12,
+                22
+              ],
+              "align": "start",
+              "label": "نشانی فرم"
+            },
+            {
+              "id": "c2y",
+              "type": "text",
+              "role": "label",
+              "field": "cta",
+              "size": 44,
+              "weight": 800,
+              "bg": "@cta",
+              "color": "@ctaText",
+              "pad": [
+                26,
+                44
+              ],
+              "align": "start",
+              "label": "دکمهٔ دعوت"
+            },
+            {
+              "id": "f2z",
+              "type": "footer",
+              "text": "mehrayan.com",
+              "pager": "dots",
+              "i": 6,
+              "n": 6,
+              "push": true
+            }
+          ]
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "r1",
+      "name": "کاور ریلز · تعریف",
+      "family": "کاور ریلز",
+      "stage": "آگاهی",
+      "format": "reel",
+      "theme": "light",
+      "themes": [
+        "light",
+        "orange"
+      ],
+      "gap": 56,
+      "justify": "center",
+      "fields": {
+        "kicker": "تعریف",
+        "h": "گیمیفیکیشن یعنی چه؟"
+      },
+      "fieldMeta": {
+        "kicker": {
+          "label": "برچسب بالای تیتر"
+        },
+        "h": {
+          "label": "تیتر",
+          "multi": true
+        }
+      },
+      "blocks": [
+        {
+          "id": "k30",
+          "type": "text",
+          "role": "label",
+          "field": "kicker",
+          "marker": "square",
+          "markerColor": "@kickerMarker",
+          "color": "@bandText",
+          "align": "start",
+          "label": "برچسب",
+          "byTheme": {
+            "band": {
+              "bg": "white",
+              "color": "navy",
+              "pad": [
+                10,
+                26
+              ]
+            },
+            "orange": {
+              "bg": "white",
+              "color": "navy",
+              "pad": [
+                10,
+                26
+              ]
+            },
+            "navy": {
+              "bg": "white",
+              "color": "navy",
+              "pad": [
+                10,
+                26
+              ]
+            }
+          },
+          "size": 44
+        },
+        {
+          "id": "h31",
+          "type": "text",
+          "role": "h1",
+          "field": "h",
+          "size": 150,
+          "fit": {
+            "ref": 14,
+            "min": 0.6
+          },
+          "label": "تیتر",
+          "lh": 1.3
+        },
+        {
+          "id": "bar32",
+          "type": "spacer",
+          "h": 18,
+          "wpx": 180,
+          "bg": "@bar",
+          "label": "نوار"
+        }
+      ],
+      "floats": [
+        {
+          "id": "l33",
+          "type": "logo",
+          "set": "symbol",
+          "h": 104,
+          "float": {
+            "x": 96,
+            "y": 300,
+            "ax": "right"
+          }
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "name": "کاور ریلز · کاربرد",
+      "family": "کاور ریلز",
+      "stage": "فهم",
+      "format": "reel",
+      "theme": "orange",
+      "themes": [
+        "orange",
+        "light"
+      ],
+      "gap": 56,
+      "justify": "center",
+      "fields": {
+        "kicker": "کاربرد در سازمان",
+        "h": "گیمیفیکیشن در آموزش کارکنان"
+      },
+      "fieldMeta": {
+        "kicker": {
+          "label": "برچسب بالای تیتر"
+        },
+        "h": {
+          "label": "تیتر",
+          "multi": true
+        }
+      },
+      "blocks": [
+        {
+          "id": "k34",
+          "type": "text",
+          "role": "label",
+          "field": "kicker",
+          "marker": "square",
+          "markerColor": "@kickerMarker",
+          "color": "@bandText",
+          "align": "start",
+          "label": "برچسب",
+          "byTheme": {
+            "band": {
+              "bg": "white",
+              "color": "navy",
+              "pad": [
+                10,
+                26
+              ]
+            },
+            "orange": {
+              "bg": "white",
+              "color": "navy",
+              "pad": [
+                10,
+                26
+              ]
+            },
+            "navy": {
+              "bg": "white",
+              "color": "navy",
+              "pad": [
+                10,
+                26
+              ]
+            }
+          },
+          "size": 44
+        },
+        {
+          "id": "h35",
+          "type": "text",
+          "role": "h1",
+          "field": "h",
+          "size": 150,
+          "fit": {
+            "ref": 14,
+            "min": 0.6
+          },
+          "label": "تیتر",
+          "lh": 1.3
+        },
+        {
+          "id": "bar36",
+          "type": "spacer",
+          "h": 18,
+          "wpx": 180,
+          "bg": "@bar",
+          "label": "نوار"
+        }
+      ],
+      "floats": [
+        {
+          "id": "l37",
+          "type": "logo",
+          "set": "symbol",
+          "h": 104,
+          "float": {
+            "x": 96,
+            "y": 300,
+            "ax": "right"
+          }
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "name": "کاور ریلز · گفت‌وگوی تخصصی",
+      "family": "کاور ریلز",
+      "stage": "اعتماد",
+      "format": "reel",
+      "theme": "navy",
+      "themes": [
+        "navy",
+        "light"
+      ],
+      "gap": 56,
+      "justify": "start",
+      "fields": {
+        "kicker": "گفت‌وگوی تخصصی",
+        "h": "[نام مهمان] دربارهٔ طراحی برای رفتار",
+        "img": ""
+      },
+      "fieldMeta": {
+        "kicker": {
+          "label": "برچسب بالای تیتر"
+        },
+        "h": {
+          "label": "تیتر",
+          "multi": true
+        },
+        "img": {
+          "label": "تصویر",
+          "type": "image"
+        }
+      },
+      "blocks": [],
+      "floats": [
+        {
+          "id": "img38",
+          "type": "image",
+          "field": "img",
+          "float": {
+            "x": 0,
+            "y": 0,
+            "w": 1080,
+            "h": 1920,
+            "under": true
+          },
+          "label": "تصویر",
+          "note": "پرتره در محیط واقعی گفت‌وگو؛ دوربین هم‌تراز چشم (برندبوک ۸٫۱)",
+          "phTitle": "تصویر مستند لازم است"
+        },
+        {
+          "id": "cd39",
+          "type": "card",
+          "float": {
+            "x": 0,
+            "y": 1060,
+            "w": 1080
+          },
+          "bg": "@band",
+          "color": "@bandText",
+          "pad": [
+            64,
+            96,
+            72,
+            96
+          ],
+          "gap": 32,
+          "label": "نوار تیتر",
+          "children": [
+            {
+              "id": "k3a",
+              "type": "text",
+              "role": "label",
+              "field": "kicker",
+              "marker": "square",
+              "markerColor": "@kickerMarker",
+              "color": "@bandText",
+              "align": "start",
+              "label": "برچسب",
+              "byTheme": {
+                "band": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "orange": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "navy": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                }
+              }
+            },
+            {
+              "id": "h3b",
+              "type": "text",
+              "role": "h1",
+              "field": "h",
+              "size": 112,
+              "fit": {
+                "ref": 20,
+                "min": 0.6
+              },
+              "label": "تیتر"
+            }
+          ]
+        },
+        {
+          "id": "l3c",
+          "type": "logo",
+          "set": "symbol",
+          "h": 104,
+          "float": {
+            "x": 96,
+            "y": 300,
+            "ax": "right"
+          }
+        }
+      ]
+    },
+    {
+      "id": "p1",
+      "name": "سنجاق ۱ · مسئله‌ای که حل می‌کنیم",
+      "family": "سنجاق‌شده‌ها",
+      "stage": "آگاهی",
+      "format": "post45",
+      "theme": "light",
+      "themes": [
+        "light",
+        "band"
+      ],
+      "gap": 0,
+      "fields": {
+        "kicker": "۱ · مسئله",
+        "h": "مهرایان چه مسئله‌ای را حل می‌کند؟",
+        "b": "وقتی سازمان رفتاری را می‌خواهد که با بخشنامه و جلسه به‌دست نمی‌آید، تجربه‌ای طراحی می‌کنیم که آن رفتار را آسان‌تر و قابل‌سنجش کند."
+      },
+      "fieldMeta": {
+        "kicker": {
+          "label": "برچسب بالای تیتر"
+        },
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 40
+        },
+        "b": {
+          "label": "متن اصلی",
+          "multi": true,
+          "max": 170
+        }
+      },
+      "blocks": [
+        {
+          "id": "top3d",
+          "type": "card",
+          "label": "میدان تیتر",
+          "bg": "@band",
+          "color": "@bandText",
+          "bleed": true,
+          "bleedTop": true,
+          "pad": [
+            96,
+            96,
+            64,
+            96
+          ],
+          "gap": 44,
+          "children": [
+            {
+              "id": "r3e",
+              "type": "row",
+              "children": [
+                {
+                  "id": "l3f",
+                  "type": "logo",
+                  "set": "combo",
+                  "h": 120
+                }
+              ]
+            },
+            {
+              "id": "k3g",
+              "type": "text",
+              "role": "label",
+              "field": "kicker",
+              "marker": "square",
+              "markerColor": "@kickerMarker",
+              "color": "@bandText",
+              "align": "start",
+              "label": "برچسب",
+              "byTheme": {
+                "band": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "orange": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "navy": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                }
+              }
+            },
+            {
+              "id": "h3h",
+              "type": "text",
+              "role": "h1",
+              "field": "h",
+              "size": 96,
+              "fit": {
+                "ref": 28,
+                "min": 0.6
+              },
+              "label": "تیتر"
+            }
+          ]
+        },
+        {
+          "id": "body3i",
+          "type": "card",
+          "label": "بدنه",
+          "grow": true,
+          "bleed": true,
+          "bleedBottom": true,
+          "pad": [
+            56,
+            96,
+            90,
+            96
+          ],
+          "gap": 44,
+          "children": [
+            {
+              "id": "t3j",
+              "type": "text",
+              "role": "body",
+              "field": "b",
+              "label": "متن اصلی"
+            },
+            {
+              "id": "f3k",
+              "type": "footer",
+              "text": "mehrayan.com",
+              "pager": "none",
+              "i": 1,
+              "n": 0,
+              "push": true
+            }
+          ]
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "p2",
+      "name": "سنجاق ۲ · گیمیفیکیشن چیست",
+      "family": "سنجاق‌شده‌ها",
+      "stage": "فهم",
+      "format": "post45",
+      "theme": "light",
+      "themes": [
+        "light",
+        "band"
+      ],
+      "gap": 0,
+      "fields": {
+        "kicker": "۲ · مفهوم",
+        "h": "گیمیفیکیشن چیست و چه چیزی نیست؟",
+        "b": "طراحی برای یک رفتار هدف؛ نه افزودن امتیاز و جایزه به کارهای روزمره."
+      },
+      "fieldMeta": {
+        "kicker": {
+          "label": "برچسب بالای تیتر"
+        },
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 40
+        },
+        "b": {
+          "label": "متن اصلی",
+          "multi": true,
+          "max": 120
+        }
+      },
+      "blocks": [
+        {
+          "id": "top3l",
+          "type": "card",
+          "label": "میدان تیتر",
+          "bg": "@band",
+          "color": "@bandText",
+          "bleed": true,
+          "bleedTop": true,
+          "pad": [
+            96,
+            96,
+            64,
+            96
+          ],
+          "gap": 44,
+          "children": [
+            {
+              "id": "r3m",
+              "type": "row",
+              "children": [
+                {
+                  "id": "l3n",
+                  "type": "logo",
+                  "set": "combo",
+                  "h": 120
+                }
+              ]
+            },
+            {
+              "id": "k3o",
+              "type": "text",
+              "role": "label",
+              "field": "kicker",
+              "marker": "square",
+              "markerColor": "@kickerMarker",
+              "color": "@bandText",
+              "align": "start",
+              "label": "برچسب",
+              "byTheme": {
+                "band": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "orange": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "navy": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                }
+              }
+            },
+            {
+              "id": "h3p",
+              "type": "text",
+              "role": "h1",
+              "field": "h",
+              "size": 96,
+              "fit": {
+                "ref": 28,
+                "min": 0.6
+              },
+              "label": "تیتر"
+            }
+          ]
+        },
+        {
+          "id": "body3q",
+          "type": "card",
+          "label": "بدنه",
+          "grow": true,
+          "bleed": true,
+          "bleedBottom": true,
+          "pad": [
+            56,
+            96,
+            90,
+            96
+          ],
+          "gap": 44,
+          "children": [
+            {
+              "id": "t3r",
+              "type": "text",
+              "role": "lead",
+              "field": "b",
+              "label": "متن اصلی"
+            },
+            {
+              "id": "f3s",
+              "type": "footer",
+              "text": "mehrayan.com",
+              "pager": "none",
+              "i": 1,
+              "n": 0,
+              "push": true
+            }
+          ]
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "p3",
+      "name": "سنجاق ۳ · از مسئله تا پایلوت",
+      "family": "سنجاق‌شده‌ها",
+      "stage": "اعتماد",
+      "format": "post45",
+      "theme": "light",
+      "themes": [
+        "light",
+        "band"
+      ],
+      "gap": 0,
+      "fields": {
+        "kicker": "۳ · روش",
+        "h": "از مسئله تا پایلوت",
+        "steps": "کشف | شناخت مخاطب، رفتار هدف و محدودیت‌ها\nطراحی | ساخت تجربه‌ای که رفتار هدف را آسان‌تر کند\nاجرای محدود | آزمایش با گروهی کوچک در بازه‌ای مشخص\nسنجش | مقایسهٔ شاخص‌ها با خط پایه\nتصمیم بعدی | گسترش، اصلاح یا توقف"
+      },
+      "fieldMeta": {
+        "kicker": {
+          "label": "برچسب بالای تیتر"
+        },
+        "h": {
+          "label": "تیتر",
+          "multi": true
+        },
+        "steps": {
+          "label": "گام‌ها (هر خط: عنوان | توضیح)",
+          "multi": true
+        }
+      },
+      "blocks": [
+        {
+          "id": "top3u",
+          "type": "card",
+          "label": "میدان تیتر",
+          "bg": "@band",
+          "color": "@bandText",
+          "bleed": true,
+          "bleedTop": true,
+          "pad": [
+            96,
+            96,
+            64,
+            96
+          ],
+          "gap": 44,
+          "children": [
+            {
+              "id": "r3v",
+              "type": "row",
+              "children": [
+                {
+                  "id": "l3w",
+                  "type": "logo",
+                  "set": "combo",
+                  "h": 120
+                }
+              ]
+            },
+            {
+              "id": "k3x",
+              "type": "text",
+              "role": "label",
+              "field": "kicker",
+              "marker": "square",
+              "markerColor": "@kickerMarker",
+              "color": "@bandText",
+              "align": "start",
+              "label": "برچسب",
+              "byTheme": {
+                "band": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "orange": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "navy": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                }
+              }
+            },
+            {
+              "id": "h3y",
+              "type": "text",
+              "role": "h1",
+              "field": "h",
+              "size": 96,
+              "fit": {
+                "ref": 22,
+                "min": 0.6
+              },
+              "label": "تیتر"
+            }
+          ]
+        },
+        {
+          "id": "body3z",
+          "type": "card",
+          "label": "بدنه",
+          "grow": true,
+          "bleed": true,
+          "bleedBottom": true,
+          "pad": [
+            56,
+            96,
+            90,
+            96
+          ],
+          "gap": 44,
+          "children": [
+            {
+              "id": "st3t",
+              "type": "list",
+              "field": "steps",
+              "num": "box",
+              "active": 0,
+              "showDesc": true,
+              "size": 36,
+              "itemGap": 18,
+              "label": "گام‌ها"
+            },
+            {
+              "id": "f40",
+              "type": "footer",
+              "text": "mehrayan.com",
+              "pager": "none",
+              "i": 1,
+              "n": 0,
+              "push": true
+            }
+          ]
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "p1i",
+      "name": "سنجاق ۱ · نسخهٔ تصویرمحور",
+      "family": "سنجاق‌شده‌ها",
+      "stage": "آگاهی",
+      "format": "post45",
+      "theme": "light",
+      "themes": [
+        "light",
+        "band"
+      ],
+      "gap": 0,
+      "fields": {
+        "kicker": "۱ · مسئله",
+        "h": "مهرایان چه مسئله‌ای را حل می‌کند؟",
+        "b": "وقتی سازمان رفتاری را می‌خواهد که با بخشنامه و جلسه به‌دست نمی‌آید، تجربه‌ای طراحی می‌کنیم که آن رفتار را آسان‌تر و قابل‌سنجش کند.",
+        "img": ""
+      },
+      "fieldMeta": {
+        "kicker": {
+          "label": "برچسب بالای تیتر"
+        },
+        "h": {
+          "label": "تیتر",
+          "multi": true
+        },
+        "b": {
+          "label": "متن اصلی",
+          "multi": true
+        },
+        "img": {
+          "label": "تصویر",
+          "type": "image"
+        }
+      },
+      "blocks": [
+        {
+          "id": "img49",
+          "type": "image",
+          "field": "img",
+          "h": 380,
+          "bleed": true,
+          "bleedTop": true,
+          "label": "تصویر",
+          "note": "آدم‌های واقعی در محیط کار واقعی، نور طبیعی، بدون ژست ساختگی — برندبوک ۷٫۱ تا ۷٫۳",
+          "phTitle": "تصویر مستند لازم است"
+        },
+        {
+          "id": "top41",
+          "type": "card",
+          "label": "میدان تیتر",
+          "bg": "@band",
+          "color": "@bandText",
+          "bleed": true,
+          "bleedTop": false,
+          "pad": [
+            64,
+            96,
+            64,
+            96
+          ],
+          "gap": 44,
+          "children": [
+            {
+              "id": "k42",
+              "type": "text",
+              "role": "label",
+              "field": "kicker",
+              "marker": "square",
+              "markerColor": "@kickerMarker",
+              "color": "@bandText",
+              "align": "start",
+              "label": "برچسب",
+              "byTheme": {
+                "band": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "orange": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "navy": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                }
+              }
+            },
+            {
+              "id": "h43",
+              "type": "text",
+              "role": "h1",
+              "field": "h",
+              "size": 72,
+              "fit": {
+                "ref": 28,
+                "min": 0.6
+              },
+              "label": "تیتر"
+            }
+          ]
+        },
+        {
+          "id": "body44",
+          "type": "card",
+          "label": "بدنه",
+          "grow": true,
+          "bleed": true,
+          "bleedBottom": true,
+          "pad": [
+            56,
+            96,
+            90,
+            96
+          ],
+          "gap": 44,
+          "children": [
+            {
+              "id": "r45",
+              "type": "row",
+              "children": [
+                {
+                  "id": "l46",
+                  "type": "logo",
+                  "set": "symbol",
+                  "h": 104
+                }
+              ]
+            },
+            {
+              "id": "t47",
+              "type": "text",
+              "role": "body",
+              "field": "b",
+              "label": "متن اصلی"
+            },
+            {
+              "id": "f48",
+              "type": "footer",
+              "text": "mehrayan.com",
+              "pager": "none",
+              "i": 1,
+              "n": 0,
+              "push": true
+            }
+          ]
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "hl",
+      "name": "کاور هایلایت",
+      "family": "هایلایت و اجزا",
+      "stage": "فهم",
+      "format": "highlight",
+      "theme": "orange",
+      "themes": [
+        "orange",
+        "neutral",
+        "navy"
+      ],
+      "gap": 40,
+      "justify": "center",
+      "fields": {
+        "word": "مفهوم"
+      },
+      "fieldMeta": {
+        "word": {
+          "label": "واژه",
+          "max": 8
+        }
+      },
+      "blocks": [
+        {
+          "id": "sq4a",
+          "type": "spacer",
+          "h": 96,
+          "wpx": 96,
+          "bg": "@bar",
+          "align": "center",
+          "label": "مربع"
+        },
+        {
+          "id": "w4b",
+          "type": "text",
+          "role": "display",
+          "field": "word",
+          "size": 190,
+          "fit": {
+            "ref": 4,
+            "min": 0.6
+          },
+          "align": "center",
+          "label": "واژه"
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "q1",
+      "name": "کارت نقل‌قول",
+      "family": "هایلایت و اجزا",
+      "stage": "اعتماد",
+      "format": "post45",
+      "theme": "neutral",
+      "themes": [
+        "neutral",
+        "light"
+      ],
+      "gap": 0,
+      "fields": {
+        "kicker": "تعریف مرجع",
+        "h": "گیمیفیکیشن یعنی به‌کارگیری عناصر طراحی بازی در زمینه‌هایی که بازی نیستند.",
+        "src": "Deterding و همکاران، ۲۰۱۱ (ترجمهٔ آزاد)"
+      },
+      "fieldMeta": {
+        "kicker": {
+          "label": "برچسب بالای تیتر"
+        },
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 120
+        },
+        "src": {
+          "label": "خط منبع",
+          "required": true
+        }
+      },
+      "blocks": [
+        {
+          "id": "top4c",
+          "type": "card",
+          "label": "میدان تیتر",
+          "bg": "@band",
+          "color": "@bandText",
+          "bleed": true,
+          "bleedTop": true,
+          "pad": [
+            96,
+            96,
+            64,
+            96
+          ],
+          "gap": 44,
+          "children": [
+            {
+              "id": "r4d",
+              "type": "row",
+              "children": [
+                {
+                  "id": "l4e",
+                  "type": "logo",
+                  "set": "symbol",
+                  "h": 104
+                }
+              ]
+            },
+            {
+              "id": "k4f",
+              "type": "text",
+              "role": "label",
+              "field": "kicker",
+              "marker": "square",
+              "markerColor": "@kickerMarker",
+              "color": "@bandText",
+              "align": "start",
+              "label": "برچسب",
+              "byTheme": {
+                "band": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "orange": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "navy": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                }
+              }
+            },
+            {
+              "id": "h4g",
+              "type": "text",
+              "role": "h1",
+              "field": "h",
+              "size": 72,
+              "fit": {
+                "ref": 60,
+                "min": 0.6
+              },
+              "label": "تیتر"
+            }
+          ]
+        },
+        {
+          "id": "body4h",
+          "type": "card",
+          "label": "بدنه",
+          "grow": true,
+          "bleed": true,
+          "bleedBottom": true,
+          "pad": [
+            56,
+            96,
+            90,
+            96
+          ],
+          "gap": 44,
+          "children": [
+            {
+              "id": "s4i",
+              "type": "text",
+              "role": "small",
+              "field": "src",
+              "prefix": "منبع: ",
+              "label": "منبع",
+              "emptyText": "منبع الزامی است — این کارت بدون منبع منتشر نمی‌شود",
+              "emptyColor": "red",
+              "border": {
+                "w": 3,
+                "color": "red"
+              },
+              "pad": [
+                8,
+                18
+              ],
+              "align": "start"
+            },
+            {
+              "id": "f4j",
+              "type": "footer",
+              "text": "mehrayan.com",
+              "pager": "none",
+              "i": 1,
+              "n": 0,
+              "push": true
+            }
+          ]
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "q2",
+      "name": "کارت آمار",
+      "family": "هایلایت و اجزا",
+      "stage": "اعتماد",
+      "format": "post45",
+      "theme": "light",
+      "themes": [
+        "light",
+        "neutral"
+      ],
+      "gap": 0,
+      "fields": {
+        "kicker": "یک عدد، یک منبع",
+        "h": "[عدد]٪",
+        "b": "[توضیح یک‌جمله‌ای آمار؛ فقط با منبع قابل‌استناد]",
+        "src": ""
+      },
+      "fieldMeta": {
+        "kicker": {
+          "label": "برچسب بالای تیتر"
+        },
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 10
+        },
+        "b": {
+          "label": "متن اصلی",
+          "multi": true
+        },
+        "src": {
+          "label": "خط منبع",
+          "required": true
+        }
+      },
+      "blocks": [
+        {
+          "id": "top4k",
+          "type": "card",
+          "label": "میدان تیتر",
+          "bg": "@band",
+          "color": "@bandText",
+          "bleed": true,
+          "bleedTop": true,
+          "pad": [
+            96,
+            96,
+            64,
+            96
+          ],
+          "gap": 44,
+          "children": [
+            {
+              "id": "r4l",
+              "type": "row",
+              "children": [
+                {
+                  "id": "l4m",
+                  "type": "logo",
+                  "set": "symbol",
+                  "h": 104
+                }
+              ]
+            },
+            {
+              "id": "k4n",
+              "type": "text",
+              "role": "label",
+              "field": "kicker",
+              "marker": "square",
+              "markerColor": "@kickerMarker",
+              "color": "@bandText",
+              "align": "start",
+              "label": "برچسب",
+              "byTheme": {
+                "band": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "orange": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                },
+                "navy": {
+                  "bg": "white",
+                  "color": "navy",
+                  "pad": [
+                    10,
+                    26
+                  ]
+                }
+              }
+            },
+            {
+              "id": "h4o",
+              "type": "text",
+              "role": "h1",
+              "field": "h",
+              "size": 220,
+              "fit": {
+                "ref": 8,
+                "min": 0.6
+              },
+              "label": "تیتر"
+            }
+          ]
+        },
+        {
+          "id": "body4p",
+          "type": "card",
+          "label": "بدنه",
+          "grow": true,
+          "bleed": true,
+          "bleedBottom": true,
+          "pad": [
+            56,
+            96,
+            90,
+            96
+          ],
+          "gap": 44,
+          "children": [
+            {
+              "id": "t4q",
+              "type": "text",
+              "role": "lead",
+              "field": "b",
+              "label": "متن اصلی"
+            },
+            {
+              "id": "s4r",
+              "type": "text",
+              "role": "small",
+              "field": "src",
+              "prefix": "منبع: ",
+              "label": "منبع",
+              "emptyText": "منبع الزامی است — این کارت بدون منبع منتشر نمی‌شود",
+              "emptyColor": "red",
+              "border": {
+                "w": 3,
+                "color": "red"
+              },
+              "pad": [
+                8,
+                18
+              ],
+              "align": "start"
+            },
+            {
+              "id": "f4s",
+              "type": "footer",
+              "text": "mehrayan.com",
+              "pager": "none",
+              "i": 1,
+              "n": 0,
+              "push": true
+            }
+          ]
+        }
+      ],
+      "floats": []
+    },
+    {
+      "id": "lt",
+      "name": "زیرنویس گوینده (لوئر ترد)",
+      "family": "هایلایت و اجزا",
+      "stage": "اعتماد",
+      "format": "video",
+      "theme": "navy",
+      "themes": [
+        "navy"
+      ],
+      "gap": 0,
+      "fields": {
+        "h": "[نام گوینده]",
+        "b": "[سمت و سازمان — پس از تأیید مهمان]",
+        "img": ""
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "نام گوینده",
+          "multi": true,
+          "max": 28
+        },
+        "b": {
+          "label": "سمت و سازمان",
+          "multi": true,
+          "max": 48
+        },
+        "img": {
+          "label": "تصویر",
+          "type": "image"
+        }
+      },
+      "blocks": [],
+      "floats": [
+        {
+          "id": "img4t",
+          "type": "image",
+          "field": "img",
+          "float": {
+            "x": 0,
+            "y": 0,
+            "w": 1920,
+            "h": 1080,
+            "under": true
+          },
+          "label": "فریم ویدیو",
+          "note": "فریم ویدیو (۱۶:۹، کمینه ۱۰۸۰p، دوربین هم‌تراز — برندبوک ۸٫۱ و ۸٫۲)",
+          "phTitle": "فریم ویدیو"
+        },
+        {
+          "id": "lt4u",
+          "type": "row",
+          "float": {
+            "x": 120,
+            "y": 190,
+            "ax": "right",
+            "ay": "bottom"
+          },
+          "gap": 0,
+          "alignItems": "stretch",
+          "label": "زیرنویس",
+          "children": [
+            {
+              "id": "bar4v",
+              "type": "spacer",
+              "wpx": 22,
+              "h": 10,
+              "bg": "orange",
+              "align": "stretch"
+            },
+            {
+              "id": "cd4w",
+              "type": "card",
+              "bg": "white",
+              "color": "navy",
+              "pad": [
+                26,
+                52,
+                28,
+                44
+              ],
+              "gap": 4,
+              "children": [
+                {
+                  "id": "n4x",
+                  "type": "text",
+                  "role": "h2",
+                  "field": "h",
+                  "size": 60,
+                  "fit": {
+                    "ref": 18
+                  },
+                  "label": "نام"
+                },
+                {
+                  "id": "r4y",
+                  "type": "text",
+                  "role": "body",
+                  "field": "b",
+                  "size": 38,
+                  "label": "سمت"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "l4z",
+          "type": "logo",
+          "set": "symbol",
+          "h": 104,
+          "float": {
+            "x": 120,
+            "y": 80
+          }
+        }
+      ]
+    },
+    {
+      "id": "ec",
+      "name": "کارت پایانی ویدیو",
+      "family": "هایلایت و اجزا",
+      "stage": "درخواست",
+      "format": "video",
+      "theme": "orange",
+      "themes": [
+        "orange",
+        "light"
+      ],
+      "gap": 40,
+      "justify": "center",
+      "pad": [
+        120,
+        140,
+        190,
+        900
+      ],
+      "fields": {
+        "h": "برای گفت‌وگوی اولیه درخواست بفرستید",
+        "b": "مسئلهٔ سازمانتان را ثبت کنید؛ از تعریف رفتار هدف شروع می‌کنیم.",
+        "cta": "mehrayan.com"
+      },
+      "fieldMeta": {
+        "h": {
+          "label": "تیتر",
+          "multi": true,
+          "max": 40
+        },
+        "b": {
+          "label": "متن اصلی",
+          "multi": true,
+          "max": 90
+        },
+        "cta": {
+          "label": "دعوت به اقدام"
+        }
+      },
+      "blocks": [
+        {
+          "id": "l50",
+          "type": "logo",
+          "set": "combo",
+          "h": 120
+        },
+        {
+          "id": "h51",
+          "type": "text",
+          "role": "h1",
+          "field": "h",
+          "size": 84,
+          "fit": {
+            "ref": 26,
+            "min": 0.6
+          },
+          "label": "تیتر"
+        },
+        {
+          "id": "t52",
+          "type": "text",
+          "role": "body",
+          "field": "b",
+          "label": "متن اصلی",
+          "size": 46,
+          "weight": 700
+        },
+        {
+          "id": "c53",
+          "type": "text",
+          "role": "label",
+          "field": "cta",
+          "size": 44,
+          "weight": 800,
+          "bg": "@cta",
+          "color": "@ctaText",
+          "pad": [
+            26,
+            44
+          ],
+          "align": "start",
+          "label": "دکمهٔ دعوت",
+          "ltr": true,
+          "font": "latin"
+        }
+      ],
+      "floats": [
+        {
+          "id": "z54",
+          "type": "zone",
+          "float": {
+            "x": 120,
+            "y": 170,
+            "w": 680
+          },
+          "h": 382,
+          "label": "عنصر ویدیوی بعدی یوتیوب"
+        },
+        {
+          "id": "z55",
+          "type": "zone",
+          "float": {
+            "x": 120,
+            "y": 600,
+            "w": 300
+          },
+          "h": 300,
+          "round": true,
+          "label": "اشتراک"
+        }
+      ]
+    }
+  ],
+  "sets": [
+    {
+      "id": "set-story",
+      "name": "استوری پنج‌قابی: «آیا گیمیفیکیشن برای سازمان شما مناسب است؟»",
+      "kind": "story",
+      "ids": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "note": "تعریف ← پرسش ← تردید رایج ← روش ← درخواست"
+    },
+    {
+      "id": "set-car",
+      "name": "کاروسل شش‌اسلایدی",
+      "kind": "carousel",
+      "ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6"
+      ],
+      "note": "اسلاید ۵ نمونهٔ فرضی است تا مطالعهٔ موردی تأییدشده برسد."
+    },
+    {
+      "id": "set-cov",
+      "name": "کاورهای ریلز",
+      "kind": "covers",
+      "ids": [
+        "r1",
+        "r2",
+        "r3"
+      ]
+    },
+    {
+      "id": "set-launch",
+      "name": "مجموعهٔ شروع · سه پست سنجاق‌شده",
+      "kind": "launch",
+      "ids": [
+        "p1",
+        "p2",
+        "p3"
+      ]
+    },
+    {
+      "id": "set-parts",
+      "name": "اجزای ویدیو",
+      "kind": "video",
+      "ids": [
+        "lt",
+        "ec"
+      ]
+    }
+  ],
+  "grid": {
+    "ids": [
+      "p1",
+      "p2",
+      "p3",
+      "r1",
+      "r2",
+      "r3",
+      "c1",
+      "q1",
+      "q2"
+    ],
+    "pinned": 3
+  },
+  "highlights": {
+    "template": "hl",
+    "items": [
+      {
+        "text": "مفهوم",
+        "theme": "orange"
+      },
+      {
+        "text": "روش",
+        "theme": "neutral"
+      },
+      {
+        "text": "پرسش‌ها",
+        "theme": "orange"
+      },
+      {
+        "text": "ویدیوکست",
+        "theme": "navy"
+      },
+      {
+        "text": "درخواست",
+        "theme": "neutral"
+      }
+    ]
+  },
+  "rules": [
+    {
+      "topic": "رنگ اصلی",
+      "decision": "نارنجی ‎#F15B29 و خاکستری ‎#8D8E8E با سفید؛ نارنجی «تا جای ممکن». در «الف» نارنجی نشانه است و در «ب» زمینه.",
+      "source": "۳٫۱ · ص ۲۴"
+    },
+    {
+      "topic": "ته‌رنگ و گرادیان",
+      "decision": "ته‌رنگ و گرادیان رنگ‌های پالت مجاز نیست؛ همهٔ سطح‌ها توپر.",
+      "source": "۳٫۱ · ص ۲۴"
+    },
+    {
+      "topic": "رنگ پشتیبان",
+      "decision": "حداکثر سه رنگ پشتیبان کنار نارنجی. navy/900 از سیستم طراحی به‌جای زغالی؛ باید تأیید شود.",
+      "source": "۱٫۳ · ص ۱۶؛ ۳٫۲ · ص ۲۵"
+    },
+    {
+      "topic": "فونت فارسی",
+      "decision": "برندبوک IRANSans را تعیین کرده؛ به تصمیم تیم «کلمه» جایگزین شده. برندبوک باید به‌روز شود.",
+      "source": "۴٫۱ · ص ۲۷"
+    },
+    {
+      "topic": "فونت لاتین",
+      "decision": "Open Sans",
+      "source": "۴٫۲ · ص ۲۸"
+    },
+    {
+      "topic": "زمینهٔ لوگو",
+      "decision": "لوگوی رنگی فقط روی سفید؛ نسخهٔ سفید روی نارنجی و سرمه‌ای. استودیو این را خودکار از رنگ زمینه انتخاب می‌کند.",
+      "source": "۱٫۱۱ · ص ۱۷"
+    },
+    {
+      "topic": "تغییر لوگو",
+      "decision": "بازطراحی، کشیدن، تغییر رنگ و سایه ممنوع؛ فقط فایل رسمی با نسبت اصلی.",
+      "source": "۱٫۱۳ · ص ۱۹"
+    },
+    {
+      "topic": "فاصلهٔ امن و کمینه",
+      "decision": "X حدود یک‌سوم ارتفاع نشانه (تقریبی). نشانه ۳۰px و ترکیبی ۱۱۰×۳۴px کمینهٔ دیجیتال.",
+      "source": "۱٫۸ و ۱٫۹ · ص ۱۳–۱۴"
+    },
+    {
+      "topic": "شبکهٔ پست",
+      "decision": "حاشیهٔ امن ۴۰px، نام سایت در یک گوشه، نشانگر صفحه در گوشهٔ دیگر؛ آینه‌شده برای راست‌به‌چپ.",
+      "source": "۶٫۱ · ص ۳۵"
+    },
+    {
+      "topic": "عکاسی",
+      "decision": "لحظهٔ واقعی، نور طبیعی، بدون ژست؛ متن روی عکس شلوغ نمی‌نشیند.",
+      "source": "۷٫۱–۷٫۳ · ص ۳۷–۳۹"
+    },
+    {
+      "topic": "ویدیو",
+      "decision": "دوربین هم‌تراز، کمینه ۱۰۸۰p، تضاد بالا، بدون چشمک؛ گرافیک بیرون از نوار زمانی یوتیوب.",
+      "source": "۸٫۱–۸٫۴ · ص ۴۱–۴۴"
+    },
+    {
+      "topic": "ابهام: لوگو روی نارنجی",
+      "decision": "۱٫۳ بژ روی نارنجی، ۱٫۱۱ «Light Mode» روی نارنجی؛ کدام فایل مجاز است؟",
+      "source": "ابهام"
+    },
+    {
+      "topic": "ابهام: دو کد بژ",
+      "decision": "‎#F5F3DC در ۱٫۳ و ‎#F5F4DC در ۳٫۲.",
+      "source": "ابهام"
+    },
+    {
+      "topic": "ابهام: ته‌رنگ در سیستم طراحی",
+      "decision": "سیستم طراحی ده پلهٔ نارنجی دارد اما ۳٫۱ ته‌رنگ را منع می‌کند.",
+      "source": "ابهام"
+    },
+    {
+      "topic": "ابهام: متن الگوی کپی‌شده",
+      "decision": "صفحهٔ «هدف برند» از Dell و «۱۸۰ کشور» حرف می‌زند.",
+      "source": "ابهام"
+    }
+  ],
+  "checklist": [
+    "نشانهٔ مستقل سفید و SVG همهٔ لوگوها",
+    "تأیید جایگزینی IRANSans با کلمه و مجوز وب آن",
+    "نشانی نهایی فرم درخواست",
+    "اولویت خدمات برای انتشار",
+    "هر ادعا، عدد و منبع کارت‌های آمار و نقل‌قول",
+    "مطالعهٔ موردی برای جایگزینی اسلاید «نمونهٔ فرضی»",
+    "نام، سمت و تصویر مهمان با رضایت کتبی",
+    "نام و لوگوی مشتری فقط با مجوز",
+    "تأیید ناظر گرافیک برای navy/900 و لوگوی سفید",
+    "بازبینی نهایی نگارش فارسی، نیم‌فاصله و ارقام"
+  ],
+  "checklistState": {}
+}
