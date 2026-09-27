@@ -59,7 +59,7 @@ export class GitHub {
   constructor(cfg) { this.c = Object.assign({}, cfg, { token: clean(cfg && cfg.token), owner: String(cfg && cfg.owner || "").trim(), repo: String(cfg && cfg.repo || "").trim() }); }
   get ok() { return !!(this.c && this.c.owner && this.c.repo && this.c.token); }
   api(path) { return `https://api.github.com/repos/${this.c.owner}/${this.c.repo}/${path}`; }
-  headers() { return { Authorization: `Bearer ${this.c.token}`, Accept: "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28" }; }
+  headers() { return { Authorization: `Bearer ${this.c.token}`, Accept: "application/vnd.github+json" }; }
   async test() {
     const r = await gfetch(this.api(""), { headers: this.headers() });
     if (!r.ok) throw new Error(r.status === 404 ? "مخزن پیدا نشد یا توکن به آن دسترسی ندارد" : r.status === 401 ? "توکن نامعتبر است" : "خطای " + r.status);
