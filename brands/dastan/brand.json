@@ -1,0 +1,1948 @@
+{
+ "id": "dastan",
+ "name": "دستان",
+ "url": "",
+ "status": "مسیر ورود اینستاگرام · یلدا ۱۴۰۵",
+ "voice": "گرم، صادق، خانوادگی؛ از زبان یاس و پدرش. ساده و بی‌ادعا. بدون ادعای درمانی، بدون آمار بی‌منبع، بدون تحقیر عسل‌های دیگر. آموزش آرام، نه افشاگری.",
+ "cta": "برای فهرست انتظار یلدا «کوه» را کامنت کنید",
+ "clearSpace": 0.25,
+ "colors": [
+  {
+   "id": "green",
+   "name": "سبز جنگلی",
+   "hex": "#1F5A48"
+  },
+  {
+   "id": "deep",
+   "name": "سبز تیره",
+   "hex": "#17463A"
+  },
+  {
+   "id": "honey",
+   "name": "عسلی",
+   "hex": "#F2B233"
+  },
+  {
+   "id": "off",
+   "name": "سفید گرم",
+   "hex": "#F6F0E4"
+  },
+  {
+   "id": "paper",
+   "name": "کاغذ",
+   "hex": "#FDFBF6"
+  },
+  {
+   "id": "sand",
+   "name": "شنی",
+   "hex": "#EDE6D6"
+  },
+  {
+   "id": "madder",
+   "name": "روناسی (فقط تأکید کوچک)",
+   "hex": "#8C3546"
+  },
+  {
+   "id": "walnut",
+   "name": "گردویی",
+   "hex": "#5A3B26"
+  },
+  {
+   "id": "ink",
+   "name": "جوهر",
+   "hex": "#1E2B26"
+  },
+  {
+   "id": "soft",
+   "name": "خاکستری گرم",
+   "hex": "#5E665F"
+  }
+ ],
+ "gradients": [],
+ "fonts": [
+  {
+   "family": "Peyda",
+   "weight": 400,
+   "src": "../geekbazi/fonts/PeydaNoEn-Regular.woff2"
+  },
+  {
+   "family": "Peyda",
+   "weight": 500,
+   "src": "../geekbazi/fonts/PeydaNoEn-Medium.woff2"
+  },
+  {
+   "family": "Peyda",
+   "weight": 700,
+   "src": "../geekbazi/fonts/PeydaNoEn-Bold.woff2"
+  },
+  {
+   "family": "Peyda",
+   "weight": 800,
+   "src": "../geekbazi/fonts/PeydaNoEn-ExtraBold.woff2"
+  },
+  {
+   "family": "Peyda",
+   "weight": 900,
+   "src": "../geekbazi/fonts/PeydaNoEn-Black.woff2"
+  },
+  {
+   "family": "Open Sans",
+   "weight": 400,
+   "src": "../_shared/fonts/open-sans-400.woff2"
+  },
+  {
+   "family": "Open Sans",
+   "weight": 600,
+   "src": "../_shared/fonts/open-sans-600.woff2"
+  },
+  {
+   "family": "Open Sans",
+   "weight": 700,
+   "src": "../_shared/fonts/open-sans-700.woff2"
+  }
+ ],
+ "fontRoles": {
+  "display": "Peyda",
+  "body": "Peyda",
+  "latin": "Open Sans"
+ },
+ "type": {
+  "display": {
+   "size": 150,
+   "weight": 900,
+   "lh": 1.25,
+   "font": "display"
+  },
+  "h1": {
+   "size": 96,
+   "weight": 800,
+   "lh": 1.35,
+   "font": "display"
+  },
+  "h2": {
+   "size": 72,
+   "weight": 800,
+   "lh": 1.35,
+   "font": "display"
+  },
+  "lead": {
+   "size": 48,
+   "weight": 400,
+   "lh": 1.7,
+   "font": "body"
+  },
+  "body": {
+   "size": 42,
+   "weight": 400,
+   "lh": 1.8,
+   "font": "body"
+  },
+  "small": {
+   "size": 34,
+   "weight": 500,
+   "lh": 1.6,
+   "font": "body"
+  },
+  "label": {
+   "size": 36,
+   "weight": 700,
+   "lh": 1.3,
+   "font": "body"
+  }
+ },
+ "logos": [
+  {
+   "id": "wm_green",
+   "name": "واژه‌نشان دستان · سبز",
+   "src": "logos/wordmark-green.svg",
+   "note": "روی کاغذ، شنی و عسلی"
+  },
+  {
+   "id": "wm_light",
+   "name": "واژه‌نشان دستان · روشن",
+   "src": "logos/wordmark-light.svg",
+   "note": "روی سبز"
+  },
+  {
+   "id": "mtn_green",
+   "name": "نشانهٔ کوه · سبز",
+   "src": "logos/mountain-green.svg",
+   "note": "برای جاهای کوچک و مربع"
+  },
+  {
+   "id": "mtn_light",
+   "name": "نشانهٔ کوه · روشن",
+   "src": "logos/mountain-light.svg",
+   "note": "روی سبز"
+  },
+  {
+   "id": "jar_green",
+   "name": "نشانهٔ شیشه · سبز",
+   "src": "logos/jar-green.svg",
+   "note": "نشانهٔ اصلی بسته‌بندی"
+  },
+  {
+   "id": "jar_light",
+   "name": "نشانهٔ شیشه · روشن",
+   "src": "logos/jar-light.svg",
+   "note": "روی سبز"
+  }
+ ],
+ "logoSets": {
+  "wordmark": {
+   "light": "wm_green",
+   "dark": "wm_light"
+  },
+  "symbol": {
+   "light": "mtn_green",
+   "dark": "mtn_light"
+  },
+  "jar": {
+   "light": "jar_green",
+   "dark": "jar_light"
+  }
+ },
+ "themes": [
+  {
+   "id": "paper",
+   "name": "کاغذ",
+   "bg": "off",
+   "text": "green",
+   "muted": "soft",
+   "accent": "honey",
+   "line": "soft",
+   "card": "sand",
+   "cardText": "green",
+   "cta": "green",
+   "ctaText": "off",
+   "pill": "sand",
+   "chip": "sand",
+   "chipText": "green",
+   "band": "green",
+   "bandText": "off",
+   "kickerText": "green",
+   "kickerMarker": "honey",
+   "bar": "honey"
+  },
+  {
+   "id": "green",
+   "name": "سبز",
+   "bg": "green",
+   "text": "off",
+   "muted": "sand",
+   "accent": "honey",
+   "line": "sand",
+   "card": "deep",
+   "cardText": "off",
+   "cta": "honey",
+   "ctaText": "green",
+   "pill": "deep",
+   "chip": "deep",
+   "chipText": "off",
+   "band": "off",
+   "bandText": "green",
+   "kickerText": "off",
+   "kickerMarker": "honey",
+   "bar": "honey"
+  },
+  {
+   "id": "sand",
+   "name": "شنی",
+   "bg": "sand",
+   "text": "green",
+   "muted": "soft",
+   "accent": "honey",
+   "line": "soft",
+   "card": "off",
+   "cardText": "green",
+   "cta": "green",
+   "ctaText": "off",
+   "pill": "off",
+   "chip": "off",
+   "chipText": "green",
+   "band": "green",
+   "bandText": "off",
+   "kickerText": "green",
+   "kickerMarker": "honey",
+   "bar": "honey"
+  },
+  {
+   "id": "honey",
+   "name": "عسلی",
+   "bg": "honey",
+   "text": "deep",
+   "muted": "deep",
+   "accent": "deep",
+   "line": "deep",
+   "card": "off",
+   "cardText": "deep",
+   "cta": "deep",
+   "ctaText": "off",
+   "pill": "off",
+   "chip": "off",
+   "chipText": "deep",
+   "band": "deep",
+   "bandText": "off",
+   "kickerText": "deep",
+   "kickerMarker": "deep",
+   "bar": "deep"
+  }
+ ],
+ "templates": [
+  {
+   "id": "p1",
+   "name": "سنجاق 1 · یک‌سوم کوه",
+   "family": "سه سنجاق = یک کوه",
+   "stage": "آگاهی",
+   "format": "reel",
+   "theme": "paper",
+   "themes": [
+    "paper",
+    "green"
+   ],
+   "fields": {
+    "h": "۵ ثانیه وقت داری.\nچی نوشته؟",
+    "ridge": "graphics/ridge-1-light.svg",
+    "ridgeD": "graphics/ridge-1-dark.svg"
+   },
+   "fieldMeta": {
+    "h": {
+     "label": "تیتر",
+     "multi": true,
+     "max": 32
+    },
+    "ridge": {
+     "label": "کوه (روشن)",
+     "type": "image"
+    },
+    "ridgeD": {
+     "label": "کوه (تیره)",
+     "type": "image"
+    }
+   },
+   "blocks": [
+    {
+     "id": "t1",
+     "type": "text",
+     "role": "h1",
+     "field": "h",
+     "size": 124,
+     "fit": {
+      "ref": 16,
+      "min": 0.6
+     },
+     "label": "تیتر",
+     "lh": 1.35
+    }
+   ],
+   "floats": [
+    {
+     "id": "i2",
+     "type": "image",
+     "field": "ridge",
+     "h": 1920,
+     "wpx": 1080,
+     "fit": "fill",
+     "float": {
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1920,
+      "under": true
+     },
+     "label": "یک‌سوم کوه",
+     "byTheme": {
+      "green": {
+       "field": "ridgeD"
+      }
+     }
+    }
+   ],
+   "justify": "start",
+   "gap": 24,
+   "pad": [
+    330,
+    96,
+    300,
+    96
+   ],
+   "note": "پست ۱ · سنجاق"
+  },
+  {
+   "id": "p2",
+   "name": "سنجاق 2 · یک‌سوم کوه",
+   "family": "سه سنجاق = یک کوه",
+   "stage": "اعتماد",
+   "format": "reel",
+   "theme": "paper",
+   "themes": [
+    "paper",
+    "green"
+   ],
+   "fields": {
+    "h": "از بابام پرسیدم",
+    "ridge": "graphics/ridge-2-light.svg",
+    "ridgeD": "graphics/ridge-2-dark.svg"
+   },
+   "fieldMeta": {
+    "h": {
+     "label": "تیتر",
+     "multi": true,
+     "max": 32
+    },
+    "ridge": {
+     "label": "کوه (روشن)",
+     "type": "image"
+    },
+    "ridgeD": {
+     "label": "کوه (تیره)",
+     "type": "image"
+    }
+   },
+   "blocks": [
+    {
+     "id": "t3",
+     "type": "text",
+     "role": "h1",
+     "field": "h",
+     "size": 112,
+     "fit": {
+      "ref": 16,
+      "min": 0.6
+     },
+     "label": "تیتر",
+     "lh": 1.35
+    }
+   ],
+   "floats": [
+    {
+     "id": "i4",
+     "type": "image",
+     "field": "ridge",
+     "h": 1920,
+     "wpx": 1080,
+     "fit": "fill",
+     "float": {
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1920,
+      "under": true
+     },
+     "label": "یک‌سوم کوه",
+     "byTheme": {
+      "green": {
+       "field": "ridgeD"
+      }
+     }
+    }
+   ],
+   "justify": "start",
+   "gap": 24,
+   "pad": [
+    330,
+    96,
+    300,
+    96
+   ],
+   "note": "پست ۲ · سنجاق"
+  },
+  {
+   "id": "p3",
+   "name": "سنجاق 3 · یک‌سوم کوه",
+   "family": "سه سنجاق = یک کوه",
+   "stage": "آگاهی",
+   "format": "reel",
+   "theme": "paper",
+   "themes": [
+    "paper",
+    "green"
+   ],
+   "fields": {
+    "h": "بابام تا آخر دانشگاه\nکوچ‌نشین بود",
+    "ridge": "graphics/ridge-3-light.svg",
+    "ridgeD": "graphics/ridge-3-dark.svg"
+   },
+   "fieldMeta": {
+    "h": {
+     "label": "تیتر",
+     "multi": true,
+     "max": 32
+    },
+    "ridge": {
+     "label": "کوه (روشن)",
+     "type": "image"
+    },
+    "ridgeD": {
+     "label": "کوه (تیره)",
+     "type": "image"
+    }
+   },
+   "blocks": [
+    {
+     "id": "t5",
+     "type": "text",
+     "role": "h1",
+     "field": "h",
+     "size": 116,
+     "fit": {
+      "ref": 16,
+      "min": 0.6
+     },
+     "label": "تیتر",
+     "lh": 1.35
+    }
+   ],
+   "floats": [
+    {
+     "id": "i6",
+     "type": "image",
+     "field": "ridge",
+     "h": 1920,
+     "wpx": 1080,
+     "fit": "fill",
+     "float": {
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1920,
+      "under": true
+     },
+     "label": "یک‌سوم کوه",
+     "byTheme": {
+      "green": {
+       "field": "ridgeD"
+      }
+     }
+    }
+   ],
+   "justify": "start",
+   "gap": 24,
+   "pad": [
+    330,
+    96,
+    300,
+    96
+   ],
+   "note": "پست ۳ · سنجاق"
+  },
+  {
+   "id": "r1",
+   "name": "کاور ریلز · از بابا بپرس",
+   "family": "کاور ریلز",
+   "stage": "اعتماد",
+   "format": "reel",
+   "theme": "green",
+   "themes": [
+    "green",
+    "paper"
+   ],
+   "fields": {
+    "kicker": "از بابا بپرس · ۰۱",
+    "h": "چرا عسل شکرک می‌زنه؟"
+   },
+   "fieldMeta": {
+    "kicker": {
+     "label": "برچسب و شماره"
+    },
+    "h": {
+     "label": "تیتر",
+     "multi": true,
+     "max": 40
+    }
+   },
+   "blocks": [
+    {
+     "id": "t7",
+     "type": "text",
+     "role": "label",
+     "field": "kicker",
+     "marker": "square",
+     "markerColor": "@accent",
+     "align": "start",
+     "label": "برچسب",
+     "size": 44
+    },
+    {
+     "id": "t8",
+     "type": "text",
+     "role": "h1",
+     "field": "h",
+     "size": 130,
+     "fit": {
+      "ref": 14,
+      "min": 0.6
+     },
+     "label": "پرسش",
+     "lh": 1.3
+    },
+    {
+     "id": "s9",
+     "type": "spacer",
+     "h": 18,
+     "wpx": 180,
+     "bg": "@bar",
+     "label": "نوار عسلی"
+    }
+   ],
+   "floats": [
+    {
+     "id": "l10",
+     "type": "logo",
+     "set": "symbol",
+     "h": 150,
+     "float": {
+      "x": 96,
+      "y": 300,
+      "ax": "right"
+     }
+    }
+   ],
+   "justify": "center",
+   "gap": 56
+  },
+  {
+   "id": "r2",
+   "name": "کاور ریلز · شیشهٔ ۴۰ روزه",
+   "family": "کاور ریلز",
+   "stage": "آگاهی",
+   "format": "reel",
+   "theme": "paper",
+   "themes": [
+    "paper",
+    "green",
+    "sand"
+   ],
+   "fields": {
+    "day": "روز ۲۰",
+    "of": "از ۴۰",
+    "h": "عسل با زمان چه رنگی می‌شه؟"
+   },
+   "fieldMeta": {
+    "day": {
+     "label": "روز"
+    },
+    "of": {
+     "label": "از چند"
+    },
+    "h": {
+     "label": "تیتر",
+     "multi": true,
+     "max": 34
+    }
+   },
+   "blocks": [
+    {
+     "id": "l11",
+     "type": "logo",
+     "set": "jar",
+     "h": 360,
+     "align": "center"
+    },
+    {
+     "id": "t12",
+     "type": "text",
+     "role": "display",
+     "field": "day",
+     "size": 200,
+     "align": "center",
+     "label": "روز"
+    },
+    {
+     "id": "t13",
+     "type": "text",
+     "role": "h2",
+     "field": "of",
+     "align": "center",
+     "color": "@muted",
+     "label": "از"
+    },
+    {
+     "id": "t14",
+     "type": "text",
+     "role": "lead",
+     "field": "h",
+     "align": "center",
+     "textAlign": "center",
+     "label": "تیتر"
+    }
+   ],
+   "floats": [],
+   "justify": "center",
+   "gap": 28
+  },
+  {
+   "id": "r3",
+   "name": "کاور ریلز · عمومی",
+   "family": "کاور ریلز",
+   "stage": "فهم",
+   "format": "reel",
+   "theme": "paper",
+   "themes": [
+    "paper",
+    "green",
+    "sand",
+    "honey"
+   ],
+   "fields": {
+    "kicker": "پشت صحنه",
+    "h": "[تیتر ریلز]"
+   },
+   "fieldMeta": {
+    "kicker": {
+     "label": "برچسب"
+    },
+    "h": {
+     "label": "تیتر",
+     "multi": true,
+     "max": 40
+    }
+   },
+   "blocks": [
+    {
+     "id": "t15",
+     "type": "text",
+     "role": "label",
+     "field": "kicker",
+     "marker": "square",
+     "markerColor": "@accent",
+     "align": "start",
+     "label": "برچسب",
+     "size": 44
+    },
+    {
+     "id": "t16",
+     "type": "text",
+     "role": "h1",
+     "field": "h",
+     "size": 140,
+     "fit": {
+      "ref": 14,
+      "min": 0.6
+     },
+     "label": "تیتر",
+     "lh": 1.3
+    },
+    {
+     "id": "s17",
+     "type": "spacer",
+     "h": 18,
+     "wpx": 180,
+     "bg": "@bar",
+     "label": "نوار عسلی"
+    }
+   ],
+   "floats": [
+    {
+     "id": "l18",
+     "type": "logo",
+     "set": "symbol",
+     "h": 130,
+     "float": {
+      "x": 96,
+      "y": 300,
+      "ax": "right"
+     }
+    }
+   ],
+   "justify": "center",
+   "gap": 56
+  },
+  {
+   "id": "c1",
+   "name": "کاروسل ۱ · جلد با عکس",
+   "family": "کاروسل خانوادگی",
+   "stage": "آگاهی",
+   "format": "post45",
+   "theme": "green",
+   "themes": [
+    "green",
+    "paper"
+   ],
+   "fields": {
+    "photo": "",
+    "h": "بابام تا آخر دانشگاه کوچ‌نشین بود"
+   },
+   "fieldMeta": {
+    "photo": {
+     "label": "عکس قدیمی خانواده",
+     "type": "image"
+    },
+    "h": {
+     "label": "تیتر",
+     "multi": true,
+     "max": 44
+    }
+   },
+   "blocks": [
+    {
+     "id": "i19",
+     "type": "image",
+     "field": "photo",
+     "h": 760,
+     "bleed": true,
+     "bleedTop": true,
+     "label": "عکس",
+     "note": "یک عکس قدیمی از خانواده یا از بابا کنار کندوها",
+     "phTitle": "عکس خانوادگی"
+    },
+    {
+     "id": "t20",
+     "type": "text",
+     "role": "h1",
+     "field": "h",
+     "size": 84,
+     "fit": {
+      "ref": 26,
+      "min": 0.6
+     },
+     "label": "تیتر"
+    },
+    {
+     "id": "r23",
+     "type": "row",
+     "children": [
+      {
+       "id": "l21",
+       "type": "logo",
+       "set": "wordmark",
+       "h": 96
+      },
+      {
+       "id": "s22",
+       "type": "spacer",
+       "h": 1,
+       "flex": true
+      }
+     ],
+     "push": true
+    }
+   ],
+   "floats": [],
+   "gap": 48,
+   "pad": [
+    96,
+    96,
+    90,
+    96
+   ]
+  },
+  {
+   "id": "c2",
+   "name": "کاروسل ۲ · عکس و شرح",
+   "family": "کاروسل خانوادگی",
+   "stage": "فهم",
+   "format": "post45",
+   "theme": "paper",
+   "themes": [
+    "paper",
+    "sand",
+    "green"
+   ],
+   "fields": {
+    "photo": "",
+    "cap": "مادربزرگ و عمه‌ها با پشم گوسفندهای خودشون قالی می‌بافن.",
+    "i": "۲"
+   },
+   "fieldMeta": {
+    "photo": {
+     "label": "عکس",
+     "type": "image"
+    },
+    "cap": {
+     "label": "شرح",
+     "multi": true,
+     "max": 110
+    },
+    "i": {
+     "label": "شمارهٔ اسلاید"
+    }
+   },
+   "blocks": [
+    {
+     "id": "i24",
+     "type": "image",
+     "field": "photo",
+     "grow": true,
+     "label": "عکس",
+     "phTitle": "عکس لازم است",
+     "note": "قالی، دست‌ها، کندو یا آشپزخانه"
+    },
+    {
+     "id": "t25",
+     "type": "text",
+     "role": "lead",
+     "field": "cap",
+     "label": "شرح"
+    },
+    {
+     "id": "r28",
+     "type": "row",
+     "children": [
+      {
+       "id": "t26",
+       "type": "text",
+       "role": "small",
+       "field": "i",
+       "color": "@muted",
+       "label": "شماره"
+      },
+      {
+       "id": "l27",
+       "type": "logo",
+       "set": "symbol",
+       "h": 64
+      }
+     ],
+     "alignItems": "center"
+    }
+   ],
+   "floats": [],
+   "gap": 36
+  },
+  {
+   "id": "c3",
+   "name": "کاروسل ۳ · یک جمله",
+   "family": "کاروسل خانوادگی",
+   "stage": "فهم",
+   "format": "post45",
+   "theme": "sand",
+   "themes": [
+    "sand",
+    "paper",
+    "green",
+    "honey"
+   ],
+   "fields": {
+    "kicker": "اسم",
+    "h": "در شاهنامه، دستان همان زال است؛ پسری که سیمرغ در کوه بزرگش کرد."
+   },
+   "fieldMeta": {
+    "kicker": {
+     "label": "برچسب"
+    },
+    "h": {
+     "label": "تیتر",
+     "multi": true,
+     "max": 80
+    }
+   },
+   "blocks": [
+    {
+     "id": "t29",
+     "type": "text",
+     "role": "label",
+     "field": "kicker",
+     "marker": "square",
+     "markerColor": "@accent",
+     "align": "start",
+     "label": "برچسب"
+    },
+    {
+     "id": "t30",
+     "type": "text",
+     "role": "h2",
+     "field": "h",
+     "size": 76,
+     "fit": {
+      "ref": 40,
+      "min": 0.6
+     },
+     "label": "جمله"
+    },
+    {
+     "id": "s31",
+     "type": "spacer",
+     "h": 18,
+     "wpx": 180,
+     "bg": "@bar",
+     "label": "نوار عسلی"
+    },
+    {
+     "id": "r34",
+     "type": "row",
+     "children": [
+      {
+       "id": "s32",
+       "type": "spacer",
+       "h": 1,
+       "flex": true
+      },
+      {
+       "id": "l33",
+       "type": "logo",
+       "set": "symbol",
+       "h": 80
+      }
+     ],
+     "push": true
+    }
+   ],
+   "floats": [],
+   "gap": 48
+  },
+  {
+   "id": "c4",
+   "name": "کاروسل ۴ · پایان و دعوت",
+   "family": "کاروسل خانوادگی",
+   "stage": "درخواست",
+   "format": "post45",
+   "theme": "green",
+   "themes": [
+    "green",
+    "paper"
+   ],
+   "fields": {
+    "h": "اولین شیشه شب یلدا باز می‌شه.",
+    "b": "دنبال کن تا ببینی توش چیه."
+   },
+   "fieldMeta": {
+    "h": {
+     "label": "تیتر",
+     "multi": true,
+     "max": 40
+    },
+    "b": {
+     "label": "متن",
+     "multi": true,
+     "max": 70
+    }
+   },
+   "blocks": [
+    {
+     "id": "l35",
+     "type": "logo",
+     "set": "wordmark",
+     "h": 200,
+     "align": "center"
+    },
+    {
+     "id": "s36",
+     "type": "spacer",
+     "h": 40
+    },
+    {
+     "id": "t37",
+     "type": "text",
+     "role": "h2",
+     "field": "h",
+     "align": "center",
+     "textAlign": "center",
+     "label": "تیتر"
+    },
+    {
+     "id": "t38",
+     "type": "text",
+     "role": "lead",
+     "field": "b",
+     "align": "center",
+     "textAlign": "center",
+     "color": "@muted",
+     "label": "متن"
+    },
+    {
+     "id": "s39",
+     "type": "spacer",
+     "h": 18,
+     "wpx": 180,
+     "bg": "@bar",
+     "align": "center"
+    }
+   ],
+   "floats": [],
+   "justify": "center",
+   "gap": 36
+  },
+  {
+   "id": "s1",
+   "name": "استوری · از بابا بپرس (جعبهٔ سؤال)",
+   "family": "توالی استوری",
+   "stage": "اعتماد",
+   "format": "story",
+   "theme": "green",
+   "themes": [
+    "green",
+    "paper"
+   ],
+   "fields": {
+    "kicker": "از بابا بپرس",
+    "h": "هر سؤالی دربارهٔ عسل داری بپرس.",
+    "b": "هر هفته یکی رو از بابا می‌پرسم و جوابش رو می‌ذارم."
+   },
+   "fieldMeta": {
+    "kicker": {
+     "label": "برچسب"
+    },
+    "h": {
+     "label": "تیتر",
+     "multi": true,
+     "max": 44
+    },
+    "b": {
+     "label": "متن",
+     "multi": true,
+     "max": 100
+    }
+   },
+   "blocks": [
+    {
+     "id": "r42",
+     "type": "row",
+     "children": [
+      {
+       "id": "l40",
+       "type": "logo",
+       "set": "symbol",
+       "h": 110
+      },
+      {
+       "id": "s41",
+       "type": "spacer",
+       "h": 1,
+       "flex": true
+      }
+     ]
+    },
+    {
+     "id": "t43",
+     "type": "text",
+     "role": "label",
+     "field": "kicker",
+     "marker": "square",
+     "markerColor": "@accent",
+     "align": "start",
+     "label": "برچسب"
+    },
+    {
+     "id": "t44",
+     "type": "text",
+     "role": "h1",
+     "field": "h",
+     "size": 88,
+     "fit": {
+      "ref": 30,
+      "min": 0.6
+     },
+     "label": "تیتر"
+    },
+    {
+     "id": "t45",
+     "type": "text",
+     "role": "lead",
+     "field": "b",
+     "color": "@muted",
+     "label": "متن"
+    },
+    {
+     "id": "z46",
+     "type": "zone",
+     "h": 420,
+     "label": "جای استیکر سؤال اینستاگرام",
+     "note": true
+    }
+   ],
+   "floats": [],
+   "gap": 40
+  },
+  {
+   "id": "s2",
+   "name": "استوری · نظرسنجی «چی خوندی؟»",
+   "family": "توالی استوری",
+   "stage": "آگاهی",
+   "format": "story",
+   "theme": "paper",
+   "themes": [
+    "paper",
+    "sand"
+   ],
+   "fields": {
+    "h": "چی خوندی؟",
+    "opts": "دستان\nدسکان\nمستان"
+   },
+   "fieldMeta": {
+    "h": {
+     "label": "تیتر",
+     "multi": true,
+     "max": 20
+    },
+    "opts": {
+     "label": "گزینه‌ها (یادداشت)",
+     "multi": true
+    }
+   },
+   "blocks": [
+    {
+     "id": "l47",
+     "type": "logo",
+     "set": "wordmark",
+     "h": 300,
+     "align": "center"
+    },
+    {
+     "id": "t48",
+     "type": "text",
+     "role": "h1",
+     "field": "h",
+     "size": 110,
+     "align": "center",
+     "textAlign": "center",
+     "label": "پرسش"
+    },
+    {
+     "id": "z49",
+     "type": "zone",
+     "h": 520,
+     "label": "جای استیکر نظرسنجی",
+     "field": "opts",
+     "note": true
+    }
+   ],
+   "floats": [],
+   "justify": "center",
+   "gap": 56
+  },
+  {
+   "id": "s3",
+   "name": "استوری · فهرست انتظار «کوه»",
+   "family": "توالی استوری",
+   "stage": "درخواست",
+   "format": "story",
+   "theme": "honey",
+   "themes": [
+    "honey",
+    "green",
+    "paper"
+   ],
+   "fields": {
+    "kicker": "یلدا ۱۴۰۵",
+    "word": "کوه",
+    "b": "این کلمه رو زیر آخرین پست کامنت کن تا لینک پیش‌خرید رو زودتر از همه برات بفرستم."
+   },
+   "fieldMeta": {
+    "kicker": {
+     "label": "برچسب"
+    },
+    "word": {
+     "label": "کلمهٔ رمز",
+     "max": 6
+    },
+    "b": {
+     "label": "متن",
+     "multi": true,
+     "max": 120
+    }
+   },
+   "blocks": [
+    {
+     "id": "t50",
+     "type": "text",
+     "role": "label",
+     "field": "kicker",
+     "marker": "square",
+     "markerColor": "@accent",
+     "align": "start",
+     "label": "برچسب"
+    },
+    {
+     "id": "c52",
+     "type": "card",
+     "children": [
+      {
+       "id": "t51",
+       "type": "text",
+       "role": "display",
+       "field": "word",
+       "size": 260,
+       "align": "center",
+       "label": "کلمه"
+      }
+     ],
+     "bg": "@card",
+     "color": "@cardText",
+     "pad": [
+      40,
+      60
+     ],
+     "radius": 0,
+     "align": "center"
+    },
+    {
+     "id": "t53",
+     "type": "text",
+     "role": "lead",
+     "field": "b",
+     "label": "متن"
+    },
+    {
+     "id": "z54",
+     "type": "zone",
+     "h": 300,
+     "label": "جای استیکر شمارش معکوس",
+     "note": true
+    }
+   ],
+   "floats": [],
+   "gap": 48
+  },
+  {
+   "id": "s4",
+   "name": "استوری · مراحل سفارش",
+   "family": "توالی استوری",
+   "stage": "درخواست",
+   "format": "story",
+   "theme": "paper",
+   "themes": [
+    "paper",
+    "sand"
+   ],
+   "fields": {
+    "h": "سفارش در چهار قدم",
+    "steps": "دایرکت بده|بگو چه عسلی و چند شیشه\nپرداخت|کارت‌به‌کارت یا لینک پرداخت\nنشانی|اسم، شهر، کد پستی و شماره\nکد رهگیری|همون روز برات می‌فرستیم"
+   },
+   "fieldMeta": {
+    "h": {
+     "label": "تیتر",
+     "multi": true,
+     "max": 30
+    },
+    "steps": {
+     "label": "قدم‌ها (هر خط: عنوان | توضیح)",
+     "multi": true
+    }
+   },
+   "blocks": [
+    {
+     "id": "r57",
+     "type": "row",
+     "children": [
+      {
+       "id": "l55",
+       "type": "logo",
+       "set": "symbol",
+       "h": 104
+      },
+      {
+       "id": "s56",
+       "type": "spacer",
+       "h": 1,
+       "flex": true
+      }
+     ]
+    },
+    {
+     "id": "t58",
+     "type": "text",
+     "role": "h1",
+     "field": "h",
+     "size": 92,
+     "label": "تیتر"
+    },
+    {
+     "id": "li59",
+     "type": "list",
+     "field": "steps",
+     "num": "box",
+     "size": 40,
+     "itemGap": 34,
+     "label": "قدم‌ها"
+    }
+   ],
+   "floats": [],
+   "gap": 56
+  },
+  {
+   "id": "s5",
+   "name": "استوری · شیشهٔ شماره‌دار",
+   "family": "توالی استوری",
+   "stage": "اعتماد",
+   "format": "story",
+   "theme": "green",
+   "themes": [
+    "green",
+    "paper"
+   ],
+   "fields": {
+    "no": "۰۰۱",
+    "city": "رفت به کرمانشاه",
+    "b": "هر شیشهٔ یلدا شناسنامه و شمارهٔ خودش رو داره."
+   },
+   "fieldMeta": {
+    "no": {
+     "label": "شماره"
+    },
+    "city": {
+     "label": "شهر"
+    },
+    "b": {
+     "label": "متن",
+     "multi": true,
+     "max": 80
+    }
+   },
+   "blocks": [
+    {
+     "id": "l60",
+     "type": "logo",
+     "set": "jar",
+     "h": 420,
+     "align": "center"
+    },
+    {
+     "id": "t61",
+     "type": "text",
+     "role": "display",
+     "field": "no",
+     "size": 240,
+     "align": "center",
+     "color": "@accent",
+     "label": "شماره",
+     "ltr": false
+    },
+    {
+     "id": "t62",
+     "type": "text",
+     "role": "h2",
+     "field": "city",
+     "align": "center",
+     "textAlign": "center",
+     "label": "شهر"
+    },
+    {
+     "id": "t63",
+     "type": "text",
+     "role": "lead",
+     "field": "b",
+     "align": "center",
+     "textAlign": "center",
+     "color": "@muted",
+     "label": "متن"
+    }
+   ],
+   "floats": [],
+   "justify": "center",
+   "gap": 28
+  },
+  {
+   "id": "q1",
+   "name": "کارت حرف بابا",
+   "family": "اجزا",
+   "stage": "اعتماد",
+   "format": "post45",
+   "theme": "sand",
+   "themes": [
+    "sand",
+    "paper",
+    "green"
+   ],
+   "fields": {
+    "q": "عسل خوب رو با عجله نمی‌شه شناخت.",
+    "who": "بابا · زنبوردار"
+   },
+   "fieldMeta": {
+    "q": {
+     "label": "نقل‌قول",
+     "multi": true,
+     "max": 90
+    },
+    "who": {
+     "label": "گوینده"
+    }
+   },
+   "blocks": [
+    {
+     "id": "l64",
+     "type": "logo",
+     "set": "symbol",
+     "h": 120
+    },
+    {
+     "id": "t65",
+     "type": "text",
+     "role": "h1",
+     "field": "q",
+     "size": 92,
+     "fit": {
+      "ref": 34,
+      "min": 0.6
+     },
+     "label": "نقل‌قول"
+    },
+    {
+     "id": "s66",
+     "type": "spacer",
+     "h": 18,
+     "wpx": 180,
+     "bg": "@bar",
+     "label": "نوار عسلی"
+    },
+    {
+     "id": "t67",
+     "type": "text",
+     "role": "lead",
+     "field": "who",
+     "color": "@muted",
+     "label": "گوینده"
+    }
+   ],
+   "floats": [],
+   "justify": "center",
+   "gap": 48
+  },
+  {
+   "id": "y1",
+   "name": "یلدا · اعلام پیش‌خرید با حاشیهٔ قالی",
+   "family": "یلدا",
+   "stage": "درخواست",
+   "format": "post45",
+   "theme": "green",
+   "themes": [
+    "green"
+   ],
+   "fields": {
+    "kicker": "یلدا ۱۴۰۵",
+    "h": "شیشه‌های شماره‌دار یلدا",
+    "b": "فقط [تعداد] شیشه. اول برای فهرست انتظار.",
+    "rug": "graphics/rug-border.svg"
+   },
+   "fieldMeta": {
+    "kicker": {
+     "label": "برچسب"
+    },
+    "h": {
+     "label": "تیتر",
+     "multi": true,
+     "max": 40
+    },
+    "b": {
+     "label": "متن",
+     "multi": true,
+     "max": 90
+    },
+    "rug": {
+     "label": "حاشیهٔ قالی",
+     "type": "image"
+    }
+   },
+   "blocks": [
+    {
+     "id": "t68",
+     "type": "text",
+     "role": "label",
+     "field": "kicker",
+     "marker": "square",
+     "markerColor": "@accent",
+     "align": "start",
+     "label": "برچسب"
+    },
+    {
+     "id": "t69",
+     "type": "text",
+     "role": "h1",
+     "field": "h",
+     "size": 96,
+     "fit": {
+      "ref": 26,
+      "min": 0.6
+     },
+     "label": "تیتر"
+    },
+    {
+     "id": "t70",
+     "type": "text",
+     "role": "lead",
+     "field": "b",
+     "color": "@muted",
+     "label": "متن"
+    },
+    {
+     "id": "r73",
+     "type": "row",
+     "children": [
+      {
+       "id": "l71",
+       "type": "logo",
+       "set": "jar",
+       "h": 260
+      },
+      {
+       "id": "s72",
+       "type": "spacer",
+       "h": 1,
+       "flex": true
+      }
+     ]
+    }
+   ],
+   "floats": [
+    {
+     "id": "i74",
+     "type": "image",
+     "field": "rug",
+     "h": 105,
+     "fit": "fill",
+     "float": {
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 105
+     },
+     "label": "حاشیهٔ بالا"
+    },
+    {
+     "id": "i75",
+     "type": "image",
+     "field": "rug",
+     "h": 105,
+     "fit": "fill",
+     "rotate": 180,
+     "float": {
+      "x": 0,
+      "y": 0,
+      "ay": "bottom",
+      "w": 1080,
+      "h": 105
+     },
+     "label": "حاشیهٔ پایین"
+    }
+   ],
+   "justify": "center",
+   "gap": 44,
+   "pad": [
+    200,
+    96,
+    200,
+    96
+   ]
+  },
+  {
+   "id": "hl",
+   "name": "کاور هایلایت",
+   "family": "اجزا",
+   "stage": "فهم",
+   "format": "highlight",
+   "theme": "green",
+   "themes": [
+    "green",
+    "paper",
+    "honey"
+   ],
+   "fields": {
+    "word": "داستان"
+   },
+   "fieldMeta": {
+    "word": {
+     "label": "واژه",
+     "max": 10
+    }
+   },
+   "blocks": [
+    {
+     "id": "l76",
+     "type": "logo",
+     "set": "symbol",
+     "h": 300,
+     "align": "center"
+    },
+    {
+     "id": "t77",
+     "type": "text",
+     "role": "h1",
+     "field": "word",
+     "size": 120,
+     "fit": {
+      "ref": 6,
+      "min": 0.6
+     },
+     "align": "center",
+     "label": "واژه"
+    }
+   ],
+   "floats": [],
+   "justify": "center",
+   "gap": 40
+  },
+  {
+   "id": "lt",
+   "name": "زیرنویس گوینده (لوئر ترد)",
+   "family": "اجزای ویدیو",
+   "stage": "اعتماد",
+   "format": "video",
+   "theme": "paper",
+   "themes": [
+    "paper"
+   ],
+   "fields": {
+    "name": "بابا",
+    "role": "زنبوردار قشقایی"
+   },
+   "fieldMeta": {
+    "name": {
+     "label": "نام"
+    },
+    "role": {
+     "label": "نقش"
+    }
+   },
+   "blocks": [
+    {
+     "id": "s78",
+     "type": "spacer",
+     "h": 1,
+     "flex": true
+    },
+    {
+     "id": "c84",
+     "type": "card",
+     "children": [
+      {
+       "id": "r83",
+       "type": "row",
+       "children": [
+        {
+         "id": "l79",
+         "type": "logo",
+         "set": "symbol",
+         "h": 90
+        },
+        {
+         "id": "c82",
+         "type": "card",
+         "children": [
+          {
+           "id": "t80",
+           "type": "text",
+           "role": "h2",
+           "field": "name",
+           "size": 60,
+           "label": "نام"
+          },
+          {
+           "id": "t81",
+           "type": "text",
+           "role": "small",
+           "field": "role",
+           "color": "@muted",
+           "size": 36,
+           "label": "نقش"
+          }
+         ],
+         "gap": 4
+        }
+       ],
+       "justify": "flex-start",
+       "gap": 28
+      }
+     ],
+     "bg": "@card",
+     "color": "@cardText",
+     "pad": [
+      28,
+      40
+     ],
+     "align": "start"
+    }
+   ],
+   "floats": [],
+   "gap": 0
+  },
+  {
+   "id": "ec",
+   "name": "کارت پایانی ویدیو",
+   "family": "اجزای ویدیو",
+   "stage": "درخواست",
+   "format": "video",
+   "theme": "green",
+   "themes": [
+    "green",
+    "paper"
+   ],
+   "fields": {
+    "h": "دنبال کن تا یلدا",
+    "b": "اولین شیشه‌ها شب یلدا باز می‌شن"
+   },
+   "fieldMeta": {
+    "h": {
+     "label": "تیتر",
+     "multi": true,
+     "max": 30
+    },
+    "b": {
+     "label": "متن"
+    }
+   },
+   "blocks": [
+    {
+     "id": "l85",
+     "type": "logo",
+     "set": "wordmark",
+     "h": 230,
+     "align": "center"
+    },
+    {
+     "id": "t86",
+     "type": "text",
+     "role": "h1",
+     "field": "h",
+     "size": 88,
+     "align": "center",
+     "textAlign": "center",
+     "label": "تیتر"
+    },
+    {
+     "id": "t87",
+     "type": "text",
+     "role": "lead",
+     "field": "b",
+     "align": "center",
+     "textAlign": "center",
+     "color": "@muted",
+     "label": "متن"
+    }
+   ],
+   "floats": [],
+   "justify": "center",
+   "gap": 36
+  }
+ ],
+ "sets": [
+  {
+   "id": "set-pin",
+   "name": "سه سنجاق · یک کوه",
+   "kind": "launch",
+   "ids": [
+    "p1",
+    "p2",
+    "p3"
+   ],
+   "note": "کاور سه پست اول؛ کنار هم در شبکه یک کوه کامل می‌سازند."
+  },
+  {
+   "id": "set-car",
+   "name": "کاروسل خانوادگی «کوچ‌نشین بودیم»",
+   "kind": "carousel",
+   "ids": [
+    "c1",
+    "c2",
+    "c2",
+    "c3",
+    "c3",
+    "c4"
+   ],
+   "note": "جلد ← زنان بافنده ← بابا و کندوها ← اسم ← نشانه ← دعوت"
+  },
+  {
+   "id": "set-story",
+   "name": "استوری‌های فهرست انتظار و سفارش",
+   "kind": "story",
+   "ids": [
+    "s2",
+    "s1",
+    "s3",
+    "s4",
+    "s5"
+   ]
+  },
+  {
+   "id": "set-cov",
+   "name": "کاورهای ریلز",
+   "kind": "covers",
+   "ids": [
+    "r1",
+    "r2",
+    "r3"
+   ]
+  },
+  {
+   "id": "set-video",
+   "name": "اجزای ویدیو",
+   "kind": "video",
+   "ids": [
+    "lt",
+    "ec"
+   ]
+  }
+ ],
+ "grid": {
+  "ids": [
+   "p1",
+   "p2",
+   "p3",
+   "r1",
+   "c1",
+   "r2",
+   "q1",
+   "r3",
+   "y1"
+  ],
+  "pinned": 3
+ },
+ "highlights": {
+  "template": "hl",
+  "items": [
+   {
+    "text": "داستان",
+    "theme": "green"
+   },
+   {
+    "text": "از بابا بپرس",
+    "theme": "paper"
+   },
+   {
+    "text": "یلدا",
+    "theme": "honey"
+   },
+   {
+    "text": "سفارش",
+    "theme": "green"
+   }
+  ]
+ },
+ "rules": [
+  {
+   "topic": "واژه‌نشان",
+   "decision": "نسخهٔ C: عسل زیر لبهٔ کوه، حروف ۷٫۶ و مورب‌ها ۸٫۴، ن زاویه‌دار، نقطه‌های الماسی. کمینه ۱۵۰px؛ کوچک‌تر از آن نشانهٔ کوه.",
+   "source": "بوم هویت · WM-C-Final"
+  },
+  {
+   "topic": "کوه",
+   "decision": "یک کوه اصلی با شیب ۱٫۴ به ۱ و قله‌های ۴:۶:۳. هرگز کشیده، کج یا قرینه نشود؛ قالب پهن‌تر = دشت بیشتر، نه قلهٔ بیشتر.",
+   "source": "ridge.py"
+  },
+  {
+   "topic": "برف",
+   "decision": "برف B: ۳۳٪ بالای قلهٔ عسل با لبهٔ M. زیر ۲۴px حذف شود.",
+   "source": "بوم هویت · Ridge-System-C"
+  },
+  {
+   "topic": "رنگ",
+   "decision": "سبز #1F5A48 و عسلی #F2B233 روی سفید گرم و شنی. روناسی فقط تأکید کوچک و فقط در هدیه و یلدا.",
+   "source": "پالت"
+  },
+  {
+   "topic": "قالی",
+   "decision": "حاشیهٔ قالی عمه فقط روی هدیه و یلدا؛ بدون آهو و پیکره.",
+   "source": "تصمیم یاس"
+  },
+  {
+   "topic": "متن",
+   "decision": "راست‌به‌چپ، اعداد فارسی، نیم‌فاصلهٔ درست. زیرنویس روی همهٔ ریلزها.",
+   "source": "مسیر ورود اینستاگرام"
+  },
+  {
+   "topic": "ادعا",
+   "decision": "هیچ ادعای درمانی یا آمار بدون منبع. شکرک‌زدن را طبیعی توضیح بده، نه نشانهٔ اصالت.",
+   "source": "مسیر ورود اینستاگرام"
+  }
+ ],
+ "checklist": [
+  "آیدی نهایی و اسم صفحه",
+  "مجوز وب فونت پیدا برای این مخزن عمومی",
+  "۳ تا ۵ عکس قدیمی خانوادگی از بابا",
+  "تعداد شیشه‌های یلدا با بابا",
+  "روش پرداخت و متن مراحل سفارش",
+  "سیمرغ دیانا برای هدیه‌ها",
+  "کانال تلگرام پشتیبان",
+  "کاورهای سه سنجاق در شبکه کنار هم چک شود"
+ ],
+ "checklistState": {}
+}
