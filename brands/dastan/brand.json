@@ -863,7 +863,7 @@
      "id": "i24",
      "type": "image",
      "field": "photo",
-     "grow": true,
+     "h": 800,
      "label": "عکس",
      "phTitle": "عکس لازم است",
      "note": "قالی، دست‌ها، کندو یا آشپزخانه"
